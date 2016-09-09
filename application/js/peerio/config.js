@@ -16,7 +16,7 @@ Peerio.config = {};
 		updateWin: 'https://peerio.com/download/peerio-win.msi',
 		updateMac: 'https://peerio.com/download/peerio-mac.dmg',
 		updateLin: 'https://linux.peerio.com',
-		minPINEntropy: 24,
+		minPINEntropy: 10,
 		fileUploadSizeLimit: 419430400
 	}
 

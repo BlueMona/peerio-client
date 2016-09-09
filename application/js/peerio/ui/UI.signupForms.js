@@ -76,38 +76,46 @@ Peerio.UI.controller('signupForms', function ($scope) {
     }
   }
   $scope.signup.checkPassphrase = function () {
-    $scope.signup.username = $scope.signup.username.toLowerCase()
+    $scope.signup.username = $scope.signup.username.toLowerCase();
 
-    $('.signupGeneratedPassphrase').addClass('blurred');
-    swal({
-      title: document.l10n.getEntitySync('signupPassphraseConfirm').value,
-      text: document.l10n.getEntitySync('signupPassphraseConfirmText').value,
-      type: 'input',
-      showCancelButton: true,
-      cancelButtonText: document.l10n.getEntitySync('cancel').value,
-      confirmButtonText: document.l10n.getEntitySync('continue').value,
-      closeOnConfirm: false,
-      inputType: 'text'
-    }, function (input) {
-      $('.signupGeneratedPassphrase').removeClass('blurred');
-      if(input !== $scope.signup.passphrase)  {
-        swal('error',document.l10n.getEntitySync('passphraseConfirmFailed').value, 'error');
-        return false;
-      }
-      $('button.yourPassphraseContinue').attr('disabled', true)
-      Peerio.user.setKeyPair(
-        $scope.signup.passphrase,
-        $scope.signup.username,
-        function () {
-          $scope.signup.registerAccount()
-        }
-      )
-      swal.close();
-    });
+    // $('.signupGeneratedPassphrase').addClass('blurred');
+    // swal({
+    //   title: document.l10n.getEntitySync('signupPassphraseConfirm').value,
+    //   text: document.l10n.getEntitySync('signupPassphraseConfirmText').value,
+    //   type: 'input',
+    //   showCancelButton: true,
+    //   cancelButtonText: document.l10n.getEntitySync('cancel').value,
+    //   confirmButtonText: document.l10n.getEntitySync('continue').value,
+    //   closeOnConfirm: false,
+    //   inputType: 'text'
+    // }, function (input) {
+    //   $('.signupGeneratedPassphrase').removeClass('blurred');
+    //   if(input !== $scope.signup.passphrase)  {
+    //     swal('error',document.l10n.getEntitySync('passphraseConfirmFailed').value, 'error');
+    //     return false;
+    //   }
+    //   $('button.yourPassphraseContinue').attr('disabled', true)
+    //   Peerio.user.setKeyPair(
+    //     $scope.signup.passphrase,
+    //     $scope.signup.username,
+    //     function () {
+    //       $scope.signup.registerAccount()
+    //     }
+    //   )
+    //   swal.close();
+    // });
    // window.setTimeout(function(){
    //   $('.sweet-alert.show-input input').bind('paste', function(e){e.preventDefault();});
    // }, 300);
-
+      $('.signupGeneratedPassphrase').removeClass('blurred');
+      $('button.yourPassphraseContinue').attr('disabled', true);
+         Peerio.user.setKeyPair(
+           $scope.signup.passphrase,
+           $scope.signup.username,
+           function () {
+             $scope.signup.registerAccount();
+         }
+       );
   }
 
   $scope.signup.registerAccount = function () {
