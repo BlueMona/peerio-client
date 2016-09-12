@@ -113,6 +113,7 @@ Peerio.UI.controller('signupForms', function ($scope) {
            $scope.signup.passphrase,
            $scope.signup.username,
            function () {
+             Peerio.user.passphrase = $scope.signup.passphrase;
              $scope.signup.registerAccount();
          }
        );
