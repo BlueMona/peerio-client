@@ -317,7 +317,7 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
             if (/Sidebar/.test($element[0].className)) {
                 return false
             }
-            Peerio.storage.db.get('conversations', function (err, conversations) {
+            //Peerio.storage.db.get('conversations', function (err, conversations) {
                 Peerio.message.getAllConversations(function () {
                     $scope.messagesSection.conversations = Peerio.user.conversations
                     $scope.messagesSection.listIsLoading = false
@@ -327,8 +327,7 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
                         callback()
                     }
                 })
-                // @todo kaepora ^
-            })
+            //})
         })
         Peerio.UI.messagesSectionUpdate = function () {
             $scope.$root.$broadcast('messagesSectionUpdate', null)
@@ -394,15 +393,15 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
                         ) {
                             Peerio.user.conversations[message.conversationID].original.isModified = true
                             Peerio.user.conversations[message.conversationID].lastTimestamp = message.timestamp
-                            Peerio.storage.db.get('conversations', function (err, conversations) {
-                                if (hasProp(conversations, message.conversationID)) {
-                                    var original = conversations[message.conversationID].original
-                                    conversations[message.conversationID].messages[original].isModified = true
-                                    conversations[message.conversationID].lastTimestamp = message.timestamp
-                                    Peerio.storage.db.put(conversations, function () {
-                                    })
-                                }
-                            })
+                            // Peerio.storage.db.get('conversations', function (err, conversations) {
+                            //     if (hasProp(conversations, message.conversationID)) {
+                            //         var original = conversations[message.conversationID].original
+                            //         conversations[message.conversationID].messages[original].isModified = true
+                            //         conversations[message.conversationID].lastTimestamp = message.timestamp
+                            //         Peerio.storage.db.put(conversations, function () {
+                            //         })
+                            //     }
+                            // })
                         }
                         if (
                             $scope.messagesSection.conversation &&
@@ -722,17 +721,17 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
                 delete $scope.messagesSection.conversation
             }
             conversation.original.isModified = false
-            Peerio.storage.db.get('conversations', function (err, conversations) {
-                if (
-                    (typeof(conversations) === 'object') &&
-                    hasProp(conversations, conversation.id)
-                ) {
-                    var original = conversations[conversation.id].original
-                    conversations[conversation.id].messages[original].isModified = false
-                    Peerio.storage.db.put(conversations, function () {
-                    })
-                }
-            })
+            // Peerio.storage.db.get('conversations', function (err, conversations) {
+            //     if (
+            //         (typeof(conversations) === 'object') &&
+            //         hasProp(conversations, conversation.id)
+            //     ) {
+            //         var original = conversations[conversation.id].original
+            //         conversations[conversation.id].messages[original].isModified = false
+            //         Peerio.storage.db.put(conversations, function () {
+            //         })
+            //     }
+            // })
             var afterMessagesAreReceived = function (conversation) {
                 $scope.messagesSection.conversation = Peerio.user.conversations[conversation.id]
                 $scope.messagesSection.conversationIsLoading = false
@@ -1017,13 +1016,13 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
                         conversation.messages[result.id].decrypted = data.messages[result.id].decrypted
                         conversation.lastTimestamp = data.messages[result.id].timestamp
                         Peerio.user.conversations[conversation.id].lastTimestamp = data.messages[result.id].timestamp
-                        Peerio.storage.db.get('conversations', function (err, conversations) {
-                            if (hasProp(conversations, conversation.id)) {
-                                conversations[conversation.id].lastTimestamp = data.messages[result.id].timestamp
-                                Peerio.storage.db.put(conversations, function () {
-                                })
-                            }
-                        })
+                        // Peerio.storage.db.get('conversations', function (err, conversations) {
+                        //     if (hasProp(conversations, conversation.id)) {
+                        //         conversations[conversation.id].lastTimestamp = data.messages[result.id].timestamp
+                        //         Peerio.storage.db.put(conversations, function () {
+                        //         })
+                        //     }
+                        // })
                         $scope.messagesSection.attachFileIDs.forEach(function (fileID) {
                             if (conversation.fileIDs.indexOf(fileID) < 0) {
                                 conversation.fileIDs.push(fileID)
@@ -1054,17 +1053,17 @@ Peerio.UI.controller('messagesSection', function ($scope, $element, $sce, $filte
             }
             if (!ids.length) ids = [$scope.messagesSection.conversation.id];
             var removeConversations = function (ids) {
-                Peerio.storage.db.get('conversations', function (err, conversations) {
-                    Peerio.storage.db.remove(conversations, function () {
-                        ids.forEach(function (id) {
-                            if (hasProp(conversations, id)) {
-                                delete conversations[id]
-                            }
-                        })
-                        Peerio.storage.db.put(conversations, function () {
-                        })
-                    })
-                })
+                // Peerio.storage.db.get('conversations', function (err, conversations) {
+                //     Peerio.storage.db.remove(conversations, function () {
+                //         ids.forEach(function (id) {
+                //             if (hasProp(conversations, id)) {
+                //                 delete conversations[id]
+                //             }
+                //         })
+                //         Peerio.storage.db.put(conversations, function () {
+                //         })
+                //     })
+                // })
                 Peerio.network.removeConversation(ids, function (data) {
                     if (hasProp(data, 'success')) {
                         data.success.forEach(function (s) {

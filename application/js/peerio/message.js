@@ -488,13 +488,13 @@ Peerio.message = {};
         else {
             conversations = {}
             Peerio.network.getAllConversations(function (data) {
-                Peerio.storage.db.get('conversations', function (err, old) {
-                    Peerio.storage.db.remove(old, function () {
+                //Peerio.storage.db.get('conversations', function (err, old) {
+                    //Peerio.storage.db.remove(old, function () {
                         conversations = data.conversations
-                        conversations._id = 'conversations'
-                        console.log('Storing new conversation cache')
-                        Peerio.storage.db.put(conversations, function () {
-                            delete conversations._id
+                        //conversations._id = 'conversations'
+                        //console.log('Storing new conversation cache')
+                        //Peerio.storage.db.put(conversations, function () {
+                            //delete conversations._id
                             keys = Object.keys(conversations)
                             if (!keys.length) {
                                 if (typeof(callback) === 'function') {
@@ -504,9 +504,9 @@ Peerio.message = {};
                             else {
                                 addConversation(conversations[keys[decryptedCount]])
                             }
-                        })
-                    })
-                })
+                    //  })
+            //        })
+            //    })
             })
         }
     }
