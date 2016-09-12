@@ -1,11 +1,11 @@
 Summary: Peerio Client
 Name: peerio-client
-Version: 1.4.2
+Version: 1.5.0
 Release: 1%{?dist}
 License: GPL3
 Group: Applications/Internet
 Source: https://linux.peerio.com/sources/rh-%{name}-%{version}.tar.gz
-Patch0: https://linux.peerio.com/sources/06-build.patch
+Patch0: https://linux.peerio.com/sources/07-build.patch
 URL: https://peerio.com
 
 BuildRequires: make
@@ -40,7 +40,6 @@ providing with strong end-to-end encryption.
 %prep
 %autosetup
 %build
-sed -i 's|Icon=peerio-client.png|Icon=peerio-client|' pkg/desktop
 make
 
 %install
@@ -70,6 +69,8 @@ make clean PREFIX=%{buildroot}/usr/share BINPREFIX=%{buildroot}/usr
 %{_mandir}/man1/peerio-client.1.gz
 
 %changelog
+ * Wed Aug 3 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.5.0-1
+ - Add Ghosts support
  * Thu Jun 2 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.4.2-1
  - Add paid plan support
  * Mon Apr 4 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.4.1-1

@@ -550,7 +550,7 @@
     <conversation_withSelf "Il n'y a personne d'autre dans cette conversation.">
     <conversation_participantLeftAt "a quitté à">
     <conversation_confirmDelete "Voulez-vous vraiment supprimer cette conversation ? Vous ne recevrez plus les messages ni les fichiers de cette conversation.">
-    <conversation_emptyList "Vous pouvez maintenant communiquer en toute sécurité ! Ajoutez un contact et commencez à envoyer des messages Peerio, ou envoyez un Ghost en toquant sur le bouton ci-dessous et en saisissant n'importe quelle adresse courriel comme destinataire.">
+    <conversation_emptyList "Vous pouvez maintenant communiquer en toute sécurité ! Ajoutez un contact et commencez à envoyer des messages Peerio, ou envoyez un Ghost (fantôme) en toquant sur le bouton ci-dessous et en saisissant n'importe quelle adresse courriel comme destinataire.">
     <message_typePrompt "Saisissez votre message...">
     <message_readByRecipient "Lu">
     <message_readByAll "Lu par tous">
@@ -603,7 +603,7 @@
     <payments_planInfo "Checkout plan info">
     "payments_com.peerio.storage.50.monthly": "Paiement mensuel",
     <payments_extraStorage "Espace de stockage supplémentaire">
-    <payments_ghostLimitMonthly "Ghosts">
+    <payments_ghostLimitMonthly "Ghosts (fantômes)">
     <payments_unlimited "sans limite">
     <androidEncryptionStatusOff "Votre appareil prend en charge le chiffrement complet du disque, mais cette option n'est pas activée actuellement. Peerio recommande l'utilisation du chiffrement du disque. Souhaitez-vous en apprendre davantage ?">
     <androidEncryptionStatusPartial "Le chiffrement est activé sur votre appareil, mais votre code de passe est encore défini à sa valeur par défaut. Nous vous recommandons de définir un code unique. Souhaitez-vous en apprendre davantage ?">
@@ -621,57 +621,57 @@
     <serverWarning_PaymentError "Un problème de méthode de paiement a empêché le renouvellement de votre abonnement Peerio Pro. Veuillez vérifier vos informations de compte sur https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Vous avez dépassé votre limite de stockage.">
     <serverWarning_QuotaExcceded "Vous avez dépassé votre limite de stockage ! La fonctionnalité de votre compte sera limitée tant que vous n'aurez pas acheté de l'espace de stockage supplémentaire ou que vous n'aurez pas supprimé des fichiers de votre compte.">
-    <prepare_ghost "Préparer un Ghost">
-    <share_ghost "Envoyer un Ghost">
-    <ghost_settings "Instructions du Ghost">
+    <prepare_ghost "Préparer un Ghost  (fantôme)">
+    <share_ghost "Envoyer le Ghost (fantôme)">
+    <ghost_settings "Instructions du Ghost (fantôme)">
     <ghost_lifespan "Durée de vie">
-    <ghost_share "Envoyer un Ghost">
-    <ghost_sent_msg "Votre Ghost rendra visite à ghost-recipient pendant ghost-expiry-days et disparaîtra ensuite pour toujours">
-    <ghost_passphrase_share "Les Ghosts gardent bien les secrets ! Afin de lire votre message, le destinataire devra connaître la phrase de passe de ce Ghost.">
+    <ghost_share "Envoyer le Ghost (fantôme)">
+    <ghost_sent_msg "Votre Ghost (fantôme) rendra visite à ghost-recipient pendant ghost-expiry-days et disparaîtra ensuite pour toujours">
+    <ghost_passphrase_share "Les Ghosts (fantômes) gardent bien les secrets ! Afin de lire votre message, le destinataire devra connaître la phrase de passe de ce Ghost.">
     <ghost_passphrase_share_helper "À des fins de sécurité, envoyez cette phrase de passe par un autre canal de communication">
     <ghost_passphrase_share_link "Vous n'avez pas reçu le courriel ? Vous voulez partager avec quelqu'un d'autre ?">
-    <ghost_mobile_settings "Préparer un Ghost">
+    <ghost_mobile_settings "Préparer un Ghost (fantôme)">
     <ghost_destroyAfter "Disparaître après">
     <ghost_days "jours">
-    <ghost_new "Rédiger un Ghost">
-    <ghost_mobile_share "Envoyer un Ghost">
+    <ghost_new "Rédiger un Ghost (fantôme)">
+    <ghost_mobile_share "Envoyer le Ghost (fantôme)">
     <ghost_mobile_sent "Votre message a été envoyé à">
-    <ghost_mobile_sent_share "Les Ghosts gardent bien les secrets ! Afin de lire votre message, le destinataire devra connaître la phrase de passe de ce Ghost.">
+    <ghost_mobile_sent_share "Les Ghosts (fantômes) gardent bien les secrets ! Afin de lire votre message, le destinataire devra connaître la phrase de passe de ce Ghost.">
     <ghost_toMessageList "Revenir aux Messages">
     <ghost_enterRecipient "Veuillez saisir le destinataire">
     <ghost_enterBody "Veuillez saisir le corps">
     <ghost_enterSubject "Veuillez saisir l'objet">
     <ghost_waitUpload "Veuillez attendre la fin du téléversement">
     <currentReleaseOnGithub "Version actuelle">
-    <ghost_loadFail "Impossible d'ouvrir le Ghost. Veuillez vérifier votre phrase de passe.">
+    <ghost_loadFail "Impossible d'ouvrir le Ghost (fantôme). Veuillez vérifier votre phrase de passe.">
     <ghost_fileDownloadFail "Échec de téléchargement du fichier">
-    <ghost_notFound "ID du Ghost introuvable. Il est peut-être expiré ou invalide.">
-    <ghost_expired "Ce Ghost a expiré le :">
-    <ghost_enterID "Saisir un ID Ghost">
-    <ghost_sendOwn "Envoyez votre propre Ghost ">
-    <ghost_sending "Envoi d'un Ghost à :">
+    <ghost_notFound "ID du Ghost (fantôme) introuvable. Il est peut-être expiré ou invalide.">
+    <ghost_expired "Ce Ghost (fantôme) a expiré le :">
+    <ghost_enterID "Saisir un ID de Ghost (fantôme)">
+    <ghost_sendOwn "Envoyez votre propre Ghost (fantôme) ">
+    <ghost_sending "Envoi d'un Ghost (fantôme) à :">
     <getPeerioNow "Obtenez Peerio maintenant !">
     <downloadForPlatform "Télécharger pour platform">
-    <peerioIsCodeSigned "<url>code signature</>">
+    <peerioIsCodeSigned "<url>signature du code</>">
     <contactUs "Contactez-nous sur Peerio, utilisateur <emphasis>Peerio</>">
     <press "Presse">
     <terms "Conditions">
     <privacy "Confidentialité">
     <decrypt "déchiffrer">
     <ghost_expires "Expire le :">
-    <ghost_expiresAt "Ce Ghost disparaîtra le : expirationDate">
-    <ghost_youHaveAGhost "Vous avez reçu un Ghost de - ">
-    <ghostTip "Les Ghosts vous permettent d'envoyer des messages sécurisés à n'importe qui, même s'ils n'utilisent pas Peerio !">
-    <ghost_enterMode "Si vous saisissez une adresse courriel comme destinataire, vous pouvez leur envoyer des Ghosts dans ce mode">
+    <ghost_expiresAt "Ce Ghost (fantôme) disparaîtra le : expirationDate">
+    <ghost_youHaveAGhost "Vous avez reçu un Ghost (fantôme) de - ">
+    <ghostTip "Les Ghosts (fantômes) vous permettent d'envoyer des messages sécurisés à n'importe qui, même s'ils n'utilisent pas Peerio !">
+    <ghost_enterMode "Si vous saisissez une adresse courriel comme destinataire, vous pouvez leur envoyer des Ghosts (fantômes) dans ce mode">
     <newGhostRecipientError "Adresse courriel invalide">
     <newGhostRecipientErrorText "Veuillez saisir une adresse courriel valide.">
-    <newGhostSendError "Erreur Ghost">
-    <newGhostSendErrorText "Impossible d'envoyer votre Ghost.">
-    <ghostOverQuota "Vous avez utilisé vos cinq Ghosts pour ce mois. En passant à Peerio Pro, les limites seront levées et vous pourrez envoyer autant de Ghosts que vous le souhaitez !">
+    <newGhostSendError "Erreur Ghost (fantôme)">
+    <newGhostSendErrorText "Impossible d'envoyer votre Ghost (fantôme).">
+    <ghostOverQuota "Vous avez utilisé vos cinq Ghosts (fantômes) pour ce mois. En passant à Peerio Pro, les limites seront levées et vous pourrez envoyer autant de Ghosts que vous le souhaitez !">
     <publicKeyHelp "Qu'est-ce que c'est ?">
-    <ghostOnboardTitle "<emphasis>Voici les Ghosts !</>">
-    <ghostOnboardText "Vous pouvez maintenant envoyer des messages sécurisés à n'importe qui, même s'ils n'utilisent pas Peerio ! Lors de la rédaction d'un message, saisissez une adresse courriel au lieu d'un contact Peerio et un Ghost livrera votre message. <ghostLink>En apprendre davantage</>.">
-    <error_onlyPeerioUser "Les messages Peerio ne peuvent être envoyés qu'à d'autres utilisateurs Peerio. Pour envoyer un Ghost, supprimez tous les destinataires et saisissez une adresse courriel valide.">
-    <error_onlyPeerioUserFile "Pour l'instant, les fichiers dans votre nuage ne peuvent qu'être envoyés à d'autres utilisateurs Peerio. Si vous souhaitez envoyer un fichier avec un Ghost, veuillez supprimer toutes les pièces jointes, saisir une adresse courriel valide et téléverser ensuite les fichiers.">
-    <error_onlyGhostUser "En saisissant une adresse courriel comme destinataire, vous êtes entré en mode Ghost ! Veuillez saisir une adresse courriel valide, ou si vous souhaitez envoyer un message Peerio, veuillez supprimer vos destinataires actuels et saisir des noms d'utilisateurs Peerio à la place.">
+    <ghostOnboardTitle "<emphasis>Voici les Ghosts (fantômes) !</>">
+    <ghostOnboardText "Vous pouvez maintenant envoyer des messages sécurisés à n'importe qui, même s'ils n'utilisent pas Peerio ! Lors de la rédaction d'un message, saisissez une adresse courriel au lieu d'un contact Peerio et un Ghost (fantôme) livrera votre message. <ghostLink>En apprendre davantage</>.">
+    <error_onlyPeerioUser "Les messages Peerio ne peuvent être envoyés qu'à d'autres utilisateurs Peerio. Pour envoyer un Ghost (fantôme), supprimez tous les destinataires et saisissez une adresse courriel valide.">
+    <error_onlyPeerioUserFile "Pour l'instant, les fichiers dans votre nuage ne peuvent qu'être envoyés à d'autres utilisateurs Peerio. Si vous souhaitez envoyer un fichier avec un Ghost (fantôme), veuillez supprimer toutes les pièces jointes, saisir une adresse courriel valide et téléverser ensuite les fichiers.">
+    <error_onlyGhostUser "En saisissant une adresse courriel comme destinataire, vous êtes entré en mode Ghost (fantôme) ! Veuillez saisir une adresse courriel valide, ou si vous souhaitez envoyer un message Peerio, veuillez supprimer vos destinataires actuels et saisir des noms d'utilisateurs Peerio à la place.">
     <error_recipientFormat "Désolé, nous n'avons pas réussi à trouver un utilisateur Peerio ou une adresse courriel associés à ce nom dans vos contacts.">
