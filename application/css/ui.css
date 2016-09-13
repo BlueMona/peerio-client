@@ -3073,3 +3073,8 @@ ul.filesSidebarTypeFilters li,ul.messagesSidebarTypeFilters li {
 ghostlink {
 	display: none;
 }
+
+.sweet-alert p {
+    user-select: text;
+    -webkit-user-select: text;
+}
