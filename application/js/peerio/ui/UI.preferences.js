@@ -192,7 +192,6 @@ Peerio.UI.controller('preferences', function($scope, $window) {
         })
     }
 
-    $scope.preferences.unlocked = false;
     $scope.$root.$on('pinLock', function() {
         unlocked = false;
         $scope.preferences.peerioPINtoUnlock = '';
@@ -221,7 +220,7 @@ Peerio.UI.controller('preferences', function($scope, $window) {
                     keyBytes
                 )
                 if (PINDecryptSuccess) {
-                    $scope.preferences.unlocked = true;
+                    unlocked = true;
                     $scope.$apply();
                     return;
                 } 
