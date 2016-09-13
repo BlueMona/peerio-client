@@ -313,23 +313,12 @@ Peerio.user = {};
             } else {
                 Peerio.user.passphrase = passOrPIN;
 
-                Peerio.user.enforcePIN = function(delay) {
-                    setTimeout(function() {
-                        Peerio.user.getPIN(username, function(exists) {
-                            if (exists) return;
-                            Peerio.UI.openPreferences();
-                            swal(document.l10n.getEntitySync('setup_passcodeTitle').value, document.l10n.getEntitySync('PINSetupRequired').value);
-                        });
-                    }, delay || 200);
-                }
-                
-                Peerio.user.enforcePIN(3000);
                 Peerio.user.setKeyPair(passOrPIN, username, function() {
-                    Peerio.network.getAuthTokens(function(authTokens) {
+                    Peerio.network.getAuthTokens(function(authTokens) {                        
                         Peerio.crypto.decryptAuthTokens(authTokens)
                         if (typeof(callback) === 'function') {
                             Peerio.network.getAuthTokens(function(authTokens) {
-                                Peerio.crypto.decryptAuthTokens(authTokens)
+                                Peerio.crypto.decryptAuthTokens(authTokens);
                                 callback()
                             })
                         }

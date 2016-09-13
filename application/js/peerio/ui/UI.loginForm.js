@@ -43,6 +43,17 @@ Peerio.UI.controller('loginForm', function($scope) {
                         window.setTimeout(function(){$('.loginScreen').hide()}, 2000)
 						$('div.mainScreen').show()
 						Peerio.UI.userMenuPopulate()
+                        Peerio.user.enforcePIN = function(delay) {
+                            setTimeout(function() {
+                                Peerio.user.getPIN(Peerio.user.username, function(exists) {
+                                    if (exists) return;
+                                    Peerio.UI.openPreferences();
+                                    swal(document.l10n.getEntitySync('setup_passcodeTitle').value, document.l10n.getEntitySync('PINSetupRequired').value);
+                                });
+                            }, delay || 200);
+                        }
+                        
+                        Peerio.user.enforcePIN(3000);
 					});
                     $scope.$root.$broadcast('newMessageReset', null);
 				})

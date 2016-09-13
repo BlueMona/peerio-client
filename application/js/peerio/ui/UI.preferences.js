@@ -196,6 +196,7 @@ Peerio.UI.controller('preferences', function($scope, $window) {
     $scope.$root.$on('pinLock', function() {
         $scope.preferences.unlocked = false;
         $scope.preferences.peerioPINtoUnlock = '';
+        $scope.preferences.peerioPIN = '';
     })
     $scope.preferences.unlock = function() {
         var input = $scope.preferences.peerioPINtoUnlock;
