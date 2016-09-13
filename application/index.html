@@ -176,29 +176,29 @@
                 </div>
                 <div class="signupGeneratedPassphraseView">
                     <h2 data-l10n-id="signupYourGeneratedPassphrase" style="display: inline;"></h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <span data-l10n-id="language" style="text-transform: lowercase"></span>
+                    <!-- <span data-l10n-id="language" style="text-transform: lowercase"></span>
                     <select data-ng-model="signup.selectedLocale"
                             data-ng-options="option.value as option.name for option in signup.languageOptions"
                             data-ng-change="signup.generatedPassphraseRefresh()"></select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <span data-l10n-id="length" style="text-transform: lowercase"></span>
                     <select data-ng-model="signup.wordCount"
                             data-ng-options="option.value as option.name for option in signup.wordCountOptions"
-                            data-ng-change="signup.generatedPassphraseRefresh()"></select>
-                    <span data-l10n-id="words"></span>
-                    <br>
-                    <br>
+                            data-ng-change="signup.generatedPassphraseRefresh()"></select> -->
+                    <!-- <span data-l10n-id="words"></span> -->
+                    <!-- <br>
+                    <br> -->
                     <span class="signupGeneratedPassphrase" data-ng-bind="signup.passphrase"></span>
-                    <button type="button" style="vertical-align: top;" class="clear signupGeneratedPassphraseRefresh"
+                    <!-- <button type="button" style="vertical-align: top;" class="clear signupGeneratedPassphraseRefresh"
                             data-ng-click="signup.generatedPassphraseRefresh()">
                         <span class="fontAwesome">&#xf021;</span> &nbsp;
                         <span data-l10n-id="signupPassphraseRefresh"></span>
-                    </button>
+                    </button> -->
                 </div>
                 <!--<div data-l10n-id="typePassphraseToConfirm"></div>-->
                 <!--<input type="text" value="" ng-model="signup.passphraseConfirm1"/>-->
                 <button type="submit" data-l10n-id="createMyAccount" class="yourPassphraseContinue"></button>
             </form>
-            <form class="signupAccountConfirmation" data-ng-submit="signup.confirmAccount()">
+            <!-- <form class="signupAccountConfirmation" data-ng-submit="signup.confirmAccount()">
                 <h1 data-l10n-id="accountConfirmation"></h1>
 
                 <div class="infoAlert">
@@ -224,7 +224,7 @@
 
                 <div class="signupConfirmationCodeValidity" data-l10n-id="invalidConfirmationCode"></div>
                 <button type="submit" data-l10n-id="confirmMyAccount"></button>
-            </form>
+            </form> -->
             <form class="signupFinishingUp" data-ng-submit="signup.peerioPINSet()">
                 <h1 data-l10n-id="finishingUp"></h1>
 
@@ -247,9 +247,9 @@
                 </div>
                 <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!signup.peerioPINStrength()"
                         class="signupPeerioPINEntryContinue"></button>
-                <br/>
-                <br/>
-                <button data-l10n-id="skip" style="background:#E07A66" data-ng-click="signup.firstLogin()"></button>
+                <!-- <br/>
+                <br/> -->
+                <!-- <button data-l10n-id="skip" style="background:#E07A66" data-ng-click="signup.firstLogin()"></button> -->
             </form>
         </div>
     </div>
@@ -1371,22 +1371,44 @@
                         <p data-l10n-id="signupPeerioPIN"></p>
                     </div>
                 </div>
-                <input type="password" data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN"
-                       class="signupPeerioPINEntry"/>
+                <table>
+                    <tr>
+                        <td style="padding: 15px 15px 15px 0;position:relative">
+                            <span data-l10n-id="enterCurrentPINorPassphrase"></span>
+                            <input type="password" style="float:none" data-ng-model="preferences.peerioPINtoUnlock"
+                                   class="signupPeerioPINEntry"/>
+                            <button type="button" data-ng-click="preferences.unlock()" data-l10n-id="unlockSettings"></button>
+                            <div data-ng-show="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                        </td>
+                        <td style="padding:15px;border-left: 1px solid #eee;border-right: 1px solid #eee; position:relative;">
+                            <span data-l10n-id="enterNewPIN"></span>
+                            <div>
+                                <input type="password" style="float:none" data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN"
+                                    class="signupPeerioPINEntry"/>
 
-                <div class="peerioPINStrength">
-                    <span data-l10n-id="PINNotStrong" class="PINNotStrong"
-                          data-ng-show="!preferences.peerioPINStrength()"></span>
-                    <span data-l10n-id="PINStrong" class="PINStrong"
-                          data-ng-show="preferences.peerioPINStrength()"></span>
-                </div>
-                <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!preferences.peerioPINStrength()"
-                        class="preferencesPeerioPINEntryContinue"></button>
-                <button type="button" data-utip-l10n="removeMyPeerioPIN" data-utip-gravity="e"
-                        data-ng-click="preferences.peerioPINRemove()"
-                        class="preferencesPeerioPINEntryContinue red fontAwesome">
-                    &#xf00d;
-                </button>
+                                <div class="peerioPINStrength" style="margin:0;display:inline;">
+                                    <span data-l10n-id="PINNotStrong" class="PINNotStrong"
+                                          data-ng-show="!preferences.peerioPINStrength()"></span>
+                                    <span data-l10n-id="PINStrong" class="PINStrong"
+                                          data-ng-show="preferences.peerioPINStrength()"></span>
+                                </div>
+                            </div>
+                            <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!preferences.peerioPINStrength()"
+                                    class="preferencesPeerioPINEntryContinue"></button>
+                            <!-- <button type="button" data-utip-l10n="removeMyPeerioPIN" data-utip-gravity="e"
+                                    data-ng-click="preferences.peerioPINRemove()"
+                                    class="preferencesPeerioPINEntryContinue red fontAwesome">
+                                &#xf00d;
+                            </button> -->
+                            <div data-ng-hide="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                        </td>
+                        <td style="padding:15px;position:relative;">
+                            <a data-l10n-id="showPassphrase" data-ng-show="preferences.canSeePassphrase()" 
+                            style='border-bottom: 1px dashed;' data-ng-click="preferences.showPassphrase()"></a>
+                            <div data-ng-hide="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                        </td>
+                    </tr>
+            </table>
             </form>
         </div>
         <div class="subscriptions frontModal" data-ng-controller="preferences">

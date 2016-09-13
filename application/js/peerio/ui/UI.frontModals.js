@@ -2,10 +2,11 @@ Peerio.UI.controller('frontModals', function($scope) {
 	'use strict';
 	$scope.frontModals = {}
 	$scope.$on('frontModalsClose', function() {
-		$scope.frontModals.close()
+		$scope.frontModals.close();
 	})
 	$scope.frontModals.close = function() {
 		$scope.$root.$broadcast('newMessageReset', null)
+        $scope.$root.$broadcast('pinLock', null)
 		$scope.$root.$broadcast('importContactsReset', null)
 		$('div.frontModalsWrapper').removeClass('visible')
 		$('div.frontModal').removeClass('visible')
@@ -16,5 +17,8 @@ Peerio.UI.controller('frontModals', function($scope) {
 		$('div.downloadFileProgressBar').width(0)
 		$('p.downloadFileComplete').hide()
 		$('input.twoFactorAuthCode').val('')
+        if(!Peerio.user.PIN){
+            Peerio.user.enforcePIN();
+        }
 	}
 })

@@ -35,7 +35,7 @@ Peerio.UI.controller('userMenu', function($scope) {
 		$('div.mainTopUserMenu').mouseleave()
 		$scope.$root.$broadcast('accountSettingsPopulate', null)
 	}
-	$scope.userMenu.openPreferences = function() {
+	Peerio.UI.openPreferences = $scope.userMenu.openPreferences = function() {
 		if ($('div.frontModalsWrapper').hasClass('visible')) {
 			return false
 		}

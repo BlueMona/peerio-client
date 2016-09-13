@@ -77,7 +77,7 @@ Peerio.user = {};
             var db = Peerio.storage.db = new PouchDB(username, Peerio.storage.options);
             db.get('PIN', function(err, data) {
                 if (typeof(data) === 'object')
-                    db.remove(data, savePin);
+                    db.remove(data);
 
                 data = { _id: 'PIN', PIN: Peerio.user.PIN };
                 db.put(data);
@@ -286,11 +286,11 @@ Peerio.user = {};
                     )
                     if (PINDecryptSuccess) {
                         if (Peerio.user.encryptedPP) {
-                            Peerio.user.passphrase = Peerio.crypto.secretBoxDecrypt(
+                            Peerio.user.passphrase = nacl.util.encodeUTF8(Peerio.crypto.secretBoxDecrypt(
                                 Peerio.user.encryptedPP.ciphertext,
                                 Peerio.user.encryptedPP.nonce,
                                 keyBytes
-                            );
+                            ));
                         }
                         Peerio.user.keyPair = nacl.box.keyPair.fromSecretKey(PINDecryptSuccess)
                         Peerio.user.username = username
@@ -312,6 +312,18 @@ Peerio.user = {};
                 })
             } else {
                 Peerio.user.passphrase = passOrPIN;
+
+                Peerio.user.enforcePIN = function(delay) {
+                    setTimeout(function() {
+                        Peerio.user.getPIN(username, function(exists) {
+                            if (exists) return;
+                            Peerio.UI.openPreferences();
+                            swal(document.l10n.getEntitySync('setup_passcodeTitle').value, document.l10n.getEntitySync('PINSetupRequired').value);
+                        });
+                    }, delay || 200);
+                }
+                
+                Peerio.user.enforcePIN(3000);
                 Peerio.user.setKeyPair(passOrPIN, username, function() {
                     Peerio.network.getAuthTokens(function(authTokens) {
                         Peerio.crypto.decryptAuthTokens(authTokens)
