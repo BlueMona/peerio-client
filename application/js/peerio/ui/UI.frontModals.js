@@ -17,8 +17,9 @@ Peerio.UI.controller('frontModals', function($scope) {
 		$('div.downloadFileProgressBar').width(0)
 		$('p.downloadFileComplete').hide()
 		$('input.twoFactorAuthCode').val('')
-        if(!Peerio.user.PIN){
-            Peerio.user.enforcePIN();
-        } else Peerio.user.pinUnlocked=false;
+        //if(!Peerio.user.PIN){
+            //Peerio.user.enforcePIN();
+        //} else 
+        Peerio.user.pinUnlocked=false;
 	}
 })
