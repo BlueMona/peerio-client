@@ -240,13 +240,20 @@
                 <input type="password" data-ng-model="signup.peerioPIN" data-l10n-id="peerioPIN"
                        class="signupPeerioPINEntry"/>
 
-                <div class="peerioPINStrength">
-                    <span data-l10n-id="PINNotStrong" class="PINNotStrong"
-                          data-ng-show="!signup.peerioPINStrength()"></span>
+                <div class="peerioPINStrength" style="margin:0;float:none;">
+                    <span data-l10n-id="PINNotStrong" class="PINNotStrong" data-ng-show="!signup.peerioPINStrength()"></span>
                     <span data-l10n-id="PINStrong" class="PINStrong" data-ng-show="signup.peerioPINStrength()"></span>
+                    <br/>
+                    <span data-l10n-id="PINDoesNotMatch" class="PINNotStrong" data-ng-hide="signup.PINconfirmed()"></span>
                 </div>
-                <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!signup.peerioPINStrength()"
-                        class="signupPeerioPINEntryContinue"></button>
+                <div>
+                <input type="password" data-ng-model="signup.peerioPINconfirm" data-l10n-id="peerioPINconfirm"
+                       class="signupPeerioPINEntry"/>
+                </div>       
+                <div>
+                    <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!signup.peerioPINStrength()||!signup.PINconfirmed()"
+                            class="signupPeerioPINEntryContinue"></button>
+                </div>
                 <!-- <br/>
                 <br/> -->
                 <!-- <button data-l10n-id="skip" style="background:#E07A66" data-ng-click="signup.firstLogin()"></button> -->
@@ -1378,13 +1385,18 @@
                             <input type="password" style="float:none" data-ng-model="preferences.peerioPINtoUnlock"
                                    class="signupPeerioPINEntry"/>
                             <button type="button" data-ng-click="preferences.unlock()" data-l10n-id="unlockSettings"></button>
-                            <div data-ng-show="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                            <div data-ng-show="preferences.unlocked()" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
                         </td>
                         <td style="padding:15px;border-left: 1px solid #eee;border-right: 1px solid #eee; position:relative;">
                             <span data-l10n-id="enterNewPIN"></span>
                             <div>
-                                <input type="password" style="float:none" data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN"
-                                    class="signupPeerioPINEntry"/>
+                                <input type="password" style="float:none;display:inline-block;" data-ng-hide='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN" class="signupPeerioPINEntry"/>
+                                <input type="text" style="float:none;display:inline-block;" data-ng-show='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN" class="signupPeerioPINEntry"/>
+                                    <button type="button" data-ng-click="preferences.togglePIN()" class="clear">
+                                        <span class="fontAwesome" ng-show='preferences.pinVisible'>&#xf06e;</span>
+                                        <span class="fontAwesome" ng-hide='preferences.pinVisible'>&#xf070;</span>
+                                    </button>
+                                    <br/>
 
                                 <div class="peerioPINStrength" style="margin:0;display:inline;">
                                     <span data-l10n-id="PINNotStrong" class="PINNotStrong"
@@ -1400,12 +1412,12 @@
                                     class="preferencesPeerioPINEntryContinue red fontAwesome">
                                 &#xf00d;
                             </button> -->
-                            <div data-ng-hide="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                            <div data-ng-hide="preferences.unlocked()" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
                         </td>
                         <td style="padding:15px;position:relative;">
                             <a data-l10n-id="showPassphrase" data-ng-show="preferences.canSeePassphrase()" 
                             style='border-bottom: 1px dashed;' data-ng-click="preferences.showPassphrase()"></a>
-                            <div data-ng-hide="preferences.unlocked" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
+                            <div data-ng-hide="preferences.unlocked()" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
                         </td>
                     </tr>
             </table>

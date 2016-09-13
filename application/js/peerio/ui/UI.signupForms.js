@@ -118,7 +118,7 @@ Peerio.UI.controller('signupForms', function ($scope) {
          }
        );
   }
-
+$scope.signup.peerioPIN='';
   $scope.signup.registerAccount = function () {
     $scope.signup.address = Peerio.util.parseAddress($scope.signup.emailOrPhone)
     $scope.signup.username = $scope.signup.username.toLowerCase()
@@ -175,6 +175,7 @@ Peerio.UI.controller('signupForms', function ($scope) {
     }, 1000)
     Peerio.UI.applyDynamicElements()
   }
+  
   $scope.signup.confirmAccount = function () {
     Peerio.network.sendAccountConfirmation(
       $scope.signup.confirmationCode,
@@ -206,6 +207,9 @@ Peerio.UI.controller('signupForms', function ($scope) {
       return true
     }
     return false
+  }
+  $scope.signup.PINconfirmed = function(){
+      return $scope.signup.peerioPIN.length===0 || $scope.signup.peerioPINconfirm==$scope.signup.peerioPIN;
   }
   $scope.signup.peerioPINSet = function () {
     $('button.signupPeerioPINEntryContinue').attr('disabled', true)

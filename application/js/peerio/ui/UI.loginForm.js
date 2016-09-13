@@ -52,8 +52,8 @@ Peerio.UI.controller('loginForm', function($scope) {
                                 });
                             }, delay || 200);
                         }
-                        
-                        Peerio.user.enforcePIN(3000);
+                        Peerio.user.pinUnlocked=true;
+                        Peerio.user.enforcePIN(300);
 					});
                     $scope.$root.$broadcast('newMessageReset', null);
 				})

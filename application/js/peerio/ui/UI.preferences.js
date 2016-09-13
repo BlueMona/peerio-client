@@ -194,14 +194,18 @@ Peerio.UI.controller('preferences', function($scope, $window) {
 
     $scope.preferences.unlocked = false;
     $scope.$root.$on('pinLock', function() {
-        $scope.preferences.unlocked = false;
+        unlocked = false;
         $scope.preferences.peerioPINtoUnlock = '';
         $scope.preferences.peerioPIN = '';
     })
+    var unlocked = false;
+    $scope.preferences.unlocked = function(){
+        return unlocked || Peerio.user.pinUnlocked;
+    } 
     $scope.preferences.unlock = function() {
         var input = $scope.preferences.peerioPINtoUnlock;
         if (Peerio.user.passphrase && input === Peerio.user.passphrase) {
-            $scope.preferences.unlocked = true;
+            unlocked = true;
             return;
         }
         Peerio.user.getPIN(Peerio.user.username, function(PINExists) {
@@ -242,7 +246,9 @@ Peerio.UI.controller('preferences', function($scope, $window) {
         var p = (Peerio.user.quota.user * 100) / Peerio.user.quota.total
         return Math.ceil(p) + '%'
     }
-
+    $scope.preferences.togglePIN= function(){
+        $scope.preferences.pinVisible = !$scope.preferences.pinVisible;
+    }
     $scope.preferences.getActiveSubscriptions = function() {
         if (!Peerio.user || !Peerio.user.subscriptions) return [];
         return Peerio.user.subscriptions.filter(function(item) {

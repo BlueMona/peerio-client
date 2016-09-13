@@ -767,16 +767,11 @@ form.signupFinishingUp {
 	display: none;
 }
 
-input.signupPeerioPINEntry {
-	float: left;
-}
 
 div.peerioPINStrength {
 	font-size: 0.8em;
 	font-weight: bold;
 	font-variant: small-caps;
-	height: 40px;
-	margin: 28px 0 0 250px;
 }
 
 	div.peerioPINStrength span.PINNotStrong {

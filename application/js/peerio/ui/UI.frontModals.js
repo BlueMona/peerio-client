@@ -19,6 +19,6 @@ Peerio.UI.controller('frontModals', function($scope) {
 		$('input.twoFactorAuthCode').val('')
         if(!Peerio.user.PIN){
             Peerio.user.enforcePIN();
-        }
+        } else Peerio.user.pinUnlocked=false;
 	}
 })
