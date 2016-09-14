@@ -209,7 +209,7 @@ Peerio.UI.controller('preferences', function($scope, $window) {
         }
         Peerio.user.getPIN(Peerio.user.username, function(PINExists) {
             if (!PINExists) {
-                swal(document.l10n.getEntitySync('error').value,
+                swal(document.l10n.getEntitySync('incorrectPasswordOrPINTitle').value,
                     document.l10n.getEntitySync('incorrectPasswordOrPIN').value)
                 return;
             }
