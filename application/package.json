@@ -8,7 +8,7 @@
 	    "type": "git",
 	    "url": "git://github.com/PeerioTechnologies/peerio-client.git"
 	},
-	"version": "1.5.0",
+	"version": "1.6.0",
 	"keywords": [
 		"peerio",
 		"encrypted messages",
