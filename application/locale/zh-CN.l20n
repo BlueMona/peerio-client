@@ -3,12 +3,12 @@
     <signupHeader "消息和文件。简单且安全。">
     <signupIntro "Peerio 是一个简单且安全的发送消息、分享文件和在线存储文档的方式。所有数据在发送到云之前都被加密，因此除了您和您与其分享的人，没有其他人能访问您的数据。">
     <username "用户名">
-    <passphrase "密码">
-    <passphraseOrPIN "密码短语或设备密码">
+    <passphrase "Recovery Password">
+    <passphraseOrPIN "Recovery Password or PIN">
     <login "登录">
     <or "或">
     <loginFailed "登录失败">
-    <loginFailedText "如果您在使用设备密码，请改为使用您的账户密码。">
+    <loginFailedText "If you are using a device PIN, please try using your Recovery Password instead.">
     <ok "确定">
     <submit "提交">
     <signup "注册">
@@ -20,17 +20,18 @@
     <firstName "名">
     <lastName "姓">
     <emailOrPhone "电子邮件或手机号">
-    <yourPassphrase "您的密码">
-    <infoAlertPassphrase "为了增强安全性，Peerio 采用 &lt;a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'&gt;随机生成的密码短语&lt;/a>;。&lt;strong>;您的密码短语是您账户的万能钥匙！&lt;/strong>;您是您的密码短语的唯一拥有者，您的账户安全完全取决于它，请记住这点并保护它。您在新设备上登录您的账户时需要用到它。如果您遗失了您的密码短语，您就永久失去了对您的账户的访问权。我们建议您将您的密码短语写在纸上，或将其存储在一个安全的密码管理器中。">
-    <signupPassphraseConfirm "使用此密码？">
-    <signupPassphraseConfirmText "<strong>记住</strong>，您是此密码短语的唯一拥有者。<a href='https://peerio.zendesk.com/hc/en-us/articles/202927099' target='_blank'>;;如果您遗失了该密码短语</a>，您的账户也将永远遗失。因此为了确保安全，请输入一次您的密码短语，确保您已经完善保存它，然后继续。">
-    <signupYourGeneratedPassphrase "您生成的密码：">
-    <signupPassphraseRefresh "更改密码">
+    <yourPassphrase "Your Recovery Password">
+    <infoAlertPassphrase "For stronger security, Peerio uses a <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>randomly generated Recovery Password</a>. <br><br><strong>You are the only one who knows this Recovery Password!</strong> If you lose it, you will permanently lose access to your account. We recommend writing your Recovery Password down on paper, or storing it in a secure password manager.">
+    <infoAlertPassphraseMobile "For stronger security, Peerio uses a randomly generated Recovery Password. You are the only one who knows this Recovery Password! If you lose it, you will permanently lose access to your account. We recommend writing your Recovery Password down on paper, or storing it in a secure password manager.">
+    <signupPassphraseConfirm "Use this Recovery Password?">
+    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Only you know this Recovery Password.</a></li> <li>If you lose it, your data will be lost forever.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Store your Recovery Password somewhere safe!</a></li><br><strong>Please enter your Recovery Password in order to continue.</strong>">
+    <signupYourGeneratedPassphrase "Your generated Recovery Password:">
+    <signupPassphraseRefresh "Change Recovery Password">
     <error "错误">
     <errorText "您的请求未能完成。">
     <warning "警告">
-    <confirmPassphrase "确认密码">
-    <showPassphrase "显示密码">
+    <confirmPassphrase "Confirm Recovery Password">
+    <showPassphrase "Show Recovery Password">
     <continue "继续">
     <registerAccountError "未能注册账户">
     <registerAccountErrorText "对不起，我们现在不能注册您的账户。请重新启动 Peerio 并重新尝试注册。">
@@ -44,14 +45,13 @@
     <code "代码">
     <confirmationCode "确认码">
     <confirmMyAccount "确认我的账户">
-    <invalidConfirmationCode "抱歉，此确认码无效或已过期。">
     <finishingUp "完成注册">
-    <peerioPIN "Peerio 密码">
-    <setAPeerioPIN "为此设备设置密码？">
-    <signupPeerioPIN "Peerio 设备密码允许您快速的在特定设备上登录，而避免每次登录都需要输入您的密码短语。您可以设置一个只在此设备上有效的较短密码。用户设置的设备密码往往要比 Peerio 的密码短语更不安全，因此您应该<strong>只在您信任并且经常使用的设备上设置设备密码</strong>。">
-    <PINNotStrong "密码强度：脆弱">
-    <PINStrong "密码强度：不错">
-    <setPIN "设置密码">
+    <peerioPIN "Peerio PIN">
+    <setAPeerioPIN "Set a PIN for this device">
+    <signupPeerioPIN "Instead of entering your Recovery Password each time you login, you can choose a shorter PIN that will only work on this device. If you forget your PIN you can use your Recovery Password to set a new one. You will always need your Recovery Password to login on a new device.">
+    <PINNotStrong "PIN strength: weak">
+    <PINStrong "PIN strength: ok!">
+    <setPIN "设置 PIN">
     <skip "跳过">
     <accountRateLimited "请稍等几分钟">
     <accountRateLimitedText "此账户暂时不可用，因为它执行了太多次服务器请求。请稍等几分钟，然后再试。">
@@ -179,7 +179,7 @@
     <decline "拒绝">
     <addContactInfo "添加好友为联系人">
     <addContactInfoText "与您的好友发送消息和分享文件是从添加他们为联系人开始的。如果您的好友还不是一名 Peerio 用户，我们会尝试给他们的地址发送一封邀请函。您可以指定他们的<strong>用户名</strong>、<strong>电子邮件地址</strong>或<strong>手机号码</strong>来添加一名用户。">
-    <addContactInfoAvatarText "每名 Peerio 用户都有着一个特殊的头像标示身份。它是作为自身的数字指纹。如果 Peerio 用户的头像变化，它们可能已经更改了他们的密码，或者他们的账户可能已经受到了侵害。">
+    <addContactInfoAvatarText "Every Peerio user has a special avatar that identifies them. Think of it as their digital fingerprint. If a Peerio user's avatar changes, they may have changed their Recovery Password, or their account may have been compromised.">
     <usernameEmailOrPhone "用户名、电子邮件或手机号">
     <addContactRequestSent "联系人请求已发送">
     <addContactRequestSentText "我们已经发送了一个联系人请求到您提供的用户名。">
@@ -235,10 +235,9 @@
     <deleteAccountText "删除您的 Peerio 账户将永久销毁您的所有信息，并且您将不再可能在未来重新使用此用户名。">
     <deleteAccountConfirm "确认删除账户">
     <deleteAccountConfirmText "您确定？您将失去您的所有数据，并且永远无法再重新使用此用户名。">
-    <changePassphrase "更改密码">
-    <changePassphraseText "如果您的密码遭到泄露，Peerio 允许您废除您以前的密码并设置一个新密码。此功能即将推出。">
-    <newPassphrase "新密码">
-    <retypeNewPassphrase "重复新密码">
+    <changePassphrase "Change Recovery Password">
+    <newPassphrase "New Recovery Password">
+    <retypeNewPassphrase "Retype New Recovery Password">
     <enableTwoFactorAuth "启用双因素验证">
     <disableTwoFactorAuth "禁用双因素验证">
     <accountSettingsTwoFactorAuthText "Peerio 可以与您的移动设备配对以提供增强的账户安全性。">
@@ -250,12 +249,12 @@
     <useSounds "当我收到一条新通知时<strong>播放声音</strong>">
     <sendReadReceipts "当我已读他们的消息时通知我的联系人">
     <readReceipts "已读回执">
-    <peerioPINForThisDevice "设备密码">
-    <peerioPINUpdated "设备密码已更新">
-    <peerioPINUpdatedText "您的此设备的密码已成功更新。">
-    <removeMyPeerioPIN "移除设备密码">
-    <peerioPINRemoved "设备密码已移除">
-    <peerioPINRemovedText "分配到此设备的密码已完成销毁。">
+    <peerioPINForThisDevice "Device PIN">
+    <peerioPINUpdated "Device PIN Updated">
+    <peerioPINUpdatedText "Your PIN for this device has been updated.">
+    <removeMyPeerioPIN "Remove Device PIN">
+    <peerioPINRemoved "Device PIN Removed">
+    <peerioPINRemovedText "The PIN assigned to this device has been removed.">
     <ctrlEnter "发送回复">
     <pressEnterToSend "按 Enter 发送">
     <updateAvailable "有更新可用！">
@@ -323,8 +322,8 @@
     <length "长度">
     <words "字词">
     <unsorted "未排序">
-    <typePassphraseToConfirm "请输入如上所示的此密码短语以接受并继续">
-    <passphraseConfirmFailed "您的密码短语输入错误。请在某处安全的地方存储您的密码短语，然后再继续。">
+    <typePassphraseToConfirm "To accept this Recovery Password, please enter it below">
+    <passphraseConfirmFailed "Your Recovery Password was entered incorrectly. Please store your Recovery Password somewhere safe before continuing.">
     <acknowledgedMessage "已确认此项">
     <addAddressSuggestion "更新联系人信息？">
     <addAddressSuggestionText "添加其他联系信息可以：<br><ul><li><strong>发现</strong>：您的联系人更容易找到您</li><li><strong>通知</strong>：新消息和联系人通知</li><li><strong>支持</strong>：获得我们帮助中心的更多支持服务</li></ul><br>您要更新您的地址吗？">
@@ -336,7 +335,7 @@
     <version "版本">
     <touchId "Touch ID">
     <messageSubject "#subject">
-    <passcode "设备密码">
+    <passcode "PIN">
     <publicKey "公钥">
     <contactStatus "联系人状态">
     "n/a": "不适用",
@@ -449,13 +448,13 @@
     <contactSelect_updateRecipientsButton "更新收件人">
     <contactSelect_addRecipientsButton "添加收件人">
     <error_accountDeleted "账户已删除。">
-    <error_badCredentials "用户名或密码短语不正确。">
+    <error_badCredentials "Incorrect credentials.">
     <error_creatingAccount "创建账户出错。">
     <error_invite "发送邀请时出错。请联系客服。">
     <error_emptyUsername "用户名不能为空。">
     <error_invalidName "无效名称">
     <error_loginFailed "登录失败。">
-    <error_passphraseNotMatching "密码短语不正确。">
+    <error_passphraseNotMatching "Recovery Passwords do not match.">
     <error_fileDownload "下载文件失败。">
     <error_loadingConversation "加载对话失败。">
     <error_messageDelivery "传递消息到下列收件人失败：">
@@ -471,28 +470,28 @@
     <setup_contactInfoDescription "帮助您的联系人发送您在使用 Peerio，添加您的电子邮件地址或者手机号以接收通知和启用支持服务。">
     <setup_contactInfoTitle "联系人信息">
     <setup_emailOrPhone "Email / Phone Number">
-    <setup_passcodeDescription "这允许您<emphasis>从这台设备</>登录而无须输入您的密码短语。">
-    <setup_passcodeTitle "设置设备密码">
+    <setup_passcodeDescription "This allows you to login <emphasis>from this device</> without entering your Recovery Password.">
+    <setup_passcodeTitle "Select a PIN">
     <setup_startDescription "为了优化您的使用体验，我们推荐您完成这个简短、仅需三步的安装向导。">
     <setup_startDescription2 "所有步骤都是可选的。您可以在任何时间安全地退出此向导和跳过不适合您的步骤。">
     <setup_startTitle "欢迎使用 Peerio！">
     <setup_touchDescription "Touch ID 需要您使用苹果的钥匙链。">
     <setup_touchTitle "您要启用 Touch ID 吗？">
-    <setup_touchWarning "注意执法问题。2014年10月，一个美国法院裁定，警察可以要求你使用指纹解锁你的设备，而密码则不能。类似的法律可能存在于其他国家或地区中。如果法律执行在你的威胁列表中，请仔细考虑。">
+    <setup_touchWarning "Note on law enforcement. In Oct. 2014, a USA court ruled that a police officer can demand you to unlock your device with a fingerprint but not an alphanumeric password. Similar laws may exist in other national or regional jurisdictions and should be considered if law enforcement is part of your threat model.">
     <setup_importDescription "Find out which of your contacts are already using Peerio.">
     <signup_TOSRequestText "在注册一个 Peerio 账户前，我们需要您同意我们的<tosLink>使用条款</>。">
     <signup_TOSRequestTitle "#TOStitle">
-    <signup_acceptPassphrase "我会记住我的密码短语">
+    <signup_acceptPassphrase "I'll remember my Recovery Password">
     <signup_confirmCreateButton "#createMyAccount">
     <signup_desiredUsername "#desiredUsername">
-    <signup_enterPassphrase "请输入您的密码短语">
-    <signup_nextPassphrase "我不喜欢这个密码短语">
+    <signup_enterPassphrase "Please enter your Recovery Password">
+    <signup_nextPassphrase "I don't like this Recovery Password">
     <signup_optInDescription "在启用匿名数据收集后，我们将收集不能确定身份并且无关内容的信息与研究人员分享，用以改进 Peerio。">
     <signup_optInDescription2 "如果您加入，您会每天收到 25MB 存储空间的奖励以感谢您的贡献。">
     <signup_optInHeadline "您希望帮助我们进行可用性研究吗？">
     <signup_optInPolicy "<emphasis>点击这里</>了解我们收集的数据。">
-    <signup_passphraseDescription "这是为您安全生成的随机的密码短语。如果您遗失它，您将<emphasis>永远</>丢失访问您的账户的权利。">
-    <signup_showPassphrase "让我再看一次我的密码短语">
+    <signup_passphraseDescription "This is your secure randomly generated Recovery Password. If you lose it, you will <emphasis>permanently</> lose access to your account.">
+    <signup_showPassphrase "Let me see my Recovery Password again">
     <signup_wrongUsername "请选择其他用户名">
     <tosUpdateRequestText "我们更新了我们的服务条款！请查阅并接受以继续使用 Peerio。">
     <tosUpdateRequestTitle "服务条款更新">
@@ -544,7 +543,7 @@
     <2fa_addressRequired "您没有已注册的联系人地址。如果您丢失了您的两步验证，Peerio 无法恢复您的账户。">
     <2fa_clipboard "下列密钥已复制到您的剪贴板。请粘贴它到您的身份验证器应用。">
     <2fa_manualCopy "复制并粘贴下列私钥到您的身份验证器应用">
-    <passcode_remove "移除设备代码">
+    <passcode_remove "Remove PIN">
     <passcode_set "#setPIN">
     <conversation_noParticipants "没有参与者仍然在此对话中">
     <conversation_withSelf "此对话中目前只有您。">
@@ -565,13 +564,17 @@
     <coupon_invalid "Sorry, the coupon doesn't seem to be valid.">
     <coupon_prompt "如果您有一个促销代码，请在下面输入它。">
     <passcode_removeTitle "#passcode_remove">
-    <passcode_removeConfirm "您确定要移除您的设备密码吗？">
+    <passcode_removeConfirm "Are you sure you want to remove your PIN?">
     <passcode_title "#peerioPINForThisDevice">
-    <passcode_tooSimple "设备密码太简单，请重试">
-    <passcode_notDistinct "请输入一个唯一性的设备密码">
+    <passcode_enter "Login faster by setting a Device PIN">
+    <passcode_simple "PIN is too simple">
+    <passcode_confirm "Confirm device PIN">
+    <passcode_tryagain "PIN does not match">
+    <passcode_tooSimple "PIN is too simple, try again">
+    <passcode_notDistinct "please enter a unique PIN">
     <passcode_tooShort "number 更多的数字">
-    <passcode_restriction "设备密码至少6位数字">
-    <passcode_inputPlaceholder "请输入设备密码">
+    <passcode_restriction "PIN must be 6 digits">
+    <passcode_inputPlaceholder "Enter a device PIN">
     <passcode_ok "准备！">
     <settings_saveFailed "设置保存失败。">
     <settings_optIn "在启用匿名数据收集后，我们将收集不能确定身份并且无关内容的信息与研究人员分享，用以改进 Peerio。在您选择加入后，您会每天收到 25MB 存储空间的奖励以感谢您的贡献。">
@@ -600,13 +603,13 @@
     <payments_operationErrorNative "There was an error processing payment on your phone. Please check your device settings or contact Peerio support.">
     <payments_operationErrorRemote "There was an error processing your payment on Peerio servers. Please contact Peerio support.">
     "payments_com.peerio.storage.50.yearly": "Pay annually",
-    <payments_planInfo "Checkout plan info">
+    <payments_planInfo "Check out plan info">
     "payments_com.peerio.storage.50.monthly": "Pay monthly",
     <payments_extraStorage "Extra storage">
     <payments_ghostLimitMonthly "Ghosts">
     <payments_unlimited "unlimited">
     <androidEncryptionStatusOff "Your device supports full disk encryption, but it is not currently enabled. Peerio highly recommends the use of disk encryption. Would you like to learn more?">
-    <androidEncryptionStatusPartial "Your device has encryption turned on but your passcode is still set to the default. We recommend setting a unique passcode. Would you like to learn more?">
+    <androidEncryptionStatusPartial "Your device has encryption turned on but your PIN is still set to the default. We recommend setting a unique PIN. Would you like to learn more?">
     <androidEncryptionStatusUnsupported "Your device does not support encryption. We recommend upgrading to a version of Android which does. Would you like to learn more?">
     <security "Security">
     <noMatchesFound "No matches found">
@@ -614,21 +617,22 @@
     <serverWarning_Welcome_mobile "A Pro Plan has been registered to your account. You can view your plan benefits and learn how to manage your account at https://peerio.zendesk.com/hc/en-us/articles/208395556">
     <serverWarning_Welcome "A Pro Plan has been registered to your account. You can view your plan benefits and learn <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>how to manage your account</a>.">
     <serverWarning_CancelledTitle "Peerio Pro Plan Cancelled">
-    <serverWarning_Cancelled "Your Peerio Pro plan has been cancelled. Your pro benefits will expire on the end date of your plan and your plan will not be renewed.">
+    <serverWarning_Cancelled "Your Peerio Pro plan has been cancelled. Your Pro benefits will expire on the end date of your plan and your plan will not be renewed.">
     <serverWarning_ExpireTitle "Your Pro Plan Will Expire Soon">
     <serverWarning_Expire "Your Peerio Pro plan will expire in 7 days. Please renew your plan to ensure your service is uninterrupted. If you do not renew and have stored more data than what is offered in Peerio's free service, you may experience limited functionality until your account is within its storage limit.">
     <serverWarning_PaymentErrorTitle "Payment Error">
     <serverWarning_PaymentError "Your Peerio Pro plan could not be renewed due to a problem with your payment method. Please review your account information at https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Storage Limit Exceeded">
     <serverWarning_QuotaExcceded "You're over your storage limit! Your account will have limited functionality until you purchase additional storage or remove some files from your account.">
+    <serverWarning_recoveryReminder "Have you saved your recovery password somewhere safe yet? If you don't, you may lose your data! Find it in your settings and store it somewhere safe now.">
     <prepare_ghost "Prepare Ghost">
     <share_ghost "Send Ghost">
     <ghost_settings "Ghost Instructions">
     <ghost_lifespan "Lifespan">
     <ghost_share "Send Ghost">
     <ghost_sent_msg "Your Ghost will visit ghost-recipient for ghost-expiry-days and then disappear forever">
-    <ghost_passphrase_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's passphrase">
-    <ghost_passphrase_share_helper "For security, send this passphrase over a separate channel">
+    <ghost_passphrase_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's password">
+    <ghost_passphrase_share_helper "For security, send this password over a separate channel">
     <ghost_passphrase_share_link "Didn’t get the email? Want to share with someone else?">
     <ghost_mobile_settings "Prepare Ghost">
     <ghost_destroyAfter "Disappear after">
@@ -636,14 +640,14 @@
     <ghost_new "Compose Ghost">
     <ghost_mobile_share "Send Ghost">
     <ghost_mobile_sent "Your message has been sent to">
-    <ghost_mobile_sent_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's passphrase">
+    <ghost_mobile_sent_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's password">
     <ghost_toMessageList "Return To Messages">
     <ghost_enterRecipient "Please enter the recipient">
     <ghost_enterBody "Please enter body">
     <ghost_enterSubject "Please enter subject">
     <ghost_waitUpload "Please wait until upload finishes">
     <currentReleaseOnGithub "Current release">
-    <ghost_loadFail "Ghost could not be opened. Please check your passphrase.">
+    <ghost_loadFail "Ghost could not be opened. Please check your password.">
     <ghost_fileDownloadFail "Failed to download file">
     <ghost_notFound "Ghost ID not found, it might be expired or invalid.">
     <ghost_expired "This Ghost expired on:">
@@ -675,3 +679,25 @@
     <error_onlyPeerioUserFile "At the moment, files in your cloud can only be sent to other Peerio users. If you wish to send a file with a Ghost, please remove all attachments, enter a valid email address, and then upload files.">
     <error_onlyGhostUser "By entering an email address as a recipient you have entered Ghost mode! Please enter a valid email address, or if you wish to send a Peerio message, please remove your current recipients and enter Peerio usernames instead.">
     <error_recipientFormat "Sorry, we couldn't find a Peerio user or email address associated with that name in your contacts.">
+    <upgrade "Upgrade">
+    <downloadPeerioHeader "Simple security by <emphasis>Peerio</>">
+    <downloadPeerioContent "<url>Download our mobile and desktop apps</> for more features like encrypted messaging, emails, file sharing, and cloud storage.">
+    <ghostCountUpdate "You have <emphasis>ghostsLeft</> Ghosts left this month">
+    <paywallMsg "You've used all your Ghosts for the month.">
+    <paywallUpgrade "Upgrade to Peerio Pro to unlock unlimited Ghosts.">
+    <passphrase_notset "Your Recovery Password is not saved">
+    <passphrase_wrongpin "PIN incorrect, please try again">
+    <passphrase_show "Show Recovery Password">
+    <passphrase_show_title "Show Recovery Password">
+    <passphrase_enterpin "Please enter your PIN">
+    <passphrase_enternewpin "Set a PIN for this device">
+    <passphrase_confirmnewpin "Please confirm your PIN">
+    <PINSetupRequired "Login faster by setting a PIN for this device. If this is not a device you use regularly you can skip this step.">
+    <enterCurrentPINorPassphrase "Enter your PIN or Recovery Password">
+    <unlockSettings "Unlock">
+    <enterNewPIN "New PIN">
+    <incorrectPasswordOrPINTitle "Wrong PIN or Recovery Password">
+    <incorrectPasswordOrPIN "Please try again.">
+    <peerioPINconfirm "Confirm">
+    <PINDoesNotMatch "Confirmation doesn't match">
+    <successPINchange "Your PIN has been changed">
