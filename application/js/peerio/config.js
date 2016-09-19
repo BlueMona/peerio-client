@@ -10,13 +10,13 @@ Peerio.config = {};
 	'use strict';
 
 	Peerio.config = {
-		version: '1.5.0',
-		buildID: 24,
+		version: '1.6.0',
+		buildID: 25,
 		updateJSON: 'https://peerio.com/update/info.json',
 		updateWin: 'https://peerio.com/download/peerio-win.msi',
 		updateMac: 'https://peerio.com/download/peerio-mac.dmg',
 		updateLin: 'https://linux.peerio.com',
-		minPINEntropy: 24,
+		minPINEntropy: 10,
 		fileUploadSizeLimit: 419430400
 	}
 
