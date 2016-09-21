@@ -10,8 +10,8 @@ Peerio.config = {};
 	'use strict';
 
 	Peerio.config = {
-		version: '1.6.2',
-		buildID: 27,
+		version: '1.6.3',
+		buildID: 28,
 		updateJSON: 'https://peerio.com/update/info.json',
 		updateWin: 'https://peerio.com/download/peerio-win.msi',
 		updateMac: 'https://peerio.com/download/peerio-mac.dmg',

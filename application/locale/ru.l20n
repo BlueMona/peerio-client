@@ -1,14 +1,14 @@
 
     <title "Peerio">
     <signupHeader "Сообщения и файлы. Просто и безопасно.">
-    <signupIntro "Peerio is a simple and secure way to send messages, share files, and store documents online. Everything gets encrypted before being sent to the cloud, so nobody but you and those you share with ever have access to your data.">
+    <signupIntro "Peerio - простой и безопасный метод отправки и хранения сообщений, файлов и документов. Все данные шифруются перед отправкой в облако, так что никто, кроме вас и тех, кому вы выдаете предоставляете права, не сможет получить к ним доступ.">
     <username "Имя пользователя">
-    <passphrase "Recovery Password">
-    <passphraseOrPIN "Recovery Password or PIN">
+    <passphrase "Резервный пароль">
+    <passphraseOrPIN "Резервный пароль или ПИН">
     <login "Логин">
     <or "или">
     <loginFailed "Попытка входа не удалась">
-    <loginFailedText "If you are using a device PIN, please try using your Recovery Password instead.">
+    <loginFailedText "Если вы используете ПИН, попробуйте использовать резервный пароль.">
     <ok "OK">
     <submit "Отправить">
     <signup "Зарегистрироваться">
@@ -20,18 +20,18 @@
     <firstName "Имя">
     <lastName "Фамилия">
     <emailOrPhone "Электронная почта или номер мобильного телефона">
-    <yourPassphrase "Your Recovery Password">
-    <infoAlertPassphrase "For stronger security, Peerio uses a <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>randomly generated Recovery Password</a>. <br><br><strong>You are the only one who knows this Recovery Password!</strong> If you lose it, you will permanently lose access to your account. We recommend writing your Recovery Password down on paper, or storing it in a secure password manager.">
-    <infoAlertPassphraseMobile "For stronger security, Peerio uses a randomly generated Recovery Password. You are the only one who knows this Recovery Password! If you lose it, you will permanently lose access to your account. We recommend writing your Recovery Password down on paper, or storing it in a secure password manager.">
-    <signupPassphraseConfirm "Use this Recovery Password?">
-    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Only you know this Recovery Password.</a></li> <li>If you lose it, your data will be lost forever.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Store your Recovery Password somewhere safe!</a></li><br><strong>Please enter your Recovery Password in order to continue.</strong>">
-    <signupYourGeneratedPassphrase "Your generated Recovery Password:">
-    <signupPassphraseRefresh "Change Recovery Password">
+    <yourPassphrase "Ваш резервный пароль">
+    <infoAlertPassphrase "Для усиленной безопасности, Peerio использует <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>случайно сгенерированный резервный пароль</a>. <br><br><strong>Вы - единственный, кто должен знать этот резервный пароль!</strong> Если вы его потеряете, то вы навсегда потеряете доступ к своему аккаунту. Мы рекомендуем записать ваш резервный пароль на бумаге, либо сохранить его в безопасном менеджере паролей.">
+    <infoAlertPassphraseMobile "Для усиленной безопасности, Peerio использует случайно сгенерированный резервный пароль. Вы - единственный, кто должен знать этот резервный пароль! Если вы его потеряете, то вы навсегда потеряете доступ к своему аккаунту. Мы рекомендуем записать ваш резервный пароль на бумаге, либо сохранить его в безопасном менеджере паролей.">
+    <signupPassphraseConfirm "Использовать этот резервный пароль?">
+    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Только вы знаете этот резервный пароль.</a></li> <li>Если вы его потеряете, ваши данные будут утеряны навсегда.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Сохраняйте ваш резервный пароль в безопасном месте!</a></li><br><strong>Пожалуйста, введите ваш резервный пароль, чтобы продолжить.</strong>">
+    <signupYourGeneratedPassphrase "Ваш сгенерированный резервный пароль:">
+    <signupPassphraseRefresh "Изменить резервный пароль">
     <error "Ошибка">
     <errorText "Ваш запрос не может быть выполнен.">
     <warning "Предупреждение">
-    <confirmPassphrase "Confirm Recovery Password">
-    <showPassphrase "Show Recovery Password">
+    <confirmPassphrase "Подтвердить резервный пароль">
+    <showPassphrase "Показать резервный пароль">
     <continue "Продолжить">
     <registerAccountError "Не удалось зарегистрировать аккаунт">
     <registerAccountErrorText "Извините, не удалось зарегистрировать аккаунт. Пожалуйста перезапустите Peerio и попробуйте снова через пару минут.">
@@ -47,10 +47,10 @@
     <confirmMyAccount "Подтвердить мой аккаунт">
     <finishingUp "Завершение">
     <peerioPIN "Peerio ПИН-код">
-    <setAPeerioPIN "Set a PIN for this device">
-    <signupPeerioPIN "Instead of entering your Recovery Password each time you login, you can choose a shorter PIN that will only work on this device. If you forget your PIN you can use your Recovery Password to set a new one. You will always need your Recovery Password to login on a new device.">
-    <PINNotStrong "PIN strength: weak">
-    <PINStrong "PIN strength: ok!">
+    <setAPeerioPIN "Установить ПИН для этого устройства">
+    <signupPeerioPIN "Вместо того, чтобы вводить ваш резервный пароль каждый раз, когда вы входите в приложение, вы можете выбрать более короткий ПИН, который будет работать только на этом устройстве. Если вы забудете ваш ПИН, вы сможете использовать ваш резервный пароль, чтобы задать новый ПИН. Вам всегда будет требоваться резервный пароль для входа на новом устройстве.">
+    <PINNotStrong "Надежность ПИН: слабый">
+    <PINStrong "Надежность ПИН: ok!">
     <setPIN "Установить ПИН-код">
     <skip "пропустить">
     <accountRateLimited "Пожалуйста, подождите">
@@ -59,7 +59,7 @@
     <accountBlacklistedText "Этот аккаунт был временно заблокирован. Чтобы восстановить доступ свяжитесь с поддержкой Peerio по адресу support@peerio.com">
     <searchMessagesFilesAndContacts "Поиск сообщений, файлов и контактов">
     <computerTimeSync "Сообщение не отправлено">
-    <computerTimeSyncText "An error occurred and your message was not sent. If you experience this problem repeatedly, please make sure that your computer's clock is set to the correct time.">
+    <computerTimeSyncText "Произошла ошибка и ваше сообщение не было отправлено. Если вы постоянно испытываете эту проблему, пожалуйста, проверьте, что время на вашем компьютере установлено корректное.">
     <messages "Сообщения">
     <files "Файлы">
     <contacts "Контакты">
@@ -179,7 +179,7 @@
     <decline "Отклонить">
     <addContactInfo "Добавление друзей в контакты">
     <addContactInfoText "Обмен сообщениями и файлами с вашими друзьями возможен после того, как вы добавите друг-друга в контакты. Если ваш друг не является пользователем Peerio, мы попробуем отправить ему приглашение. Вы можете добавить контакт указав его <strong>имя пользователя</strong>, <strong>;email</strong> или <strong>номер телефона</strong>.">
-    <addContactInfoAvatarText "Every Peerio user has a special avatar that identifies them. Think of it as their digital fingerprint. If a Peerio user's avatar changes, they may have changed their Recovery Password, or their account may have been compromised.">
+    <addContactInfoAvatarText "У каждого пользователя Peerio есть специальный аватар, по которому его можно идентифицировать. Ближайшей аналогией можно назвать отпечатки пальцев. Если аватар пользователя Peerio изменился, это значит, что они изменили свой резервный пароль, или их аккаунт был скомпрометирован.">
     <usernameEmailOrPhone "Имя пользователя, email или номер телефона">
     <addContactRequestSent "Запрос контакта отправлен">
     <addContactRequestSentText "Мы отправили запрос контакта, на имя пользователя, которое вы ввели.">
@@ -191,7 +191,7 @@
     <removeContactText "Вы не сможете общаться с этим контактом через Peerio. Подтвердить?">
     <cancel "Отмена">
     <removeContactSuccess "Ваш контакт был успешно удалён.">
-    <removeContactError "Unable to remove contact. Please try again.">
+    <removeContactError "Невозможно удалить контакт. Пожалуйста, попробуйте еще раз.">
     <newContact "Новый контакт!">
     <newContactText "Теперь вы в контактах с">
     <miniLockID "miniLock ID:">
@@ -235,9 +235,9 @@
     <deleteAccountText "Удаление аккаунта Peerio навсегда удалит всю вашу информацию, и вы не сможете повторно использовать это имя пользователя в будущем.">
     <deleteAccountConfirm "Подтвердить удаление аккаунта">
     <deleteAccountConfirmText "Вы уверены? Все ваши данные будут потеряны и повторное использование этого имени пользователя - невозможно.">
-    <changePassphrase "Change Recovery Password">
-    <newPassphrase "New Recovery Password">
-    <retypeNewPassphrase "Retype New Recovery Password">
+    <changePassphrase "Изменить резервный пароль">
+    <newPassphrase "Новый резервный пароль">
+    <retypeNewPassphrase "Повторите новый резервный пароль">
     <enableTwoFactorAuth "Включить двухфакторную аутентификацию">
     <disableTwoFactorAuth "Выключить двухфакторную аутентификацию">
     <accountSettingsTwoFactorAuthText "Peerio можно привязать к вашему устройству для дополнительной защиты.">
@@ -249,23 +249,23 @@
     <useSounds "<strong>Воспроизвести звук</strong> когда я получаю новое уведомление.">
     <sendReadReceipts "Уведомлять мои контакты о прочтении их сообщений.">
     <readReceipts "Уведомления о прочтении">
-    <peerioPINForThisDevice "Device PIN">
-    <peerioPINUpdated "Device PIN Updated">
-    <peerioPINUpdatedText "Your PIN for this device has been updated.">
-    <removeMyPeerioPIN "Remove Device PIN">
-    <peerioPINRemoved "Device PIN Removed">
-    <peerioPINRemovedText "The PIN assigned to this device has been removed.">
+    <peerioPINForThisDevice "ПИН устройства">
+    <peerioPINUpdated "ПИН устройства обновлен">
+    <peerioPINUpdatedText "Ваш ПИН для этого устройства был обновлен">
+    <removeMyPeerioPIN "Удалить ПИН с этого устройства">
+    <peerioPINRemoved "ПИН удален с этого устройства">
+    <peerioPINRemovedText "ПИН, назначенный этому устройству, был удален">
     <ctrlEnter "Отправить ответ">
     <pressEnterToSend "Нажмите Enter, чтобы отправить">
     <updateAvailable "Доступно обновление!">
     <updateAvailableText "Доступно новое обновление Peerio! Обновления превносят новую функциональность и повышают надежность и стабильность приложения. Обновиться сейчас?">
-    <updateAvailableLinuxText "A new update is available for Peerio! Updates bring cool new features, as well as reliability improvements. Please use your package manager to update, or click through for instructions.">
+    <updateAvailableLinuxText "Новое обновление доступно для Peerio! Обновления дают возможность пользоваться новыми крутыми фишками и улучшают стабильность работы системы. Пожалуйста, используйте ваш менеджер пакетов для обновления, или щелкните для получения инструкций.">
     <updateDownload "Скачать обновление">
-    <linuxPackageInfo "See package info">
+    <linuxPackageInfo "Посмотреть информацию о пакете">
     <later "Позже">
     <updateAvailableCritical "Доступно критическое обновление">
     <updateAvailableCriticalText "Доступно критическое обновление Peerio.  Для вашей безопасности, вход в Peerio невозможен до установки обновления.">
-    <updateAvailableCriticalLinuxText "A critical Peerio update is available. For your security, you may not proceed until you install the latest update. Please use your package manager to update, or click through for instructions.">
+    <updateAvailableCriticalLinuxText "Вышло критическое обновление Peerio. Для вашей безопасности, использование программы невозможно до выполнения обновления. Пожалуйста, используйте ваш менеджер пакетов для обновления, или щелкните для получения инструкций.">
     <TOFUNotMatchError "Идентификаторы контактов сменились!">
     <TOFUNotMatchErrorText "Внимание! Некоторые ваши контакты сменили идентификаторы. Прежде чем общаться с ними, пожалуйста сверьте аватар Peerio в их профилях. Имена пользователей:">
     <importContactsGoogle "Имортировать ваши контакты из Google Contacts в Peerio">
@@ -322,76 +322,76 @@
     <length "длина">
     <words "слов">
     <unsorted "Неотсортированное">
-    <typePassphraseToConfirm "To accept this Recovery Password, please enter it below">
-    <passphraseConfirmFailed "Your Recovery Password was entered incorrectly. Please store your Recovery Password somewhere safe before continuing.">
+    <typePassphraseToConfirm "Чтобы принять этот резервный пароль, пожалуйста, введите его ниже">
+    <passphraseConfirmFailed "Ваш резервный пароль был введен некорректно. Пожалуйста, сохраните ваш резервный пароль где-либо в безопасном месте перед тем, как продолжить.">
     <acknowledgedMessage "Сообщение принято">
     <addAddressSuggestion "Обновить информацию о контакте?">
     <addAddressSuggestionText "Добавление резервной контактной информации позволяет обеспечить: <br><ul><li><strong>Поиск</strong>: Ваши контакты смогут проще вас искать </li><li><strong>Уведомления</strong>: Новые уведомления о сообщениях и контактах </li><li><strong>Поддержку</strong>: Больше различных сервисов поддержки от нашего Центра Помощи</li></ul><br>Вы хотите обновить свою контактную информацию?">
-    <availableNowMobile "Available now for Android and iOS.">
-    <mobileApps "Mobile Apps">
-    <TOStitle "Terms Of Use">
-    <TOStext "By signing up for a Peerio account you agree to our terms of use.">
-    <TOStextUpdated "We've updated our terms of use! Please review and accept to continue.">
-    <version "version">
+    <availableNowMobile "Теперь доступно для Android и iOS.">
+    <mobileApps "Мобильные приложения">
+    <TOStitle "Соглашение об использовании">
+    <TOStext "Регистрируя аккаунт в Peerio, вы соглашаетесь с нашим соглашением об использовании.">
+    <TOStextUpdated "Мы обновили наше соглашение об использовании! Пожалуйста, посмотрите его, для того, чтобы продолжить.">
+    <version "версия">
     <touchId "Touch ID">
     <messageSubject "#subject">
-    <passcode "PIN">
-    <publicKey "Public Key">
-    <contactStatus "Contact Status">
-    "n/a": "'N/A'",
-    <outOfSync "out of sync">
-    <connecting "connecting...">
-    <signOut "Sign out">
+    <passcode "ПИН">
+    <publicKey "Публичный ключ">
+    <contactStatus "Статус контакта">
+    "n/a": "'Недоступно'",
+    <outOfSync "требуется синхронизация">
+    <connecting "соединение...">
+    <signOut "Выйти">
     <fileSize "Размер файла">
     <fileType "Тип файла">
-    <location "Location">
+    <location "Расположение">
     <profile "Профиль">
-    <getFreeStorage "Get free storage">
-    <copiedToClipboard "Copied to clipboard">
-    <notifications_whenNewMessage "You receive a new message">
-    <notifications_whenNewContactRequest "You receive a contact request">
-    <notifications_whenInviteAccepted "Your invite is accepted">
-    <notifications_note "Notifications will be sent to your primary address (email or phone).">
-    <optIns "Opt-ins">
-    <optIns_dataCollection "Data collection">
-    <redeemCoupon "Redeem Coupon">
-    <enterCouponCode "Enter Coupon Code">
-    <participants "Participants">
-    <sharedFiles "Shared Files">
-    <finishingIn "finishing in time">
-    <yourPublicKey "Your public key">
-    <address_phoneInvalid "Phone numbers require a country code">
+    <getFreeStorage "Получить бесплатное место для хранения">
+    <copiedToClipboard "Скопировано в буфер обмена">
+    <notifications_whenNewMessage "Вы получили новое сообщение">
+    <notifications_whenNewContactRequest "Вы получили новый запрос для добавления в контакты">
+    <notifications_whenInviteAccepted "Ваше приглашение принято">
+    <notifications_note "Уведомления будут отправлены на ваш основной адрес (e-mail или телефон)">
+    <optIns "Дополнительно">
+    <optIns_dataCollection "Сбор данных">
+    <redeemCoupon "Использовать купон">
+    <enterCouponCode "Ввести код купона">
+    <participants "Участники">
+    <sharedFiles "Общие файлы">
+    <finishingIn "окончание через time">
+    <yourPublicKey "Ваш публичный ключ">
+    <address_phoneInvalid "При указании номера телефона требуется ввести код страны">
     <address_confirmCodePrompt "Пожалуйста введите полученный код">
-    <address_confirmCodePrompt2 "Please enter the code you received on your email or phone">
-    <address_authorized "Address authorized">
+    <address_confirmCodePrompt2 "Пожалуйста, введите код, который вы получили на ваш email или телефон">
+    <address_authorized "Адрес подтвержден">
     <address_conformCodeError "Код подтверждения не совпадает. Попробуйте еще.">
-    <address_addingError "Error adding address. Please contact support.">
-    <address_taken "Sorry, that address is already taken">
+    <address_addingError "Ошибка добавления адреса. Пожалуйста, свяжитесь со службой поддержки.">
+    <address_taken "Извините, этот адрес занят.">
     <address_removeConfirm "Вы уверены, что хотите удалить этот адрес?">
-    <address_makePrimary "Tap an address to make it your primary.">
+    <address_makePrimary "Нажмите на адрес, чтобы сделать его основным">
     <account_deleteTitle "#deleteAccount">
-    <account_deleteConfirm "Are you sure you want to delete your account?">
-    <account_deleted "Account deleted. Signing out.">
+    <account_deleteConfirm "Вы уверены, что хотите удалить ваш аккаунт?">
+    <account_deleted "Аккаунт удален. Выход из системы.">
     <button_accept "#accept">
-    <button_agree "I agree">
+    <button_agree "Я подтверждаю">
     <button_cancel "#cancel">
-    <button_back "back">
+    <button_back "назад">
     <button_continue "#continue">
     <button_confirm "подтвердить">
-    <button_enable "enable">
-    <button_exit "exit">
-    <button_finish "finish">
+    <button_enable "разрешить">
+    <button_exit "выход">
+    <button_finish "закончить">
     <button_delete "Удалить">
     <button_getStarted "Начать">
-    <button_import "Import">
-    <button_maybeLater "Maybe later">
-    <button_notRightNow "Not right now">
-    <button_reject "reject">
+    <button_import "Импорт">
+    <button_maybeLater "Может быть позже">
+    <button_notRightNow "Не сейчас">
+    <button_reject "отказать">
     <button_search "#search">
-    <button_importWizard "Select and tap here">
-    <button_searchAgain "Search again">
+    <button_importWizard "Выберите и нажмите здесь">
+    <button_searchAgain "Искать еще раз">
     <button_skip "#skip">
-    <button_yesIDo "Yes, usability rocks">
+    <button_yesIDo "Да, юзабилити рулит">
     <button_addContact "Добавить контакт">
     <button_download "#download">
     <button_uploadFile "Загрузить файл">
@@ -399,305 +399,305 @@
     <button_open "Открыть">
     <button_composeMessage "#newMessage">
     <button_sendMessage "#sendMessage">
-    <button_importContacts "Import & Invite Contacts">
+    <button_importContacts "Импортировать и пригласить контакты">
     <button_addSelectedContact "Добавить выбранный контакт">
     <button_send "#send">
     <button_ok "#ok">
     <button_add "Добавить">
-    <button_redeem "Redeem">
+    <button_redeem "Использовать">
     <button_addAddress "Добавить адрес">
-    <button_IUnderstand "I understand">
-    <button_deleteAccount "delete your account">
-    <button_enableTouchId "Enable fingerprint key">
-    <contact_invitePrompt "Invite them to join Peerio?">
-    <contact_inviteSendButton "Send invite">
-    <contact_import "Contact Import">
+    <button_IUnderstand "Я понимаю">
+    <button_deleteAccount "удалить ваш аккаунт">
+    <button_enableTouchId "Разрешить ключ по отпечатку пальца">
+    <contact_invitePrompt "Пригласить их для использования Peerio?">
+    <contact_inviteSendButton "Отправить приглашение">
+    <contact_import "Импорт контактов">
     <contact_importFriends "Ваши друзья на Peerio">
-    <contact_importInvite "Invite Your Contacts to Peerio">
-    <contact_importTitle "Import contacts from your phone.">
-    <contact_importWarning "Your contact list will be shared with Peerio. This information is only used to help you find your contacts on Peerio and will be wiped immediately after importing. Would you like to proceed?">
-    <contact_emailSent "We've sent an invite email to email">
-    <contact_permissionMissing "Please allow Peerio to access your device contacts to use the contact import feature.">
-    <contact_searchPlaceholder "username, email, or phone">
+    <contact_importInvite "Пригласить ваши контакты в Peerio">
+    <contact_importTitle "Импортировать контакты из вашего телефона">
+    <contact_importWarning "Ваш список контактов будет предоставлен для обработки Peerio. Эта информация будет использоваться исключительно для поиска контактов и будет удалена немедленно после завершения операции. Хотите продолжить?">
+    <contact_emailSent "Мы отправили приглашение на email">
+    <contact_permissionMissing "Пожалуйста, разрешите Peerio доступ к вашим контактам, чтобы воспользоваться функцией импорта.">
+    <contact_searchPlaceholder "имя пользователя, email или телефон">
     <contact_searchTitle "#button_search">
-    <contact_search "Contact search">
-    <contact_searchInputPlaceholder "email/username/phone">
-    <contact_addressNotFound "Sorry, it looks like <emphasis>address</> is not signed up for Peerio.">
-    <contact_nothingFound "Sorry, there were no results matching your search. Try searching for contacts again by their email, username, or phone number.">
-    <contact_acceptFail "Failed to accept contact request.">
-    <contact_rejectFail "Failed to reject contact request.">
-    <contact_removeFail "Failed to remove contact.">
+    <contact_search "Поиск контактов">
+    <contact_searchInputPlaceholder "email/имя пользователя/телефон">
+    <contact_addressNotFound "Извините, кажется, что <emphasis>address</> не зарегистрирован в Peerio.">
+    <contact_nothingFound "Извините, нет результатов по вашему запросу. Попробуйте поискать контакт еще раз по их email, имени пользователя или телефону.">
+    <contact_acceptFail "Ошибка при принятии запроса добавления контакта.">
+    <contact_rejectFail "Ошибка при отказе принятия запроса добавления контакта.">
+    <contact_removeFail "Ошибка удаления контакта">
     <contact_removeConfirmTitle "#removeContactQuestion">
-    <contact_removeConfirmText "Are you sure you want to remove username from contacts? You will not be able to message and share files with this contact after removal.">
-    <contact_acceptRequestButton "Accept contact request">
-    <contact_rejectRequestButton "Reject contact request">
+    <contact_removeConfirmText "Вы увелены, что хотите удалить username из контактов? Вы не сможете отправлять сообщения и обмениваться файлами с этим контактом после удаления.">
+    <contact_acceptRequestButton "Принять запрос от контакта">
+    <contact_rejectRequestButton "Отказать запросу от контакта">
     <contact_removeButton "#removeContact">
-    <contact_status "Contact status:">
-    <contact_primaryAddress "Primary Address">
-    <contact_statusEstablished "Established contact.">
-    <contact_statusRequestSent "Pending: you sent a request">
-    <contact_statusRequestReceived "Pending: you received a request">
-    <contact_statusIsSelf "This is you">
+    <contact_status "Статус контакта:">
+    <contact_primaryAddress "Основной адрес">
+    <contact_statusEstablished "Контакт налажен.">
+    <contact_statusRequestSent "Ожидание: вы отправили запрос">
+    <contact_statusRequestReceived "Ожидание: вы получили запрос">
+    <contact_statusIsSelf "Это вы">
     <contact_youTag "#you">
-    <contact_invitedTag "invited">
-    <contact_requestsTag "requests authorization">
+    <contact_invitedTag "приглашен">
+    <contact_requestsTag "ждет подтверждения">
     <contact_listTitle "Peerio контакты">
-    <contact_listEmpty "You don't have any contacts yet! Click below to get started.">
-    <contact_noContactsFound "No contacts were found">
+    <contact_listEmpty "У вас пока нет контактов! Нажмите здесь, чтобы начать">
+    <contact_noContactsFound "Контакты не были найдены">
     <contactSelect_prompt "Выбрать ваших получателей">
-    <contactSelect_updateRecipientsButton "Update Recipients">
+    <contactSelect_updateRecipientsButton "Обновить получателей">
     <contactSelect_addRecipientsButton "Добавить получателей">
-    <error_accountDeleted "Account was deleted.">
-    <error_badCredentials "Incorrect credentials.">
-    <error_creatingAccount "Error creating account.">
-    <error_invite "Error sending an invite. Please contact support.">
-    <error_emptyUsername "Username cannot be empty.">
-    <error_invalidName "Invalid name">
-    <error_loginFailed "Login failed.">
-    <error_passphraseNotMatching "Recovery Passwords do not match.">
+    <error_accountDeleted "Аккаунт был удален">
+    <error_badCredentials "Некорректные реквизиты">
+    <error_creatingAccount "Ошибка создания аккаунта.">
+    <error_invite "Ошибка отправки приглашения. Пожалуйста, свяжитесь со службой поддержки.">
+    <error_emptyUsername "Имя пользователя не может быть пустым.">
+    <error_invalidName "Некорректное имя">
+    <error_loginFailed "Ошибка входа">
+    <error_passphraseNotMatching "Резервный пароль не совпадает со введенным.">
     <error_fileDownload "Не удалось загрузить файл.">
-    <error_loadingConversation "Failed to load conversation.">
-    <error_messageDelivery "Failed to deliver message to following recipients:">
+    <error_loadingConversation "Ошибка загрузки чата.">
+    <error_messageDelivery "Ошибка доставки сообщения следующим получателям:">
     <error_messageSend "Не удалось отправить сообщение.">
-    <error_addressFormat "Sorry, that doesn't look like a valid email or phone number.">
-    <input_required "Required">
-    <login_forgetUsername "Tap to switch users or forget username.">
+    <error_addressFormat "Извините, введенные данные не похожи на email или номер телефона.">
+    <input_required "Обязательно">
+    <login_forgetUsername "Нажмите для переключения пользователя или если забыли имя пользователя.">
     <login_loginButton "#login">
     <login_passphraseOrPasscode "#passphrase #or #passcode">
     <login_signUpButton "#signup">
-    <login_welcomeBack "Welcome back,">
-    <login_changeUserButton "Change User">
-    <setup_contactInfoDescription "Help your contacts find you on Peerio, receive notifications, and enable support services by adding your email address or phone number">
+    <login_welcomeBack "Добро пожаловать,">
+    <login_changeUserButton "Изменить пользователя">
+    <setup_contactInfoDescription "Помогите вашим контактам найти вас на Peerio, получить уведомления и техническую поддержку, добавив ваш адрес почты или телефон">
     <setup_contactInfoTitle "Контактная информация">
-    <setup_emailOrPhone "Email / Phone Number">
-    <setup_passcodeDescription "This allows you to login <emphasis>from this device</> without entering your Recovery Password.">
-    <setup_passcodeTitle "Select a PIN">
-    <setup_startDescription "In order to optimize your experience, we recommend you complete this short, 3 step, setup wizard.">
-    <setup_startDescription2 "All steps are optional. You can safely exit the wizard at any point and skip steps that don't apply to you.">
+    <setup_emailOrPhone "Email / Телефон">
+    <setup_passcodeDescription "Это позволит вам выполнить вход <emphasis>с этого устройства</> без ввода вашего резервного пароля">
+    <setup_passcodeTitle "Выберите ПИН">
+    <setup_startDescription "Для того, чтобы сделать использование нашего приложения более удобным, мы предлагаем вам пройти этот короткий, 3 шага, мастер настройки.">
+    <setup_startDescription2 "Все шаги опциональны. Вы можете выйти из мастера настройки в любой момент или пропустить те шаги, которые вам не нужны.">
     <setup_startTitle "Добро пожаловать в Peerio!">
-    <setup_touchDescription "Touch ID requires using your Apple Keychain.">
-    <setup_touchTitle "Would you like to enable Touch ID?">
-    <setup_touchWarning "Note on law enforcement. In Oct. 2014, a USA court ruled that a police officer can demand you to unlock your device with a fingerprint but not an alphanumeric password. Similar laws may exist in other national or regional jurisdictions and should be considered if law enforcement is part of your threat model.">
-    <setup_importDescription "Find out which of your contacts are already using Peerio.">
-    <signup_TOSRequestText "Before signing up for a Peerio account, we ask that you agree to our <tosLink>terms of use</>.">
+    <setup_touchDescription "Touch ID требует использования вашей Apple Keychain.">
+    <setup_touchTitle "Хотите включить Touch ID?">
+    <setup_touchWarning "Примечание об использовании закона. В октябре 2014 года, суд США постановил, что полицейский может потребовать от вас разблокировать ваше устройство с помощью вашего отпечатка пальца, но не с помощью вашего числобуквенного пароля. Похожие законы могут существовать в других странах или регионах и должны учитываться, если взаимодействие с представителями силовых структур является частью вашей модели угроз.">
+    <setup_importDescription "Узнайте, какие из ваших контактов уже используют Peerio.">
+    <signup_TOSRequestText "Прежде чем регистрироваться в Peerio, мы просим вам согласиться с нашим <tosLink>соглашением об использовании</>.">
     <signup_TOSRequestTitle "#TOStitle">
-    <signup_acceptPassphrase "I'll remember my Recovery Password">
+    <signup_acceptPassphrase "Я запомню мой резервный пароль">
     <signup_confirmCreateButton "#createMyAccount">
     <signup_desiredUsername "#desiredUsername">
-    <signup_enterPassphrase "Please enter your Recovery Password">
-    <signup_nextPassphrase "I don't like this Recovery Password">
-    <signup_optInDescription "By enabling anonymous data collection, we will collect non-identifying and non-content information to share with researchers and improve Peerio.">
-    <signup_optInDescription2 "If you opt-in, you will receive 25MB of bonus storage everyday as thanks for your contribution.">
-    <signup_optInHeadline "Would you like to help us with usability research?">
-    <signup_optInPolicy "<emphasis>Tap here</> to learn which data we collect.">
-    <signup_passphraseDescription "This is your secure randomly generated Recovery Password. If you lose it, you will <emphasis>permanently</> lose access to your account.">
-    <signup_showPassphrase "Let me see my Recovery Password again">
-    <signup_wrongUsername "Please pick a different username">
-    <tosUpdateRequestText "We've updated our terms of service! Please review and accept to continue using Peerio.">
-    <tosUpdateRequestTitle "Terms of Service Update">
-    <openLinkWarning "Warning! Please only open links from the contacts you trust.">
+    <signup_enterPassphrase "Пожалуйста, введите ваш резервный пароль">
+    <signup_nextPassphrase "Мне не нравится этот резервный пароль">
+    <signup_optInDescription "Разрешая анонимный сбор данных, вы даете нам возможность сбора не идентифицирующей вас и не связанной с вашим контентом информации для улучшения Peerio.">
+    <signup_optInDescription2 "Если вы подтвердите участие, вы получите 25MB бонусного пространства каждый день в качестве нашей благодарности.">
+    <signup_optInHeadline "Не хотите ли помочь с исследованиями usability продукта?">
+    <signup_optInPolicy "<emphasis>Нажмите здесь</>, чтобы узнать, какие данные мы собираем.">
+    <signup_passphraseDescription "Это ваш случайно сгенерированный резервный пароль. Если вы его потеряете, вы потеряете доступ к аккаунту <emphasis>навсегда</>">
+    <signup_showPassphrase "Посмотреть резервный пароль еще раз">
+    <signup_wrongUsername "Пожалуйста, выберите другое имя пользователя">
+    <tosUpdateRequestText "Мы обновили наше соглашение об использовании! Пожалуйста, посмотрите его для продолжения использования Peerio.">
+    <tosUpdateRequestTitle "Обновление соглашения об использовании">
+    <openLinkWarning "Внимание! Открывайте ссылки только от тех контактов, кому вы доверяете.">
     <fileState_downloading "#downloading">
-    <fileState_decrypting "Decrypting">
-    <fileState_saving "Saving">
-    <fileState_reading "Reading">
-    <fileState_encrypting "Encrypting">
-    <fileState_uploadingMetadata "Uploading encrypted metadata">
-    <fileState_uploading "Uploading">
-    <file_listEmptyTitle "Peerio File Storage!">
-    <file_listEmptyText "Peerio lets you store files in the cloud securely. Try it out by uploading a file.">
+    <fileState_decrypting "Расшифровка">
+    <fileState_saving "Сохранение">
+    <fileState_reading "Чтение">
+    <fileState_encrypting "Шифрование">
+    <fileState_uploadingMetadata "Закачка зашифрованных методанных">
+    <fileState_uploading "Закачка">
+    <file_listEmptyTitle "Хранение файлов Peerio!">
+    <file_listEmptyText "Peerio позволяет безопасно хранить данные в облаки. Попробуйте закачать файл.">
     <file_removeConfirmTitle "Удалить этот файл?">
-    <file_removeConfirmText "This file will be deleted from your device and cloud, but will still be available to users who you have shared it with.">
+    <file_removeConfirmText "Этот файл будет удален с вашего устройства и облака, но все еще будет доступен пользователям, с которыми вы им поделились.">
     <file_removeLocalConfirmTitle "Удалить файл с этого устройства?">
-    <file_removeLocalConfirmText "This file will be deleted from your device, but will still be available to users who you have shared it with.">
-    <file_nukeConfirmTitle "Destroy file completely?">
-    <file_nukeConfirmText "This file will be deleted from your device, cloud and from the clouds of other users who you have shared it with.">
-    <file_sizeWarningTitle "Mobile Limits">
-    <file_sizeWarningTextDownload "Downloading files over 100MB on mobile devices may cause Peerio to crash. We are working to solve this issue. Would you still like to try downloading this file?">
-    <file_sizeWarningTextUpload "Uploading files over 100MB on mobile devices may cause Peerio to crash. We are working to solve this issue. Would you still like to try uploading this file?">
-    <file_sharedBy "Shared by">
-    <file_uploadedAt "Uploaded at">
-    <file_pickFromLibrary "Pick from photo library">
-    <file_takePicture "Take a new picture">
+    <file_removeLocalConfirmText "Этот файл будет удален с вашего устройства, но все еще будет доступен тем пользователям, с которыми вы им поделились.">
+    <file_nukeConfirmTitle "Полностью уничтожить файл?">
+    <file_nukeConfirmText "Этот файл будет удален с вашего устройства, облака, и из облаков пользователей, с которыми вы им поделились.">
+    <file_sizeWarningTitle "Ограничения мобильных устройств">
+    <file_sizeWarningTextDownload "Скачка файлов более 100MB на мобильных устройствах может привести к падению Peerio. Мы работаем над исправлением этой проблемы. Вы все равно хотите скачать этот файл?">
+    <file_sizeWarningTextUpload "Закачка файлов более 100MB на мобильных устройствах может привести к падению Peerio. Мы работаем над исправлением этой проблемы. Вы все равно хотите закачать этот файл?">
+    <file_sharedBy "Поделился">
+    <file_uploadedAt "Закачано в">
+    <file_pickFromLibrary "Выбрать из фотогалереи">
+    <file_takePicture "Сделать новую фотографию">
     <file_removeLocalButton "Удалить с вашего устройства">
-    <file_removeCloudButton "Remove from your cloud">
-    <file_removeLocalAndCloudButton "Remove from your device & cloud">
-    <file_nukeButton "Unshare & remove from all clouds">
-    <file_locationLocal "On this device (decrypted) and in the cloud (encrypted)">
-    <file_locationCloud "In the cloud (encrypted)">
-    <file_uploadComplete "Upload complete.">
-    <file_uploadFailed "Upload failed.">
-    <file_uploadStorageExceeded "Storage quota exceeded.">
-    <file_namePrompt "Enter filename:">
+    <file_removeCloudButton "Удалить из облака">
+    <file_removeLocalAndCloudButton "Удалить из устройства и из облака">
+    <file_nukeButton "Убрать доступ и удалить из всех облаков">
+    <file_locationLocal "На этом устройстве (расшифрованное) и в облаке (зашифрованное)">
+    <file_locationCloud "В облаке (зашифрованное)">
+    <file_uploadComplete "Закачка завершена.">
+    <file_uploadFailed "Закачка завершилась с ошибкой.">
+    <file_uploadStorageExceeded "Лимит использования места превышен.">
+    <file_namePrompt "Введите имя файла:">
     <fileSelect_title "Выбрать ваши файлы">
-    <server_isDown "Is Peerio down?">
-    <server_isDown1 "tap here to check">
-    <appUpdate_available "Peerio update available">
-    <appUpdate_normal "An update is available, would you like to get the latest version of Peerio?">
-    <appUpdate_critical "Your Peerio client is out-of-date and can’t connect to the server, please update to connect!">
-    <2fa "Two Factor Authentication (2FA)">
-    <2fa_protectedOperation "The operation you requested is protected by 2FA. Please enter the six digit code that appears in your authenticator app">
-    <2fa_invalid "Incorrect code. Please try again.">
-    <2fa_prompt "Enter the six digit code that appears in your authenticator app">
-    <2fa_disable "Disable two factor auth">
-    <2fa_enable "Enable two factor auth">
-    <2fa_addressRequired "You don't have a registered contact address. If you lose your 2FA, Peerio won't be able to recover your account.">
-    <2fa_clipboard "The following key has been copied to your clipboard. Please paste it in your authenticator app.">
-    <2fa_manualCopy "Copy and paste the following secret key into your authenticator app">
-    <passcode_remove "Remove PIN">
+    <server_isDown "Peerio недоступен?">
+    <server_isDown1 "нажмите здесь, чтобы проверить">
+    <appUpdate_available "Обновление Peerio доступно">
+    <appUpdate_normal "Обновление доступно, вы хотите получить последнюю версию Peerio?">
+    <appUpdate_critical "Ваш клиент Peerio устарел и не может подсоединиться к серверу, пожалуйста обновите его для подсоединения!">
+    <2fa "Двухфакторная аутентификация (2FA)">
+    <2fa_protectedOperation "Операция, которую вы запросили, защищена 2FA. Пожалуйста, введите шесть цифр кода, который предоставляет ваше приложение-аутентификатор.">
+    <2fa_invalid "Неправильный код. Попробуйте еще раз.">
+    <2fa_prompt "Введите шесть цифр, которые показывает ваше приложение-аутентификатор">
+    <2fa_disable "Отключить двухфакторную аутентификацию">
+    <2fa_enable "Включить двухфакторную аутентификацию">
+    <2fa_addressRequired "У вас нет зарегистрированного контактного адреса. Если вы потеряете 2FA аутентификатор, Peerio не сможет восстановить ваш аккаунт.">
+    <2fa_clipboard "Этот ключ скопирован в ваш буфер обмена. Пожалуйста, вставьте его в ваш аутентификатор.">
+    <2fa_manualCopy "Скопируйте и вставьте этот секретный ключ в ваш аутентификатор">
+    <passcode_remove "Удалить ПИН">
     <passcode_set "#setPIN">
-    <conversation_noParticipants "There are no participants left in this conversation">
-    <conversation_withSelf "You are the only person in this conversation.">
-    <conversation_participantLeftAt "left at">
-    <conversation_confirmDelete "Are you sure you want do delete this conversation? You will no longer receive messages or files within this conversation.">
-    <conversation_emptyList "Now you can communicate securely! Add a contact to start sending Peerio messages, or you can send a Ghost by tapping the button below and entering any email address as your recipient.">
-    <message_typePrompt "Type your message...">
-    <message_readByRecipient "Read">
-    <message_readByAll "Read by all">
-    <message_readBy "Read by placeholder">
-    <message_selectContacts "Please select at least one contact to send your message to.">
-    <sync_starting "starting...">
-    <sync_contacts "synchronizing contacts">
-    <sync_files "synchronizing files">
-    <sync_messages "downloading message data">
-    <sync_description "For optimal experience and performance Peerio stores some of your encrypted data on your device. This may take a moment if you have a lot of messages.">
-    <coupon_activated "The coupon is successfully activated!">
-    <coupon_invalid "Sorry, the coupon doesn't seem to be valid.">
-    <coupon_prompt "If you have a promotional code, please enter it below.">
+    <conversation_noParticipants "В этом чате не осталось участников">
+    <conversation_withSelf "Вы единственный участник в этом чате">
+    <conversation_participantLeftAt "покинул(а) в">
+    <conversation_confirmDelete "Вы уверены, что хотите удалить этот чат? Вы больше не сможете получать сообщения и файлы из этого чата.">
+    <conversation_emptyList "Теперь вы можете общаться безопасно! Добавьте контакт, чтобы начать отправлять сообщения Peerio, или можете отправить Ghost нажав на кнопку ниже и введа любой почтовый адрес в качестве получателя.">
+    <message_typePrompt "Наберите ваше сообщение...">
+    <message_readByRecipient "Прочитано">
+    <message_readByAll "Прочитано всеми">
+    <message_readBy "Прочитано placeholder">
+    <message_selectContacts "Пожалуйста, выберите хотя бы один контакт для отправки сообщения.">
+    <sync_starting "начинаю...">
+    <sync_contacts "синхронизирую контакты">
+    <sync_files "синхронизирую файлы">
+    <sync_messages "скачиваю данные о сообщениях">
+    <sync_description "Для оптимального использования и производительности Peerio сохраняет часть зашифрованных данных на вашем устройстве. Это может занять некоторое время, если у вас много сообщений.">
+    <coupon_activated "Купон успешно активирован!">
+    <coupon_invalid "Извините, введен некорректный номер купона.">
+    <coupon_prompt "Если у вас есть промо-код, пожалуйста, введите его.">
     <passcode_removeTitle "#passcode_remove">
-    <passcode_removeConfirm "Are you sure you want to remove your PIN?">
+    <passcode_removeConfirm "Вы уверены, что хотите удалить ПИН?">
     <passcode_title "#peerioPINForThisDevice">
-    <passcode_enter "Login faster by setting a Device PIN">
-    <passcode_simple "PIN is too simple">
-    <passcode_confirm "Confirm device PIN">
-    <passcode_tryagain "PIN does not match">
-    <passcode_tooSimple "PIN is too simple, try again">
-    <passcode_notDistinct "please enter a unique PIN">
-    <passcode_tooShort "number more digits to go">
-    <passcode_restriction "PIN must be 6 digits">
-    <passcode_inputPlaceholder "Enter a device PIN">
-    <passcode_ok "you're good to go">
-    <settings_saveFailed "Settings save failed.">
-    <settings_optIn "By enabling anonymous data collection, we will collect non-identifying and non-content information to share with researchers and improve Peerio. When you opt in, we will add 25MB to your account everyday as thanks for your contribution.">
-    <shareText "I'd like to securely share messages and files with you on Peerio!">
-    <inviteNote "When one of your contacts signs up for Peerio with the address you invited, they will automatically receive a contact request from you and you will receive 500MB of bonus storage. You can earn up to 10GB of free storage this way!">
-    <shareThisCode "Share this code">
-    <touch_keychain "Enabling Touch ID requires using your keychain, would you like to proceed?">
-    <touch_notAvailable "Fingerprint identification unavailable">
-    <supportFeedback "Support/Feedback">
-    <payments_title "Get Peerio Pro">
-    <payments_existingTitle "Plan details">
-    <payments_menu "Get Peerio Pro">
-    <payments_menu_view "Manage Subscriptions">
-    <payments_hasSubscription "You already have a subscription">
-    <payments_hasCanceledSubscription "You have canceled subscriptions">
-    <payments_buy "Buy">
-    <payments_viewSubscriptions "View subscriptions">
-    <payments_activeSubscriptions "Active">
-    <payments_canceledSubscriptions "Canceled">
-    <payments_endDate "End date">
-    <payments_planName "Plan">
-    <payments_quota "Quota">
-    <payments_status "Status">
-    <payments_loadingError "Error loading payment plans. Please contact Peerio support.">
-    <payments_operationCancelled "Payment operation was cancelled">
-    <payments_operationErrorNative "There was an error processing payment on your phone. Please check your device settings or contact Peerio support.">
-    <payments_operationErrorRemote "There was an error processing your payment on Peerio servers. Please contact Peerio support.">
-    "payments_com.peerio.storage.50.yearly": "Pay annually",
-    <payments_planInfo "Check out plan info">
-    "payments_com.peerio.storage.50.monthly": "Pay monthly",
-    <payments_extraStorage "Extra storage">
-    <payments_ghostLimitMonthly "Ghosts">
-    <payments_unlimited "unlimited">
-    <androidEncryptionStatusOff "Your device supports full disk encryption, but it is not currently enabled. Peerio highly recommends the use of disk encryption. Would you like to learn more?">
-    <androidEncryptionStatusPartial "Your device has encryption turned on but your PIN is still set to the default. We recommend setting a unique PIN. Would you like to learn more?">
-    <androidEncryptionStatusUnsupported "Your device does not support encryption. We recommend upgrading to a version of Android which does. Would you like to learn more?">
-    <security "Security">
-    <noMatchesFound "No matches found">
-    <serverWarning_WelcomeTitle "Welcome to Peerio Pro!">
-    <serverWarning_Welcome_mobile "A Pro Plan has been registered to your account. You can view your plan benefits and learn how to manage your account at https://peerio.zendesk.com/hc/en-us/articles/208395556">
-    <serverWarning_Welcome "A Pro Plan has been registered to your account. You can view your plan benefits and learn <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>how to manage your account</a>.">
-    <serverWarning_CancelledTitle "Peerio Pro Plan Cancelled">
-    <serverWarning_Cancelled "Your Peerio Pro plan has been cancelled. Your Pro benefits will expire on the end date of your plan and your plan will not be renewed.">
-    <serverWarning_ExpireTitle "Your Pro Plan Will Expire Soon">
-    <serverWarning_Expire "Your Peerio Pro plan will expire in 7 days. Please renew your plan to ensure your service is uninterrupted. If you do not renew and have stored more data than what is offered in Peerio's free service, you may experience limited functionality until your account is within its storage limit.">
-    <serverWarning_PaymentErrorTitle "Payment Error">
-    <serverWarning_PaymentError "Your Peerio Pro plan could not be renewed due to a problem with your payment method. Please review your account information at https://account.peerio.com">
-    <serverWarning_QuotaExceededTitle "Storage Limit Exceeded">
-    <serverWarning_QuotaExcceded "You're over your storage limit! Your account will have limited functionality until you purchase additional storage or remove some files from your account.">
-    <serverWarning_recoveryReminder "Have you saved your recovery password somewhere safe yet? If you don't, you may lose your data! Find it in your settings and store it somewhere safe now.">
-    <prepare_ghost "Prepare Ghost">
-    <share_ghost "Send Ghost">
-    <ghost_settings "Ghost Instructions">
-    <ghost_lifespan "Lifespan">
-    <ghost_share "Send Ghost">
-    <ghost_sent_msg "Your Ghost will visit ghost-recipient for ghost-expiry-days and then disappear forever">
-    <ghost_passphrase_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's password">
-    <ghost_passphrase_share_helper "For security, send this password over a separate channel">
-    <ghost_passphrase_share_link "Didn’t get the email? Want to share with someone else?">
-    <ghost_mobile_settings "Prepare Ghost">
-    <ghost_destroyAfter "Disappear after">
-    <ghost_days "days.">
-    <ghost_new "Compose Ghost">
-    <ghost_mobile_share "Send Ghost">
-    <ghost_mobile_sent "Your message has been sent to">
-    <ghost_mobile_sent_share "Ghosts are good at keeping secrets! To read your message, your recipient will need to know this Ghost's password">
-    <ghost_toMessageList "Return To Messages">
-    <ghost_enterRecipient "Please enter the recipient">
-    <ghost_enterBody "Please enter body">
-    <ghost_enterSubject "Please enter subject">
-    <ghost_waitUpload "Please wait until upload finishes">
-    <currentReleaseOnGithub "Current release">
-    <ghost_loadFail "Ghost could not be opened. Please check your password.">
-    <ghost_fileDownloadFail "Failed to download file">
-    <ghost_notFound "Ghost ID not found, it might be expired or invalid.">
-    <ghost_expired "This Ghost expired on:">
-    <ghost_enterID "Enter a Ghost ID">
-    <ghost_sendOwn "Send your own Ghost">
-    <ghost_sending "Sending a Ghost to:">
-    <getPeerioNow "Get Peerio Now!">
-    <downloadForPlatform "Download for platform">
-    <peerioIsCodeSigned "<url>code signature</>">
-    <contactUs "Contact us on Peerio at username <emphasis>Peerio</>">
-    <press "Press">
-    <terms "Terms">
-    <privacy "Privacy">
-    <decrypt "decrypt">
-    <ghost_expires "Expires on:">
-    <ghost_expiresAt "This Ghost will disappear on: expirationDate">
-    <ghost_youHaveAGhost "You have a Ghost from -">
-    <ghostTip "Ghosts allow you to send secure messages to anyone, even if they don't have Peerio!">
-    <ghost_enterMode "If you enter an email address as a recipient, you can send them Ghosts in this mode">
-    <newGhostRecipientError "Invalid email address">
-    <newGhostRecipientErrorText "Please enter a valid email address.">
-    <newGhostSendError "Ghost Error">
-    <newGhostSendErrorText "Your Ghost could not be sent.">
-    <ghostOverQuota "You've used your five Ghosts for the month. Upgrade to Peerio Pro to become a Ghost-whisperer and send as many Ghosts as you like!">
-    <publicKeyHelp "What is this?">
-    <ghostOnboardTitle "<emphasis>Introducing Ghosts!</>">
-    <ghostOnboardText "You can now send secure messages to anyone, even if they don't have Peerio! When composing a message, enter an email address instead of a Peerio contact and a Ghost will deliver your message. <ghostLink>Learn more</>.">
-    <error_onlyPeerioUser "Peerio messages can only be sent to other Peerio users. To send a Ghost, remove all recipients and enter a valid email address.">
-    <error_onlyPeerioUserFile "At the moment, files in your cloud can only be sent to other Peerio users. If you wish to send a file with a Ghost, please remove all attachments, enter a valid email address, and then upload files.">
-    <error_onlyGhostUser "By entering an email address as a recipient you have entered Ghost mode! Please enter a valid email address, or if you wish to send a Peerio message, please remove your current recipients and enter Peerio usernames instead.">
-    <error_recipientFormat "Sorry, we couldn't find a Peerio user or email address associated with that name in your contacts.">
-    <upgrade "Upgrade">
-    <downloadPeerioHeader "Simple security by <emphasis>Peerio</>">
-    <downloadPeerioContent "<url>Download our mobile and desktop apps</> for more features like encrypted messaging, emails, file sharing, and cloud storage.">
-    <ghostCountUpdate "You have <emphasis>ghostsLeft</> Ghosts left this month">
-    <paywallMsg "You've used all your Ghosts for the month.">
-    <paywallUpgrade "Upgrade to Peerio Pro to unlock unlimited Ghosts.">
-    <passphrase_notset "Your Recovery Password is not saved">
-    <passphrase_wrongpin "PIN incorrect, please try again">
-    <passphrase_show "Show Recovery Password">
-    <passphrase_show_title "Show Recovery Password">
-    <passphrase_enterpin "Please enter your PIN">
-    <passphrase_enternewpin "Set a PIN for this device">
-    <passphrase_confirmnewpin "Please confirm your PIN">
-    <PINSetupRequired "Login faster by setting a PIN for this device. If this is not a device you use regularly you can skip this step.">
-    <enterCurrentPINorPassphrase "Enter your PIN or Recovery Password">
-    <unlockSettings "Unlock">
-    <enterNewPIN "New PIN">
-    <incorrectPasswordOrPINTitle "Wrong PIN or Recovery Password">
-    <incorrectPasswordOrPIN "Please try again.">
-    <peerioPINconfirm "Confirm">
-    <PINDoesNotMatch "Confirmation doesn't match">
-    <successPINchange "Your PIN has been changed">
+    <passcode_enter "Входите в приложение быстрее с помощью ПИН устройства">
+    <passcode_simple "ПИН слишком простой">
+    <passcode_confirm "Подтвердите ПИН">
+    <passcode_tryagain "ПИН не совпадает">
+    <passcode_tooSimple "ПИН слишком простой, попробуйте еще раз">
+    <passcode_notDistinct "Пожалуйста, введите уникальный ПИН">
+    <passcode_tooShort "еще ввести number цифр">
+    <passcode_restriction "ПИН должен быть из 6 цифр">
+    <passcode_inputPlaceholder "Введите ПИН устройства">
+    <passcode_ok "все хорошо">
+    <settings_saveFailed "Настройки сохранены">
+    <settings_optIn "Если вы разрешили анонимный сбор данных, то мы будем собирать не идентифицирующую вас и не связанную с вашими данными информацию для улучшения Peerio. Если вы согласны на условия, мы будем добавлять 25MB пространства к вашему аккаунту каждый день в качестве благодарности.">
+    <shareText "Я хочу безопасно обмениваться сообщениями и файлами с вами на Peerio!">
+    <inviteNote "Когда один из ваших приглашенных контактов регистрируется в Peerio, они автоматически получат приглашение от вас и вы получите 500MB бонусного места. Таким образом вы можете заработать до 10GB бесплатного места!">
+    <shareThisCode "Поделиться этим кодом">
+    <touch_keychain "Включение Touch ID требует использования вашей Apple Keychain, хотите продолжить?">
+    <touch_notAvailable "Идентификация по отпечатку пальца недоступна">
+    <supportFeedback "Поддержка/отзывы">
+    <payments_title "Получить Peerio Pro">
+    <payments_existingTitle "Информация о подписке">
+    <payments_menu "Получить Peerio Pro">
+    <payments_menu_view "Управление подпиской">
+    <payments_hasSubscription "У вас уже есть подписка">
+    <payments_hasCanceledSubscription "У вас есть отмененные подписки">
+    <payments_buy "Купить">
+    <payments_viewSubscriptions "Посмотреть подписки">
+    <payments_activeSubscriptions "Активно">
+    <payments_canceledSubscriptions "Отменена">
+    <payments_endDate "Дата окончания">
+    <payments_planName "Подпика">
+    <payments_quota "Квота">
+    <payments_status "Статус">
+    <payments_loadingError "Ошибка загрузки планов подписки. Пожалуйста, свяжитесь с техподдержкой Peerio.">
+    <payments_operationCancelled "Процедура оплаты была отменена">
+    <payments_operationErrorNative "Была ошибка при проведении оплаты на вашем телефона. Пожалуйста, проверьте настройки вашего устройства или свяжитесь с технической поддержкой Peerio.">
+    <payments_operationErrorRemote "Была ошибка при проведении оплаты на нашем сервере. Пожалуйста, свяжитесь с технической поддержкой Peerio.">
+    "payments_com.peerio.storage.50.yearly": "Заплатить за год",
+    <payments_planInfo "Посмотреть информацию о подписке">
+    "payments_com.peerio.storage.50.monthly": "Заплатить за месяц",
+    <payments_extraStorage "Дополнительное место">
+    <payments_ghostLimitMonthly "Количество Ghost">
+    <payments_unlimited "неограничено">
+    <androidEncryptionStatusOff "Ваше устройство поддерживает полное шифрование данных, но эта функция сейчас выключено. Peerio настоятельно рекомендует использовать полное шифрование данных. Хотите узнать больше?">
+    <androidEncryptionStatusPartial "Ваше устройство поддерживает полное шифрование диска, но Android PIN все еще установлен по умолчанию. Peerio настоятельно рекомендует использовать уникальный Android PIN. Хотите узнать больше?">
+    <androidEncryptionStatusUnsupported "Ваше устройство не поддерживает полное шифрование диска. Peerio настоятельно рекомендует обновить Android. Хотите узнать больше?">
+    <security "Безопасность">
+    <noMatchesFound "Не найдено совпадений">
+    <serverWarning_WelcomeTitle "Добро пожаловать в Peerio Pro">
+    <serverWarning_Welcome_mobile "Подписка на Peerio Pro была активирована для вашего аккаунта. Вы можете посмотреть преимущества вашей подписки и управлять аккаунтом здесь https://peerio.zendesk.com/hc/en-us/articles/208395556">
+    <serverWarning_Welcome "Pro план был зарегистрирован для вашего аккаунта. Вы можете узнать преимущества использования вашего плана и как управлять вашим аккаунтом <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>здесь</a>.">
+    <serverWarning_CancelledTitle "Подписка на Peerio Pro отменена">
+    <serverWarning_Cancelled "Ваша подписка на Peerio Pro была отменена. Функционал Pro будет отключен по окончанию оплаченного периода подписке и подписка не будет продлена.">
+    <serverWarning_ExpireTitle "Ваша подписка на Pro будет скоро закончена">
+    <serverWarning_Expire "Ваш план Peerio Pro завершится через 7 дней. Пожалуйста, обновите подписку, чтобы обеспечить непрерывное оказание услуги. Если вы не обновите подписку и количество данных, которое сохранено на наших серверах, превышает лимит для бесплатного сервиса, вы можете столкнуться с ограничением по функционалу до тех пор, пока не будет освобождено место.">
+    <serverWarning_PaymentErrorTitle "Ошибка оплаты">
+    <serverWarning_PaymentError "Ваша подписка на Peerio Pro не может быть обновлена из-за проблем с вашим методом оплаты. Пожалуйста, посмотрите информацию о вашем аккаунте на https://account.peerio.com">
+    <serverWarning_QuotaExceededTitle "Лимит используемого места превышен">
+    <serverWarning_QuotaExcceded "Вы превысили ваш лимит используемого места! Ваш аккаунт будет ограничен в функциональности до тех пор, пока вы не купите дополнительное место или удалите элементы из хранилища.">
+    <serverWarning_recoveryReminder "Вы уже сохранили ваш резервный пароль в безопасном месте? Если нет, вы можете потерять ваши данные! Найдите пароль в настройках и сохраните его в безопасном месте.">
+    <prepare_ghost "Подготовить Ghost">
+    <share_ghost "Отправить Ghost">
+    <ghost_settings "Инструкции Ghost">
+    <ghost_lifespan "Время жизни">
+    <ghost_share "Отправить Ghost">
+    <ghost_sent_msg "Ваш Ghost будет доступен ghost-recipient на ghost-expiry-days и затем исчезнет навсегда">
+    <ghost_passphrase_share "Ghost хорошо использовать для хранения секретов! Чтобы прочитать ваше сообщение, получатель должен знать пароль каждого Ghost.">
+    <ghost_passphrase_share_helper "Для обеспечения безопасности, отправьте пароль по отдельному каналу">
+    <ghost_passphrase_share_link "Не получили письмо? Хотите поделиться с кем-то еще?">
+    <ghost_mobile_settings "Подготовить Ghost">
+    <ghost_destroyAfter "Исчезнуть после">
+    <ghost_days "дней.">
+    <ghost_new "Создать Ghost">
+    <ghost_mobile_share "Отправить Ghost">
+    <ghost_mobile_sent "Ваше сообщение отправлено">
+    <ghost_mobile_sent_share "Ghost хорошо использовать для хранения секретов! Чтобы прочитать ваше сообщение, получатель должен знать пароль каждого Ghost.">
+    <ghost_toMessageList "Вернуться к сообщениям">
+    <ghost_enterRecipient "Пожалуйста, введите получателя">
+    <ghost_enterBody "Пожалуйста, введите текст сообщения">
+    <ghost_enterSubject "Пожалуйста, введите тему сообщения">
+    <ghost_waitUpload "Пожалуйста, подождите, пока загрузка завершится">
+    <currentReleaseOnGithub "Текущий релиз">
+    <ghost_loadFail "Ghost не может быть открыт. Пожалуйста, проверьте ваш пароль.">
+    <ghost_fileDownloadFail "Ошибка скачивания файла.">
+    <ghost_notFound "Идентификатор Ghost не найден, он может быть некорректен или истек срок хранения.">
+    <ghost_expired "Этот Ghost истек:">
+    <ghost_enterID "Введите идентфиикатор Ghost">
+    <ghost_sendOwn "Отправить ваш собственный Ghost">
+    <ghost_sending "Отправить Ghost:">
+    <getPeerioNow "Установите Peerio сейчас!">
+    <downloadForPlatform "Загрузить для platform">
+    <peerioIsCodeSigned "<url>подпись дистрибутива</>">
+    <contactUs "Свяжитесь с нами через Peerio по имени пользователя <emphasis>Peerio</>">
+    <press "Пресса">
+    <terms "Условия">
+    <privacy "Приватность">
+    <decrypt "расшировать">
+    <ghost_expires "Заканчивается:">
+    <ghost_expiresAt "Этот Ghost исчезнет: expirationDate">
+    <ghost_youHaveAGhost "У вас Ghost от - ">
+    <ghostTip "Ghost позволяют отправлять безопасные сообщение любому получателю, даже если у него нет Peerio!">
+    <ghost_enterMode "Если вы введете адрес почты в качестве получателя, вы сможете отправлять Ghost.">
+    <newGhostRecipientError "Некорректный адрес email">
+    <newGhostRecipientErrorText "Пожалуйста, введите корректный email адрес">
+    <newGhostSendError "Ошибка Ghost">
+    <newGhostSendErrorText "Ваш Ghost не может быть отправлен.">
+    <ghostOverQuota "Вы использовали Ghost 5 раз в этом месяце. Обновитесь до Peerio Pro, чтобы отправлять неограниченное число сообщений!">
+    <publicKeyHelp "Что это?">
+    <ghostOnboardTitle "<emphasis>Познакомьтесь с Ghosts!</>">
+    <ghostOnboardText "Теперь вы можете отправлять безопасные сообщения любому получателю, даже если у них нет Peerio! Когда вы создаете сообщение, введите email адрес вместо контакта Peerio и Ghost доставит ваше сообщение. <ghostLink>Узнать больше</>.">
+    <error_onlyPeerioUser "Сообщения Peerio могут быть отправлено только другим пользователям Peerio. Чтобы отправить Ghost, удалите всех получателей и введите корректный адрес email.">
+    <error_onlyPeerioUserFile "В данный момент, файлы в вашем облаке могут быть отправлены только другим пользователям Peerio. Если вы хотите отправить файл как Ghost, удалите все вложения, введите корректный адрес email, а затем загрузите файлы.">
+    <error_onlyGhostUser "Вводя email в качестве получателя, вы перешли в режим Ghost! Пожалуйста, введите корректный адрес email, или, если вы хотите отправить сообщение Peerio, пожалуйста, удалите всех получателей и введите имена пользователей Peerio.">
+    <error_recipientFormat "Извините, мы не смогли найти пользователя Peerio или адрес электронной почты, ассоциированный с этим именем, в ваших контактах.">
+    <upgrade "Улучшить">
+    <downloadPeerioHeader "Легкая безопасность с <emphasis>Peerio</>">
+    <downloadPeerioContent "<url>Скачайте наши мобильный и десктопные приложения</> для того, чтобы получить полный доступ к функционалу шифрования сообщений, email, обмена файлами и облачного хранения.">
+    <ghostCountUpdate "На этот месяц осталось: <emphasis>ghostsLeft</> Ghost(s)">
+    <paywallMsg "Вы использовали всех Ghosts в этом месяце.">
+    <paywallUpgrade "Улучшите ваш аккаунт до Peerio Pro, чтобы получить неограниченное количество Ghosts.">
+    <passphrase_notset "Ваш резервный пароль не сохранен">
+    <passphrase_wrongpin "ПИН некорректен, пожалуйста, попробуйте еще раз">
+    <passphrase_show "Показать резервный пароль">
+    <passphrase_show_title "Показать резервный пароль">
+    <passphrase_enterpin "Пожалуйста, введите ваш ПИН">
+    <passphrase_enternewpin "Установить ПИН для этого устройства">
+    <passphrase_confirmnewpin "Пожалуйста, подтвердите ваш ПИН">
+    <PINSetupRequired "Выполняйте вход быстрее, установив ПИН для этого устройства. Если вы не пользуетесь этим устройством регулярно, можете пропустить этот шаг.">
+    <enterCurrentPINorPassphrase "Введите ваш ПИН или резервный пароль">
+    <unlockSettings "Разблокировать">
+    <enterNewPIN "Новый ПИН">
+    <incorrectPasswordOrPINTitle "Неправильный ПИН или резервный пароль">
+    <incorrectPasswordOrPIN "Пожалуйста, попробуйте еще раз.">
+    <peerioPINconfirm "Подтвердить">
+    <PINDoesNotMatch "Подтверждение не совпадает">
+    <successPINchange "Ваш ПИН изменен">
