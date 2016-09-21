@@ -1,3 +1,9 @@
+peerio-client (1.6.0-1) unstable; urgency=low
+
+  * Passphrase relayed to mean of portability, simplifying login process
+
+ -- Samuel MARTIN MORO <samuel@peerio.com>  Mon, 19 Sep 2016 16:00:42 +0200
+
 peerio-client (1.5.0-1) unstable; urgency=low
 
   * Add Ghosts support

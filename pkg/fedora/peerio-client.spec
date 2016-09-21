@@ -1,6 +1,6 @@
 Summary: Peerio Client
 Name: peerio-client
-Version: 1.5.0
+Version: 1.6.0
 Release: 1%{?dist}
 License: GPL3
 Group: Applications/Internet
@@ -72,6 +72,8 @@ make clean
 %{_mandir}/man1/peerio-client.1.gz
 
 %changelog
+ * Mon Sep 19 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.6.0-1
+ - Passphrase relayed to mean of portability, simplifying login process
  * Wed Aug 3 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.5.0-1
  - Add Ghosts support
  * Thu Jun 2 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.4.2-1
