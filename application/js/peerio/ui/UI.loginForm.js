@@ -52,7 +52,7 @@ Peerio.UI.controller('loginForm', function($scope) {
                                     Peerio.storage.db.put({ _id: 'DontAskForPin'});
                                     Peerio.user.pinUnlocked = true;
                                     Peerio.UI.openPreferences();
-                                    swal(document.l10n.getEntitySync('setup_passcodeTitle').value, document.l10n.getEntitySync('PINSetupRequired').value);
+                                    swal(document.l10n.getEntitySync('setup_passcodeTitledesktop').value, document.l10n.getEntitySync('PINSetupRequired').value);
                                 });
                             });
                         }, 200);

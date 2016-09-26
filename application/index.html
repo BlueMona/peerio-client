@@ -222,10 +222,10 @@
                         <div class="infoAlertContent">
                             <h1 data-l10n-id="setAPeerioPIN"></h1>
 
-                            <p data-l10n-id="signupPeerioPIN"></p>
+                           
                         </div>
                     </div>
-                    <input type="password" data-ng-model="signup.peerioPIN" data-l10n-id="peerioPIN" class="signupPeerioPINEntry" />
+                    <input type="password" data-ng-model="signup.peerioPIN" data-l10n-id="peerioPINdesktop" class="signupPeerioPINEntry" />
 
                     <div class="peerioPINStrength" style="margin:0;float:none;">
                         <span data-l10n-id="PINNotStrong" class="PINNotStrong" data-ng-show="!signup.peerioPINStrength()"></span>
@@ -237,7 +237,7 @@
                         <input type="password" data-ng-model="signup.peerioPINconfirm" data-l10n-id="peerioPINconfirm" class="signupPeerioPINEntry" />
                     </div>
                     <div>
-                        <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!signup.peerioPINStrength()||!signup.PINconfirmed()" class="signupPeerioPINEntryContinue"></button>
+                        <button type="submit" data-l10n-id="setPINdesktop" data-ng-disabled="!signup.peerioPINStrength()||!signup.PINconfirmed()" class="signupPeerioPINEntryContinue"></button>
                     </div>
                     <!-- <br/>
                 <br/> -->
@@ -1158,7 +1158,7 @@
                 <label for="useSounds" class="blueCheckboxLabel" data-l10n-id="useSounds"></label>
                 <br/>
                 <hr/>
-                <h2 data-l10n-id="peerioPINForThisDevice"></h2>
+                <h2 data-l10n-id="peerioPINForThisDevicedesktop"></h2>
 
                 <form data-ng-submit="preferences.peerioPINSet()">
                     <div class="infoAlert">
@@ -1177,10 +1177,10 @@
                                 <div data-ng-show="preferences.unlocked()" style='position:absolute;top:0;left:0;right:0;bottom:0;background-color:white;opacity:0.7'></div>
                             </td>
                             <td style="padding:15px;border-left: 1px solid #eee;border-right: 1px solid #eee; position:relative;">
-                                <span data-l10n-id="enterNewPIN"></span>
+                                <span data-l10n-id="enterNewPINdesktop"></span>
                                 <div>
-                                    <input type="password" style="float:none;display:inline-block;" data-ng-hide='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN" class="signupPeerioPINEntry" />
-                                    <input type="text" style="float:none;display:inline-block;" data-ng-show='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPIN" class="signupPeerioPINEntry" />
+                                    <input type="password" style="float:none;display:inline-block;" data-ng-hide='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPINdesktop" class="signupPeerioPINEntry" />
+                                    <input type="text" style="float:none;display:inline-block;" data-ng-show='preferences.pinVisible' data-ng-model="preferences.peerioPIN" data-l10n-id="peerioPINdesktop" class="signupPeerioPINEntry" />
                                     <button type="button" data-ng-click="preferences.togglePIN()" class="clear">
                                         <span class="fontAwesome" ng-show='preferences.pinVisible'>&#xf06e;</span>
                                         <span class="fontAwesome" ng-hide='preferences.pinVisible'>&#xf070;</span>
@@ -1192,7 +1192,7 @@
                                         <span data-l10n-id="PINStrong" class="PINStrong" data-ng-show="preferences.peerioPINStrength()"></span>
                                     </div>
                                 </div>
-                                <button type="submit" data-l10n-id="setPIN" data-ng-disabled="!preferences.peerioPINStrength()" class="preferencesPeerioPINEntryContinue"></button>
+                                <button type="submit" data-l10n-id="setPINdesktop" data-ng-disabled="!preferences.peerioPINStrength()" class="preferencesPeerioPINEntryContinue"></button>
                                 <!-- <button type="button" data-utip-l10n="removeMyPeerioPIN" data-utip-gravity="e"
                                     data-ng-click="preferences.peerioPINRemove()"
                                     class="preferencesPeerioPINEntryContinue red fontAwesome">
