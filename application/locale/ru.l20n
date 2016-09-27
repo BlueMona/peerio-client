@@ -3,12 +3,12 @@
     <signupHeader "Сообщения и файлы. Просто и безопасно.">
     <signupIntro "Peerio - простой и безопасный метод отправки и хранения сообщений, файлов и документов. Все данные шифруются перед отправкой в облако, так что никто, кроме вас и тех, кому вы выдаете предоставляете права, не сможет получить к ним доступ.">
     <username "Имя пользователя">
-    <passphrase "Резервный пароль">
-    <passphraseOrPIN "Резервный пароль или ПИН">
+    <passphrase "Master Password">
+    <passphraseOrPIN "Password">
     <login "Логин">
     <or "или">
     <loginFailed "Попытка входа не удалась">
-    <loginFailedText "Если вы используете ПИН, попробуйте использовать резервный пароль.">
+    <loginFailedText "If you are using a device Password, please try using your Master Password instead.">
     <ok "OK">
     <submit "Отправить">
     <signup "Зарегистрироваться">
@@ -20,18 +20,18 @@
     <firstName "Имя">
     <lastName "Фамилия">
     <emailOrPhone "Электронная почта или номер мобильного телефона">
-    <yourPassphrase "Ваш резервный пароль">
-    <infoAlertPassphrase "Для усиленной безопасности, Peerio использует <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>случайно сгенерированный резервный пароль</a>. <br><br><strong>Вы - единственный, кто должен знать этот резервный пароль!</strong> Если вы его потеряете, то вы навсегда потеряете доступ к своему аккаунту. Мы рекомендуем записать ваш резервный пароль на бумаге, либо сохранить его в безопасном менеджере паролей.">
-    <infoAlertPassphraseMobile "Для усиленной безопасности, Peerio использует случайно сгенерированный резервный пароль. Вы - единственный, кто должен знать этот резервный пароль! Если вы его потеряете, то вы навсегда потеряете доступ к своему аккаунту. Мы рекомендуем записать ваш резервный пароль на бумаге, либо сохранить его в безопасном менеджере паролей.">
-    <signupPassphraseConfirm "Использовать этот резервный пароль?">
-    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Только вы знаете этот резервный пароль.</a></li> <li>Если вы его потеряете, ваши данные будут утеряны навсегда.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Сохраняйте ваш резервный пароль в безопасном месте!</a></li><br><strong>Пожалуйста, введите ваш резервный пароль, чтобы продолжить.</strong>">
-    <signupYourGeneratedPassphrase "Ваш сгенерированный резервный пароль:">
-    <signupPassphraseRefresh "Изменить резервный пароль">
+    <yourPassphrase "Your Master Password">
+    <infoAlertPassphrase "For stronger security, Peerio uses a <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>randomly generated Master Password</a>. <br><br><strong>You are the only one who knows this Master Password!</strong> If you lose it, you will permanently lose access to your account. We recommend writing your Master Password down on paper, or storing it in a secure password manager.">
+    <infoAlertPassphraseMobile "For stronger security, Peerio uses a randomly generated Master Password. You are the only one who knows this Master Password! If you lose it, you will permanently lose access to your account. We recommend writing your Master Password down on paper, or storing it in a secure password manager.">
+    <signupPassphraseConfirm "Use this Master Password?">
+    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Only you know this Master Password.</a></li> <li>If you lose it, your data will be lost forever.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Store your Master Password somewhere safe!</a></li><br><strong>Please enter your Master Password in order to continue.</strong>">
+    <signupYourGeneratedPassphrase "Your generated Master Password:">
+    <signupPassphraseRefresh "Change Master Password">
     <error "Ошибка">
     <errorText "Ваш запрос не может быть выполнен.">
     <warning "Предупреждение">
-    <confirmPassphrase "Подтвердить резервный пароль">
-    <showPassphrase "Показать резервный пароль">
+    <confirmPassphrase "Confirm Master Password">
+    <showPassphrase "Show Master Password">
     <continue "Продолжить">
     <registerAccountError "Не удалось зарегистрировать аккаунт">
     <registerAccountErrorText "Извините, не удалось зарегистрировать аккаунт. Пожалуйста перезапустите Peerio и попробуйте снова через пару минут.">
@@ -47,11 +47,13 @@
     <confirmMyAccount "Подтвердить мой аккаунт">
     <finishingUp "Завершение">
     <peerioPIN "Peerio ПИН-код">
-    <setAPeerioPIN "Установить ПИН для этого устройства">
-    <signupPeerioPIN "Вместо того, чтобы вводить ваш резервный пароль каждый раз, когда вы входите в приложение, вы можете выбрать более короткий ПИН, который будет работать только на этом устройстве. Если вы забудете ваш ПИН, вы сможете использовать ваш резервный пароль, чтобы задать новый ПИН. Вам всегда будет требоваться резервный пароль для входа на новом устройстве.">
-    <PINNotStrong "Надежность ПИН: слабый">
-    <PINStrong "Надежность ПИН: ok!">
+    <peerioPINdesktop "Peerio Password">
+    <setAPeerioPIN "Set a Password for this device">
+    <signupPeerioPIN "Instead of entering your Master Password each time you login, you can choose a shorter Device Password that will only work on this device. If you forget your Device Password you can use your Master Password to set a new one. You will always need your Master Password to login on a new device.">
+    <PINNotStrong "Password strength: weak">
+    <PINStrong "Password strength: ok!">
     <setPIN "Установить ПИН-код">
+    <setPINdesktop "Set password">
     <skip "пропустить">
     <accountRateLimited "Пожалуйста, подождите">
     <accountRateLimitedText "Этот аккаунт временно недоступен, в связи со слишком большим количеством запросов к серверу. Пожалуйста, подождите пару минут и попробуйте снова.">
@@ -179,7 +181,7 @@
     <decline "Отклонить">
     <addContactInfo "Добавление друзей в контакты">
     <addContactInfoText "Обмен сообщениями и файлами с вашими друзьями возможен после того, как вы добавите друг-друга в контакты. Если ваш друг не является пользователем Peerio, мы попробуем отправить ему приглашение. Вы можете добавить контакт указав его <strong>имя пользователя</strong>, <strong>;email</strong> или <strong>номер телефона</strong>.">
-    <addContactInfoAvatarText "У каждого пользователя Peerio есть специальный аватар, по которому его можно идентифицировать. Ближайшей аналогией можно назвать отпечатки пальцев. Если аватар пользователя Peerio изменился, это значит, что они изменили свой резервный пароль, или их аккаунт был скомпрометирован.">
+    <addContactInfoAvatarText "Every Peerio user has a special avatar that identifies them. Think of it as their digital fingerprint. If a Peerio user's avatar changes, they may have changed their Master Password, or their account may have been compromised.">
     <usernameEmailOrPhone "Имя пользователя, email или номер телефона">
     <addContactRequestSent "Запрос контакта отправлен">
     <addContactRequestSentText "Мы отправили запрос контакта, на имя пользователя, которое вы ввели.">
@@ -235,9 +237,9 @@
     <deleteAccountText "Удаление аккаунта Peerio навсегда удалит всю вашу информацию, и вы не сможете повторно использовать это имя пользователя в будущем.">
     <deleteAccountConfirm "Подтвердить удаление аккаунта">
     <deleteAccountConfirmText "Вы уверены? Все ваши данные будут потеряны и повторное использование этого имени пользователя - невозможно.">
-    <changePassphrase "Изменить резервный пароль">
-    <newPassphrase "Новый резервный пароль">
-    <retypeNewPassphrase "Повторите новый резервный пароль">
+    <changePassphrase "Change Master Password">
+    <newPassphrase "New Master Password">
+    <retypeNewPassphrase "Retype New Master Password">
     <enableTwoFactorAuth "Включить двухфакторную аутентификацию">
     <disableTwoFactorAuth "Выключить двухфакторную аутентификацию">
     <accountSettingsTwoFactorAuthText "Peerio можно привязать к вашему устройству для дополнительной защиты.">
@@ -250,11 +252,12 @@
     <sendReadReceipts "Уведомлять мои контакты о прочтении их сообщений.">
     <readReceipts "Уведомления о прочтении">
     <peerioPINForThisDevice "ПИН устройства">
-    <peerioPINUpdated "ПИН устройства обновлен">
-    <peerioPINUpdatedText "Ваш ПИН для этого устройства был обновлен">
-    <removeMyPeerioPIN "Удалить ПИН с этого устройства">
-    <peerioPINRemoved "ПИН удален с этого устройства">
-    <peerioPINRemovedText "ПИН, назначенный этому устройству, был удален">
+    <peerioPINForThisDevicedesktop "Device Password">
+    <peerioPINUpdated "Device Password Updated">
+    <peerioPINUpdatedText "Your Password for this device has been updated.">
+    <removeMyPeerioPIN "Remove Device Password">
+    <peerioPINRemoved "Device Password Removed">
+    <peerioPINRemovedText "The Password assigned to this device has been removed.">
     <ctrlEnter "Отправить ответ">
     <pressEnterToSend "Нажмите Enter, чтобы отправить">
     <updateAvailable "Доступно обновление!">
@@ -322,8 +325,8 @@
     <length "длина">
     <words "слов">
     <unsorted "Неотсортированное">
-    <typePassphraseToConfirm "Чтобы принять этот резервный пароль, пожалуйста, введите его ниже">
-    <passphraseConfirmFailed "Ваш резервный пароль был введен некорректно. Пожалуйста, сохраните ваш резервный пароль где-либо в безопасном месте перед тем, как продолжить.">
+    <typePassphraseToConfirm "To accept this Master Password, please enter it below">
+    <passphraseConfirmFailed "Your Master Password was entered incorrectly. Please store your Master Password somewhere safe before continuing.">
     <acknowledgedMessage "Сообщение принято">
     <addAddressSuggestion "Обновить информацию о контакте?">
     <addAddressSuggestionText "Добавление резервной контактной информации позволяет обеспечить: <br><ul><li><strong>Поиск</strong>: Ваши контакты смогут проще вас искать </li><li><strong>Уведомления</strong>: Новые уведомления о сообщениях и контактах </li><li><strong>Поддержку</strong>: Больше различных сервисов поддержки от нашего Центра Помощи</li></ul><br>Вы хотите обновить свою контактную информацию?">
@@ -453,8 +456,9 @@
     <error_invite "Ошибка отправки приглашения. Пожалуйста, свяжитесь со службой поддержки.">
     <error_emptyUsername "Имя пользователя не может быть пустым.">
     <error_invalidName "Некорректное имя">
+    <error_invalidEmail "Invalid email">
     <error_loginFailed "Ошибка входа">
-    <error_passphraseNotMatching "Резервный пароль не совпадает со введенным.">
+    <error_passphraseNotMatching "Master Passwords do not match.">
     <error_fileDownload "Не удалось загрузить файл.">
     <error_loadingConversation "Ошибка загрузки чата.">
     <error_messageDelivery "Ошибка доставки сообщения следующим получателям:">
@@ -470,8 +474,9 @@
     <setup_contactInfoDescription "Помогите вашим контактам найти вас на Peerio, получить уведомления и техническую поддержку, добавив ваш адрес почты или телефон">
     <setup_contactInfoTitle "Контактная информация">
     <setup_emailOrPhone "Email / Телефон">
-    <setup_passcodeDescription "Это позволит вам выполнить вход <emphasis>с этого устройства</> без ввода вашего резервного пароля">
+    <setup_passcodeDescription "This allows you to login <emphasis>from this device</> without entering your Master Password.">
     <setup_passcodeTitle "Выберите ПИН">
+    <setup_passcodeTitledesktop "Select a password">
     <setup_startDescription "Для того, чтобы сделать использование нашего приложения более удобным, мы предлагаем вам пройти этот короткий, 3 шага, мастер настройки.">
     <setup_startDescription2 "Все шаги опциональны. Вы можете выйти из мастера настройки в любой момент или пропустить те шаги, которые вам не нужны.">
     <setup_startTitle "Добро пожаловать в Peerio!">
@@ -479,19 +484,19 @@
     <setup_touchTitle "Хотите включить Touch ID?">
     <setup_touchWarning "Примечание об использовании закона. В октябре 2014 года, суд США постановил, что полицейский может потребовать от вас разблокировать ваше устройство с помощью вашего отпечатка пальца, но не с помощью вашего числобуквенного пароля. Похожие законы могут существовать в других странах или регионах и должны учитываться, если взаимодействие с представителями силовых структур является частью вашей модели угроз.">
     <setup_importDescription "Узнайте, какие из ваших контактов уже используют Peerio.">
-    <signup_TOSRequestText "Прежде чем регистрироваться в Peerio, мы просим вам согласиться с нашим <tosLink>соглашением об использовании</>.">
+    <signup_TOSRequestText "By creating a Peerio account, you agree to our <tosLink>terms of use</>.">
     <signup_TOSRequestTitle "#TOStitle">
-    <signup_acceptPassphrase "Я запомню мой резервный пароль">
+    <signup_acceptPassphrase "I'll remember my Master Password">
     <signup_confirmCreateButton "#createMyAccount">
     <signup_desiredUsername "#desiredUsername">
-    <signup_enterPassphrase "Пожалуйста, введите ваш резервный пароль">
-    <signup_nextPassphrase "Мне не нравится этот резервный пароль">
+    <signup_enterPassphrase "Please enter your Master Password">
+    <signup_nextPassphrase "I don't like this Master Password">
     <signup_optInDescription "Разрешая анонимный сбор данных, вы даете нам возможность сбора не идентифицирующей вас и не связанной с вашим контентом информации для улучшения Peerio.">
     <signup_optInDescription2 "Если вы подтвердите участие, вы получите 25MB бонусного пространства каждый день в качестве нашей благодарности.">
     <signup_optInHeadline "Не хотите ли помочь с исследованиями usability продукта?">
     <signup_optInPolicy "<emphasis>Нажмите здесь</>, чтобы узнать, какие данные мы собираем.">
-    <signup_passphraseDescription "Это ваш случайно сгенерированный резервный пароль. Если вы его потеряете, вы потеряете доступ к аккаунту <emphasis>навсегда</>">
-    <signup_showPassphrase "Посмотреть резервный пароль еще раз">
+    <signup_passphraseDescription "This is your secure randomly generated Master Password. If you lose it, you will <emphasis>permanently</> lose access to your account.">
+    <signup_showPassphrase "Let me see my Master Password again">
     <signup_wrongUsername "Пожалуйста, выберите другое имя пользователя">
     <tosUpdateRequestText "Мы обновили наше соглашение об использовании! Пожалуйста, посмотрите его для продолжения использования Peerio.">
     <tosUpdateRequestTitle "Обновление соглашения об использовании">
@@ -624,7 +629,7 @@
     <serverWarning_PaymentError "Ваша подписка на Peerio Pro не может быть обновлена из-за проблем с вашим методом оплаты. Пожалуйста, посмотрите информацию о вашем аккаунте на https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Лимит используемого места превышен">
     <serverWarning_QuotaExcceded "Вы превысили ваш лимит используемого места! Ваш аккаунт будет ограничен в функциональности до тех пор, пока вы не купите дополнительное место или удалите элементы из хранилища.">
-    <serverWarning_recoveryReminder "Вы уже сохранили ваш резервный пароль в безопасном месте? Если нет, вы можете потерять ваши данные! Найдите пароль в настройках и сохраните его в безопасном месте.">
+    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
     <prepare_ghost "Подготовить Ghost">
     <share_ghost "Отправить Ghost">
     <ghost_settings "Инструкции Ghost">
@@ -685,18 +690,19 @@
     <ghostCountUpdate "На этот месяц осталось: <emphasis>ghostsLeft</> Ghost(s)">
     <paywallMsg "Вы использовали всех Ghosts в этом месяце.">
     <paywallUpgrade "Улучшите ваш аккаунт до Peerio Pro, чтобы получить неограниченное количество Ghosts.">
-    <passphrase_notset "Ваш резервный пароль не сохранен">
+    <passphrase_notset "Your Master Password is not saved">
     <passphrase_wrongpin "ПИН некорректен, пожалуйста, попробуйте еще раз">
-    <passphrase_show "Показать резервный пароль">
-    <passphrase_show_title "Показать резервный пароль">
+    <passphrase_show "Show Master Password">
+    <passphrase_show_title "Show Master Password">
     <passphrase_enterpin "Пожалуйста, введите ваш ПИН">
     <passphrase_enternewpin "Установить ПИН для этого устройства">
     <passphrase_confirmnewpin "Пожалуйста, подтвердите ваш ПИН">
-    <PINSetupRequired "Выполняйте вход быстрее, установив ПИН для этого устройства. Если вы не пользуетесь этим устройством регулярно, можете пропустить этот шаг.">
-    <enterCurrentPINorPassphrase "Введите ваш ПИН или резервный пароль">
+    <PINSetupRequired "Login faster by setting a Password for this device. If this is not a device you use regularly you can skip this step.">
+    <enterCurrentPINorPassphrase "Enter your Password">
     <unlockSettings "Разблокировать">
     <enterNewPIN "Новый ПИН">
-    <incorrectPasswordOrPINTitle "Неправильный ПИН или резервный пароль">
+    <enterNewPINdesktop "New password">
+    <incorrectPasswordOrPINTitle "Incorrect password">
     <incorrectPasswordOrPIN "Пожалуйста, попробуйте еще раз.">
     <peerioPINconfirm "Подтвердить">
     <PINDoesNotMatch "Подтверждение не совпадает">
