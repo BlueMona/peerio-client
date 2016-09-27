@@ -135,7 +135,7 @@
                 <h3 data-l10n-id="signup"></h3>
 
                 <form class="signupBasicInformation" data-ng-submit="signup.basicInformationContinue()">
-                    <h1 data-l10n-id="basicInformation"></h1>
+                    <h1 data-l10n-id="profile"></h1>
                     <input type="text" style="width:170px" data-l10n-id="desiredUsername" maxlength="16" data-ng-model="signup.username" data-ng-change="signup.checkUsername()" class="signupDesiredUsername" required/>
 
                     <div class="signupUsernameAvailability" data-l10n-id="usernameNotAvailable"></div>
@@ -150,7 +150,7 @@
                     <!--data-ng-model="signup.emailOrPhone" required/>-->
 
                     <!--<div class="signupAddressAvailability" data-l10n-id="addressNotAvailable"></div>-->
-                    <div data-l10n-id="signup_TOSRequestText"></div>
+                    <div data-l10n-id="signup_TOSRequestTextdesktop"></div>
                     <button type="submit" data-l10n-id="continue" data-ng-disabled="!signup.username" class="basicInformationContinue"></button>
                 </form>
                 <form class="signupYourPassphrase" data-ng-submit="signup.checkPassphrase()">
