@@ -485,6 +485,7 @@
     <setup_touchWarning "Note on law enforcement. In Oct. 2014, a USA court ruled that a police officer can demand you to unlock your device with a fingerprint but not an alphanumeric password. Similar laws may exist in other national or regional jurisdictions and should be considered if law enforcement is part of your threat model.">
     <setup_importDescription "Find out which of your contacts are already using Peerio.">
     <signup_TOSRequestText "By creating a Peerio account, you agree to our <tosLink>terms of use</>.">
+    <signup_TOSRequestTextdesktop "By creating a Peerio account, you agree to our <a href='https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md' target='_blank'>terms of use</a>.">
     <signup_TOSRequestTitle "#TOStitle">
     <signup_acceptPassphrase "I'll remember my Master Password">
     <signup_confirmCreateButton "#createMyAccount">
@@ -629,7 +630,8 @@
     <serverWarning_PaymentError "Your Peerio Pro plan could not be renewed due to a problem with your payment method. Please review your account information at https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Storage Limit Exceeded">
     <serverWarning_QuotaExcceded "You're over your storage limit! Your account will have limited functionality until you purchase additional storage or remove some files from your account.">
-    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
+    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. <a href='https://peerio.zendesk.com/hc/en-us/articles/214633103' target='_blank'>Visit our help center to learn more</a>.">
+    <serverWarning_recoveryReminder_mobile "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
     <prepare_ghost "Prepare Ghost">
     <share_ghost "Send Ghost">
     <ghost_settings "Ghost Instructions">

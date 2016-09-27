@@ -485,6 +485,7 @@
     <setup_touchWarning "Nota sobre las fuerzas de la ley. En octubre de 2014, un tribunal de EEUU decretó que un agente de policía puede exigirle que desbloquee su dispositivo con una huella dactilar pero no con una contraseña alfanumérica. Leyes similares pueden existir en otras jurisdicciones nacionales o regionales, y se debe considerar si las fuerzas de la ley son parte de su modelo de amenaza.">
     <setup_importDescription "Averigua cuál de sus contactos ya está usando Peerio.">
     <signup_TOSRequestText "By creating a Peerio account, you agree to our <tosLink>terms of use</>.">
+    <signup_TOSRequestTextdesktop "By creating a Peerio account, you agree to our <a href='https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md' target='_blank'>terms of use</a>.">
     <signup_TOSRequestTitle "#TOStitle">
     <signup_acceptPassphrase "I'll remember my Master Password">
     <signup_confirmCreateButton "#createMyAccount">
@@ -629,7 +630,8 @@
     <serverWarning_PaymentError "Su tarifa Peerio Pro no se pudo renovar debido a un problema con su método de pago. Por favor, revise la información de su cuenta en https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Ha excedido su límite de almacenamiento">
     <serverWarning_QuotaExcceded "¡Ha soprepasado su límite de almacenamiento! Su cuenta tendrá una funcionalidad limitada hasta que adquiera almacenamiento adicional o elimine algunos ficheros de su cuenta.">
-    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
+    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. <a href='https://peerio.zendesk.com/hc/en-us/articles/214633103' target='_blank'>Visit our help center to learn more</a>.">
+    <serverWarning_recoveryReminder_mobile "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
     <prepare_ghost "Preparar Ghost">
     <share_ghost "Enviar Ghost">
     <ghost_settings "Instrucciones de Ghost">
