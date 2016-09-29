@@ -1,5 +1,5 @@
 %define name peerio-client
-%define version 1.6.0
+%define version 1.6.4
 %define release %mkrel 1
 Summary: Peerio Client
 Name: %{name}
@@ -78,6 +78,8 @@ make clean PREFIX=%{buildroot}/usr/share BINPREFIX=%{buildroot}/usr
 %{_mandir}/man1/peerio-client.1.gz
 
 %changelog
+ * Thu Sep 29 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.6.4-1
+ - Update locales
  * Mon Sep 19 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.6.0-1
  - Passphrase relayed to mean of portability, simplifying login process
  * Wed Aug 3 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.5.0-1

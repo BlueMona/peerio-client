@@ -121,7 +121,7 @@ client: confdeps uglify
 endif
 
 installdirs:
-	for d in $(APP_DIR)/lib $(APP_DIR)/locales $(DOC_DIR)/peerio-client $(BIN_DIR) $(MAN_DIR) $(ICON_DIR)/16x16/apps $(ICON_DIR)/32x32/apps $(ICON_DIR)/48x48/apps $(ICON_DIR)/64x64/apps $(ICON_DIR)/128x128/apps $(PIX_DIR) $(DSK_DIR); do \
+	for d in $(APP_DIR)/lib $(APP_DIR)/locales $(DOC_DIR)/$(PROG_NAME) $(BIN_DIR) $(MAN_DIR) $(ICON_DIR)/16x16/apps $(ICON_DIR)/32x32/apps $(ICON_DIR)/48x48/apps $(ICON_DIR)/64x64/apps $(ICON_DIR)/128x128/apps $(PIX_DIR) $(DSK_DIR); do \
 	    test -d "$$d" || mkdir -p "$$d"; \
 	done
 
@@ -136,19 +136,19 @@ install: client installdirs
 	for dim in 16 32 48 64 128; do \
 	    install -c -m 0644 application/img/icon$$dim.png $(ICON_DIR)/$${dim}x$$dim/apps/$(PROG_NAME).png; \
 	done
-	install -c -m 0644 application/img/icon128.png $(PIX_DIR)/peerio-client.png
+	install -c -m 0644 application/img/icon128.png $(PIX_DIR)/$(PROG_NAME).png
 	install -c -m 0644 pkg/desktop $(DSK_DIR)/$(PROG_NAME).desktop
-	install -c -m 0644 pkg/man.1 $(MAN_DIR)/peerio-client.1
+	install -c -m 0644 pkg/man.1 $(MAN_DIR)/$(PROG_NAME).1
 	install -c -m 0755 pkg/peerio-client $(BIN_DIR)/$(PROG_NAME)
 	umask 133
-	gzip -9 -f $(MAN_DIR)/peerio-client.1
+	gzip -9 -f $(MAN_DIR)/$(PROG_NAME).1
 
 deinstall:
 	for dim in 16 32 48 64 128; do \
 	    test -f $(ICON_DIR)/$${dim}x$$dim/apps/$(PROG_NAME).png || continue; \
 	    rm -f $(ICON_DIR)/$${dim}x$$dim/apps/$(PROG_NAME).png; \
 	done
-	rm -f $(DSK_DIR)/$(PROG_NAME).desktop $(BIN_DIR)/$(PROG_NAME) $(MAN_DIR)/peerio-client.1.gz
+	rm -f $(DSK_DIR)/$(PROG_NAME).desktop $(BIN_DIR)/$(PROG_NAME) $(MAN_DIR)/$(PROG_NAME).1.gz
 	rm -rf $(APP_DIR)
 
 createinitialarchive: clean
@@ -161,11 +161,16 @@ createinitialarchive: clean
 	    fi; \
 	    ( \
 		cd .. ; \
-		tar --exclude=.git --exclude=.gitignore --exclude=.gitattributes --exclude=metascan.js --exclude=virustotal.js --exclude=virustotal.py --exclude=osx --exclude=pkg/archlinux --exclude=pkg/centos --exclude=pkg/debian --exclude=pkg/fedora --exclude=pkg/frugalware --exclude=pkg/gentoo --exclude=pkg/mageia --exclude=pkg/manjaro --exclude=pkg/opensuse --exclude=pkg/pclinuxos -czf peerio-client-$$VERSION.tar.gz peerio-client ; \
-		mv peerio-client peerio-client-$$VERSION ; \
-		ln -sf peerio-client-$$VERSION.tar.gz peerio-client_$$VERSION.orig.tar.gz ; \
-		tar --exclude=.git --exclude=.gitattributes --exclude=.gitignore --exclude=metascan.js --exclude=virustotal.js --exclude=virustotal.py --exclude=osx --exclude=pkg/archlinux --exclude=pkg/centos --exclude=pkg/debian --exclude=pkg/fedora --exclude=pkg/frugalware --exclude=pkg/gentoo --exclude=pkg/mageia --exclude=pkg/manjaro --exclude=pkg/opensuse --exclude=pkg/pclinuxos -czf rh-peerio-client-$$VERSION.tar.gz peerio-client-$$VERSION ; \
-		mv peerio-client-$$VERSION peerio-client \
+		if ! test $(PROG_NAME) = peerio-client; then \
+		    mv peerio-client/debian/peerio-client-doc.docs peerio-client/debian/$(PROG_NAME)-doc.docs; \
+		    mv peerio-client/debian/peerio-client-doc.install peerio-client/debian/$(PROG_NAME)-doc.install; \
+		    mv peerio-client $(PROG_NAME); \
+		fi; \
+		tar --exclude=.git --exclude=.gitignore --exclude=.gitattributes --exclude=metascan.js --exclude=virustotal.js --exclude=virustotal.py --exclude=osx --exclude=pkg/archlinux --exclude=pkg/centos --exclude=pkg/debian --exclude=pkg/fedora --exclude=pkg/frugalware --exclude=pkg/gentoo --exclude=pkg/mageia --exclude=pkg/manjaro --exclude=pkg/opensuse --exclude=pkg/pclinuxos -czf $(PROG_NAME)-$$VERSION.tar.gz $(PROG_NAME) ; \
+		mv $(PROG_NAME) $(PROG_NAME)-$$VERSION ; \
+		ln -sf $(PROG_NAME)-$$VERSION.tar.gz $(PROG_NAME)_$$VERSION.orig.tar.gz ; \
+		tar --exclude=.git --exclude=.gitattributes --exclude=.gitignore --exclude=metascan.js --exclude=virustotal.js --exclude=virustotal.py --exclude=osx --exclude=pkg/archlinux --exclude=pkg/centos --exclude=pkg/debian --exclude=pkg/fedora --exclude=pkg/frugalware --exclude=pkg/gentoo --exclude=pkg/mageia --exclude=pkg/manjaro --exclude=pkg/opensuse --exclude=pkg/pclinuxos -czf rh-$(PROG_NAME)-$$VERSION.tar.gz $(PROG_NAME)-$$VERSION ; \
+		mv $(PROG_NAME)-$$VERSION peerio-client \
 	    ); \
 	fi
 
@@ -189,7 +194,7 @@ clean:
 	for lib in $(UGLIFY_SOURCES); do \
 	    rm -f $$lib.js; \
 	done; \
-	rm -fr debian/peerio-client debian/peerio-client.* build node_modules application/node_modules tmp npm-debug.log application/npm-debug.log debian/files
+	rm -fr debian/$(PROG_NAME) debian/$(PROG_NAME).* build node_modules application/node_modules tmp npm-debug.log application/npm-debug.log debian/files
 else
 clean:
 	npm cache clean; \
