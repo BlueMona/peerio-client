@@ -3,12 +3,12 @@
     <signupHeader "Mensajes y archivos. Simple y seguro.">
     <signupIntro "Peerio es un forma simple y segura de enviar mensajes, compartir ficheros, y almacenar documentos en línea. Todo se cifra antes de ser enviado a la nube, así que en todo caso nadie salvo usted y aquellos con los comparta tendrá acceso a sus datos.">
     <username "Nombre de usuario">
-    <passphrase "Contraseña de recuperación">
-    <passphraseOrPIN "Contraseña de recuperación o PIN">
+    <passphrase "Master Password">
+    <passphraseOrPIN "Password">
     <login "Iniciar sesión">
     <or "o">
     <loginFailed "No se pudo ingresar">
-    <loginFailedText "Si está usando un PIN de dispositivo, por favor, pruebe a usar su contraseña de recuperación en su lugar.">
+    <loginFailedText "If you are using a device Password, please try using your Master Password instead.">
     <ok "OK">
     <submit "Enviar">
     <signup "Registrarse">
@@ -20,18 +20,18 @@
     <firstName "Nombre">
     <lastName "Apellidos">
     <emailOrPhone "Correo electrónico o número de móvil/celular">
-    <yourPassphrase "Su contraseña de recuperación">
-    <infoAlertPassphrase "Para una seguridad más robusta, Peerio usa una <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>contraseña de recuperación generada aleatoriamente</a>. <br><br><strong>¡Usted es el único que conoce esta contraseña de recuperación!</strong> Si la pierde, perderá permanentemente el acceso a su cuenta. Recomendamos que escriba su contraseña de recuperación en un papel, o que la guarde en un administrador de contraseñas seguro.">
-    <infoAlertPassphraseMobile "Para una seguridad más robusta, Peerio usa una contraseña de recuperación generada aleatoriamente. ¡Usted es el único que la conoce! Si la pierde, perderá permanentemente el acceso a su cuenta. Recomendamos que escriba la contraseña de recuperación en un papel, o la guarde dentro de un administrador seguro de contraseñas.">
-    <signupPassphraseConfirm "¿Usar esta contraseña de recuperación?">
-    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Sólo usted conoce esta contraseña de recuperación.</a></li> <li>Si la pierde, sus datos se perderán para siempre.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>¡Guarde su contraseña de recuperación en algún lugar seguro!</a></li><br><strong>Por favor, introduzca su contraseña de recuperación para continuar.</strong>">
-    <signupYourGeneratedPassphrase "Su contraseña de recuperación generada:">
-    <signupPassphraseRefresh "Cambiar contraseña de recuperación">
+    <yourPassphrase "Your Master Password">
+    <infoAlertPassphrase "For stronger security, Peerio uses a <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>randomly generated Master Password</a>. <br><br><strong>You are the only one who knows this Master Password!</strong> If you lose it, you will permanently lose access to your account. We recommend writing your Master Password down on paper, or storing it in a secure password manager.">
+    <infoAlertPassphraseMobile "For stronger security, Peerio uses a randomly generated Master Password. You are the only one who knows this Master Password! If you lose it, you will permanently lose access to your account. We recommend writing your Master Password down on paper, or storing it in a secure password manager.">
+    <signupPassphraseConfirm "Use this Master Password?">
+    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Only you know this Master Password.</a></li> <li>If you lose it, your data will be lost forever.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Store your Master Password somewhere safe!</a></li><br><strong>Please enter your Master Password in order to continue.</strong>">
+    <signupYourGeneratedPassphrase "Your generated Master Password:">
+    <signupPassphraseRefresh "Change Master Password">
     <error "Error">
     <errorText "Su solicitud no pudo ser completada.">
     <warning "Advertencia">
-    <confirmPassphrase "Confirmar contraseña de recuperación">
-    <showPassphrase "Mostrar contraseña de recuperación">
+    <confirmPassphrase "Confirm Master Password">
+    <showPassphrase "Show Master Password">
     <continue "Continuar">
     <registerAccountError "No se pudo registrar la cuenta">
     <registerAccountErrorText "Lo sentimos, no pudimos registrar su cuenta ahora mismo. Por favor, reinicie Peerio y pruebe de nuevo en unos pocos minutos.">
@@ -47,11 +47,13 @@
     <confirmMyAccount "Confirmar mi cuenta">
     <finishingUp "Terminando">
     <peerioPIN "NIP de Peerio">
-    <setAPeerioPIN "Establezca un PIN para este dispositivo">
-    <signupPeerioPIN "En lugar de introducir su contraseña de recuperación cada vez que inicie sesión, puede escoger un PIN más corto que sólo funcionará en este dispositivo. Si olvida su PIN puede usar su contraseña de recuperación para establecer uno nuevo. Necesitará siempre su contraseña de recuperación para iniciar sesión en un dispositivo nuevo.">
-    <PINNotStrong "Fortaleza del PIN: Débil">
-    <PINStrong "Fortaleza del PIN: ¡OK!">
+    <peerioPINdesktop "Peerio Password">
+    <setAPeerioPIN "Set a Password for this device">
+    <signupPeerioPIN "Instead of entering your Master Password each time you login, you can choose a shorter Device Password that will only work on this device. If you forget your Device Password you can use your Master Password to set a new one. You will always need your Master Password to login on a new device.">
+    <PINNotStrong "Password strength: weak">
+    <PINStrong "Password strength: ok!">
     <setPIN "Establecer NIP">
+    <setPINdesktop "Set password">
     <skip "omitir">
     <accountRateLimited "Por favor, espere unos pocos minutos">
     <accountRateLimitedText "Esta cuenta temporalmente no está disponible porque ha hecho demasiadas solicitudes al servidor. Por favor espere unos minutos e intente de nuevo.">
@@ -179,7 +181,7 @@
     <decline "Declinar">
     <addContactInfo "Agregando amigos como contactos">
     <addContactInfoText "Enviar mensajes y compartir ficheros con sus amigos comienza al añadirlos como contactos. Si su amigo no es un usuario de Peerio, se enviará una invitación a su dirección. Puede añadir un usuario especificando su <strong>nombre de usuario</strong>, y su <strong>dirección de correo electrónico</strong> o <strong>número de móvil/celular</strong>.">
-    <addContactInfoAvatarText "Cada usuario de Peerio tiene un avatar especial que le identifica. Piense en él como su huella dactilar digital. Si el avatar de un usuario de Peerio cambia, puede que haya cambiado su contraseña de recuperación, o su cuenta puede haber sido comprometida.">
+    <addContactInfoAvatarText "Every Peerio user has a special avatar that identifies them. Think of it as their digital fingerprint. If a Peerio user's avatar changes, they may have changed their Master Password, or their account may have been compromised.">
     <usernameEmailOrPhone "Nombre de usuario, dirección de correo electrónico, o número de móvil/celular">
     <addContactRequestSent "Solicitud de contacto enviada">
     <addContactRequestSentText "Se ha enviado una solicitud de contacto al nombre de usuario que ha introducido.">
@@ -235,9 +237,9 @@
     <deleteAccountText "Borrar su cuenta de Peerio destruirá permanentemente toda su información, y no podrá reclamar este nombre de usuario en el futuro.">
     <deleteAccountConfirm "Confirmar borrado de cuenta.">
     <deleteAccountConfirmText "¿Está seguro? Perderá todos sus datos y nunca podrá reclamar este nombre de usuario.">
-    <changePassphrase "Cambiar contraseña de recuperación">
-    <newPassphrase "Nueva contraseña de recuperación">
-    <retypeNewPassphrase "Reescriba la nueva contraseña de recuperación">
+    <changePassphrase "Change Master Password">
+    <newPassphrase "New Master Password">
+    <retypeNewPassphrase "Retype New Master Password">
     <enableTwoFactorAuth "Habilitar autentificación de dos-factores">
     <disableTwoFactorAuth "Deshabilitar autentificación de dos-factores">
     <accountSettingsTwoFactorAuthText "Peerio puede asociarse con su dispositivo móvil para proporcionar seguridad adicional a la cuenta.">
@@ -250,11 +252,12 @@
     <sendReadReceipts "Notificar a mis contactos cuando lea sus mensajes.">
     <readReceipts "Recibos de lectura">
     <peerioPINForThisDevice "PIN del dispositivo">
-    <peerioPINUpdated "PIN del dispositivo actualizado">
-    <peerioPINUpdatedText "Su PIN para este dispositivo ha sido actualizado">
-    <removeMyPeerioPIN "Eliminar PIN del dispositivo">
-    <peerioPINRemoved "PIN del dispositivo eliminado">
-    <peerioPINRemovedText "El PIN asignado a este dispositivo ha sido eliminado.">
+    <peerioPINForThisDevicedesktop "Device Password">
+    <peerioPINUpdated "Device Password Updated">
+    <peerioPINUpdatedText "Your Password for this device has been updated.">
+    <removeMyPeerioPIN "Remove Device Password">
+    <peerioPINRemoved "Device Password Removed">
+    <peerioPINRemovedText "The Password assigned to this device has been removed.">
     <ctrlEnter "Enviar respuesta">
     <pressEnterToSend "Pulse Intro para enviar">
     <updateAvailable "¡Actualización disponible!">
@@ -322,8 +325,8 @@
     <length "tamaño">
     <words "palabras">
     <unsorted "No ordenadas">
-    <typePassphraseToConfirm "Para aceptar esta contraseña de recuperación, por favor, introdúzcala debajo">
-    <passphraseConfirmFailed "Su contraseña de recuperación fue introducida de forma incorrecta. Por favor, guarde su contraseña de recuperación en algún lugar seguro antes de continuar.">
+    <typePassphraseToConfirm "To accept this Master Password, please enter it below">
+    <passphraseConfirmFailed "Your Master Password was entered incorrectly. Please store your Master Password somewhere safe before continuing.">
     <acknowledgedMessage "Acuso de recibo">
     <addAddressSuggestion "¿Actualizar información de contacto?">
     <addAddressSuggestionText "Añadir datos de contacto alternativos permite: <br><ul><li><strong>Descubrimiento</strong>: Facilita que sus contactos le encuentren </li><li><strong>Notificaciones</strong>: Reciba notificaciones de recepción de mensajes y solicitudes de contacto </li><li><strong>Soporte técnico</strong>: Más servicios a través de nuestro Centro de soporte</li></ul><br>¿Desea añadir/actualizar direcciones?">
@@ -453,8 +456,9 @@
     <error_invite "Error al enviar una invitación. Por favor, contacte con el soporte.">
     <error_emptyUsername "El nombre de usuario no puede estar vacío.">
     <error_invalidName "Nombre de usuario no válido">
+    <error_invalidEmail "Invalid email">
     <error_loginFailed "No se pudo iniciar sesión.">
-    <error_passphraseNotMatching "Las contraseñas de recuperación no coinciden.">
+    <error_passphraseNotMatching "Master Passwords do not match.">
     <error_fileDownload "No se pudo descargar el fichero.">
     <error_loadingConversation "No se pudo cargar la conversación.">
     <error_messageDelivery "No se pudo entregar el mensaje a los siguientes destinatarios:">
@@ -470,8 +474,9 @@
     <setup_contactInfoDescription "Ayude a sus contactos a encontrarle en Peerio, reciba notificaciones, y habilite los servicios de soporte añadiendo su dirección de correo electrónico o teléfono móvil">
     <setup_contactInfoTitle "Información de contacto">
     <setup_emailOrPhone "Correo electrónico / Número de teléfono">
-    <setup_passcodeDescription "Esto le permite iniciar sesión <emphasis>desde este dispositivo</> sin introducir su contraseña de recuperación.">
+    <setup_passcodeDescription "This allows you to login <emphasis>from this device</> without entering your Master Password.">
     <setup_passcodeTitle "Seleccione un PIN">
+    <setup_passcodeTitledesktop "Select a password">
     <setup_startDescription "Para optimizar su experiencia, recomendamos que complete este breve asistente de configuración en 3 pasos.">
     <setup_startDescription2 "Todos los pasos son opcionales. Puede salir del asistente de forma segura en cualquier momento y omitir pasos que no sean aplicables para usted.">
     <setup_startTitle "¡Bienvenido a Peerio!">
@@ -479,19 +484,20 @@
     <setup_touchTitle "¿Desea habilitar la identificación táctil?">
     <setup_touchWarning "Nota sobre las fuerzas de la ley. En octubre de 2014, un tribunal de EEUU decretó que un agente de policía puede exigirle que desbloquee su dispositivo con una huella dactilar pero no con una contraseña alfanumérica. Leyes similares pueden existir en otras jurisdicciones nacionales o regionales, y se debe considerar si las fuerzas de la ley son parte de su modelo de amenaza.">
     <setup_importDescription "Averigua cuál de sus contactos ya está usando Peerio.">
-    <signup_TOSRequestText "Antes de que se registre para una cuenta de Peerio, le pedimos que acepte nuestras <tosLink>condiciones de uso</>.">
+    <signup_TOSRequestText "By creating a Peerio account, you agree to our <tosLink>terms of use</>.">
+    <signup_TOSRequestTextdesktop "By creating a Peerio account, you agree to our <a href='https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md' target='_blank'>terms of use</a>.">
     <signup_TOSRequestTitle "#TOStitle">
-    <signup_acceptPassphrase "Recordaré mi contraseña de recuperación">
+    <signup_acceptPassphrase "I'll remember my Master Password">
     <signup_confirmCreateButton "#createMyAccount">
     <signup_desiredUsername "#desiredUsername">
-    <signup_enterPassphrase "Por favor, introduzca su contraseña de recuperación">
-    <signup_nextPassphrase "No me gusta esta contraseña de recuperación">
+    <signup_enterPassphrase "Please enter your Master Password">
+    <signup_nextPassphrase "I don't like this Master Password">
     <signup_optInDescription "Habilitando la recopilación de datos anónimos, recogeremos información no-identificante y no-de-contenidos para compartir con investigadores del funcionamiento de Peerio y mejorarlo.">
     <signup_optInDescription2 "Si elige esta alternativa, recibirá 25 MB de alojamiento extra cada día como agradecimiento por su contribución.">
     <signup_optInHeadline "¿Desea ayudarnos con la investigación sobre usabilidad?">
     <signup_optInPolicy "<emphasis>Pulse aquí</> para conocer qué datos recopilamos.">
-    <signup_passphraseDescription "Esta es su contraseña de recuperación segura generada aleatoriamente. Si la pierde, perderá <emphasis>permanentemente</> el acceso a su cuenta.">
-    <signup_showPassphrase "Dejarme ver de nuevo mi contraseña de recuperación">
+    <signup_passphraseDescription "This is your secure randomly generated Master Password. If you lose it, you will <emphasis>permanently</> lose access to your account.">
+    <signup_showPassphrase "Let me see my Master Password again">
     <signup_wrongUsername "Por favor, seleccione un nombre de usuario distinto">
     <tosUpdateRequestText "¡Hemos actualizado nuestras condiciones de servicio! Por favor, revíselas y acepte para continuar usando Peerio.">
     <tosUpdateRequestTitle "Actualización de la condiciones del servicio">
@@ -624,7 +630,8 @@
     <serverWarning_PaymentError "Su tarifa Peerio Pro no se pudo renovar debido a un problema con su método de pago. Por favor, revise la información de su cuenta en https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Ha excedido su límite de almacenamiento">
     <serverWarning_QuotaExcceded "¡Ha soprepasado su límite de almacenamiento! Su cuenta tendrá una funcionalidad limitada hasta que adquiera almacenamiento adicional o elimine algunos ficheros de su cuenta.">
-    <serverWarning_recoveryReminder "¿Ha guardado ya su contraseña de recuperación en algún lugar seguro? Si no, ¡puede perder sus datos! La encontrará en su configuración, guárdela ahora en algún lugar seguro.">
+    <serverWarning_recoveryReminder "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. <a href='https://peerio.zendesk.com/hc/en-us/articles/214633103' target='_blank'>Visit our help center to learn more</a>.">
+    <serverWarning_recoveryReminder_mobile "To access Peerio on other devices, you will need to use your account's master password that can be found in your settings. Visit our help center to learn more. https://peerio.zendesk.com/hc/en-us/articles/214633103">
     <prepare_ghost "Preparar Ghost">
     <share_ghost "Enviar Ghost">
     <ghost_settings "Instrucciones de Ghost">
@@ -685,18 +692,19 @@
     <ghostCountUpdate "Aún tiene <emphasis>ghostsLeft</> Ghost(s) este mes">
     <paywallMsg "Ha usado todos sus Ghosts para el mes.">
     <paywallUpgrade "Actualice su cuenta a Peerio Pro para desbloquear los mensajes Ghost ilimitados.">
-    <passphrase_notset "Su contraseña de recuperación no se ha guardado">
+    <passphrase_notset "Your Master Password is not saved">
     <passphrase_wrongpin "PIN incorrecto, por favor, inténtelo de nuevo">
-    <passphrase_show "Mostrar contraseña de recuperación">
-    <passphrase_show_title "Mostrar contraseña de recuperación">
+    <passphrase_show "Show Master Password">
+    <passphrase_show_title "Show Master Password">
     <passphrase_enterpin "Por favor, introduzca su PIN">
     <passphrase_enternewpin "Establezca un PIN para este dispositivo">
     <passphrase_confirmnewpin "Por favor, confirme su PIN">
-    <PINSetupRequired "Inicie sesión más rápido al establecer un PIN para este dispositivo. Si no es un dispositivo que use habitualmente puede omitir este paso.">
-    <enterCurrentPINorPassphrase "Introduzca su PIN o contraseña de recuperación">
+    <PINSetupRequired "Login faster by setting a Password for this device. If this is not a device you use regularly you can skip this step.">
+    <enterCurrentPINorPassphrase "Enter your Password">
     <unlockSettings "Desbloquear">
     <enterNewPIN "Nuevo PIN">
-    <incorrectPasswordOrPINTitle "PIN o contraseña de recuperación incorrecta">
+    <enterNewPINdesktop "New password">
+    <incorrectPasswordOrPINTitle "Incorrect password">
     <incorrectPasswordOrPIN "Por favor, inténtelo de nuevo.">
     <peerioPINconfirm "Confirmar">
     <PINDoesNotMatch "La confirmación no coincide">

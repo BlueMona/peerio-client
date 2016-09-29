@@ -3,12 +3,12 @@
     <signupHeader "Des messages et des fichiers. Simple et sécurisé.">
     <signupIntro "Peerio est une façon simple et sécurisée d'envoyer des messages, de partager des fichiers et de stocker des documents en ligne. Tout est chiffré avant d'être envoyé vers le nuage afin que seuls vous et ceux avec qui vous partagez ne puissiez accéder à vos données.">
     <username "Nom d'utilisateur">
-    <passphrase "Mot de passe de récupération">
-    <passphraseOrPIN "Mot de passe de récupération ou NIP">
+    <passphrase "Mot de passe maître">
+    <passphraseOrPIN "Mot de passe">
     <login "Connexion">
     <or "ou">
     <loginFailed "Échec de connexion">
-    <loginFailedText "Si vous utilisez un NIP d'appareil, veuillez plutôt utiliser votre mot de passe de récupération.">
+    <loginFailedText "Si vous utilisez un mot de passe d'appareil, veuillez plutôt essayer d'utiliser votre mot de passe maître.">
     <ok "OK">
     <submit "Envoyer">
     <signup "S'abonner">
@@ -20,18 +20,18 @@
     <firstName "Prénom">
     <lastName "Nom de famille">
     <emailOrPhone "Courriel ou numéro de cellulaire">
-    <yourPassphrase "Votre mot de passe de récupération">
-    <infoAlertPassphrase "Pour une sécurité accrue, Peerio utilise un <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>mot de passe de récupération généré aléatoirement</a>. <br>;<;br><strong>Vous êtes le seul à connaître ce mot de passe de récupération !</strong> Si vous le perdez, vous perdrez irrémédiablement l'accès à votre compte. Nous vous recommandons de prendre votre mot de passe de récupération en note ou de le conserver grâce à un gestionnaire de mots de passe sécurisé.">
-    <infoAlertPassphraseMobile "Pour une sécurité accrue, Peerio utilise un mot de passe de récupération généré aléatoirement. Vous êtes le seul à connaître ce mot de passe de récupération ! Si vous le perdez, vous perdrez irrémédiablement l'accès à votre compte. Nous vous recommandons de prendre votre mot de passe de récupération en note ou de le conserver grâce à un gestionnaire de mots de passe sécurisé.">
-    <signupPassphraseConfirm "Utiliser ce mot de passe de récupération ?">
-    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Ce mot de passe de récupération n'est connu que de vous.</a></li> <li>Si vous le perdez, vous n'aurez plus jamais accès à vos données.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Conservez votre mot de passe de récupération dans un endroit sûr !</a></li><br><strong>Veuillez saisir votre mot de passe de récupération afin de poursuivre.</strong>">
-    <signupYourGeneratedPassphrase "Votre mot de passe de récupération généré :">
-    <signupPassphraseRefresh "Changer le mot de passe de récupération">
+    <yourPassphrase "Votre mot de passe maître">
+    <infoAlertPassphrase "Pour une sécurité accrue, Peerio utilise un  <a href='https://peerio.zendesk.com/hc/en-us/articles/203657405' target='_blank'>mot de passe maître généré aléatoirement</a>. <br><br><strong>Vous êtes le seul à connaître ce mot de passe maître !</strong> Si vous le perdez, vous perdrez irrémédiablement l'accès à votre compte. Nous vous recommandons de prendre votre mot de passe maître en note ou de le conserver grâce à un gestionnaire de mots de passe sécurisé.">
+    <infoAlertPassphraseMobile "Pour une sécurité accrue, Peerio utilise un mot de passe maître généré aléatoirement. Vous êtes le seul à connaître ce mot de passe maître ! Si vous le perdez, vous perdrez irrémédiablement l'accès à votre compte. Nous vous recommandons de prendre votre mot de passe maître en note ou de le conserver grâce à un gestionnaire de mots de passe sécurisé.">
+    <signupPassphraseConfirm "Utiliser ce mot de passe maître ?">
+    <signupPassphraseConfirmText "<ul><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206331095' target='_blank'>Ce mot de passe maître n'est connu que de vous.</a></li> <li>Si vous le perdez, vous n'aurez plus jamais accès à vos données.</li><li><a href='https://peerio.zendesk.com/hc/en-us/articles/206330895' target='_blank'>Conservez votre mot de passe maître dans un endroit sûr !</a></li><br><strong>Veuillez saisir votre mot de passe de récupération afin de poursuivre.</strong>">
+    <signupYourGeneratedPassphrase "Votre mot de passe maître généré :">
+    <signupPassphraseRefresh "Changer le mot de passe maître">
     <error "Erreur">
     <errorText "Votre demande n'a pas pu être traitée.">
     <warning "Avertissement">
-    <confirmPassphrase "Confirmer le mot de passe de récupération">
-    <showPassphrase "Montrer le mot de passe de récupération">
+    <confirmPassphrase "Confirmer le mot de passe maître">
+    <showPassphrase "Montrer le mot de passe maître">
     <continue "Poursuivre">
     <registerAccountError "Impossible d'enregistrer le compte">
     <registerAccountErrorText "Désolé, nous ne pouvons enregistrer votre compte maintenant. Veuillez redémarrer Peerio et ressayer dans quelques minutes.">
@@ -47,11 +47,13 @@
     <confirmMyAccount "Confirmer mon compte">
     <finishingUp "Presque terminé">
     <peerioPIN "NIP Peerio">
-    <setAPeerioPIN "Définir un NIP pour cet appareil">
-    <signupPeerioPIN "Au lieu de saisir votre mot de passe de récupération lors de chaque connexion, vous pouvez choisir un NIP plus court qui ne fonctionnera que sur cet appareil. Si vous oubliez votre NIP, vous pouvez utiliser votre mot de passe de récupération pour en définir un nouveau. Vous aurez toujours besoin de votre mot de passe de récupération pour vous connecter à un nouvel appareil.">
-    <PINNotStrong "robustesse du NIP : faible">
-    <PINStrong "robustesse du NIP : OK!">
+    <peerioPINdesktop "Mot de passe Peerio">
+    <setAPeerioPIN "Définir un mot de passe pour cet appareil">
+    <signupPeerioPIN "Au lieu de saisir votre mot de passe maître lors de chaque connexion, vous pouvez choisir un mot de passe d'appareil plus court qui ne fonctionnera que sur cet appareil. Si vous oubliez votre mot de passe d'appareil, vous pouvez utiliser votre mot de passe maître pour en définir un nouveau. Vous aurez toujours besoin de votre mot de passe maître pour vous connecter à un nouvel appareil.">
+    <PINNotStrong "robustesse du mot de passe : faible">
+    <PINStrong "robustesse du mot de passe : OK !">
     <setPIN "Créer le NIP">
+    <setPINdesktop "Définir un mot de passe">
     <skip "ignorer">
     <accountRateLimited "Veuillez patienter quelques minutes">
     <accountRateLimitedText "Ce compte n'est pas disponible temporairement car il a envoyé trop de requêtes au serveur. Veuillez patienter quelques minutes et ressayer.">
@@ -179,7 +181,7 @@
     <decline "Refuser">
     <addContactInfo "Ajouter des amis comme contacts">
     <addContactInfoText "L'envoi de messages et le partage de fichiers avec vos amis commencent par les ajouter comme contacts. Si votre ami n'est pas un utilisateur Peerio, une invitation sera envoyée à son adresse. Vous pouvez ajouter un contact en spécifiant son <strong>nom d'utilisateur</strong>, son <strong>adresse courriel</strong> ou son <strong>numéro de cellulaire</strong>.">
-    <addContactInfoAvatarText "Chaque utilisateur Peerio possède un avatar particulier qui l'identifie. On peut le considérer comme son empreinte numérique. Si l'avatar d'un utilisateur de Peerio change, il pourrait avoir changé son mot de passe de récupération, ou son compte pourrait être compromis.">
+    <addContactInfoAvatarText "Chaque utilisateur Peerio possède un avatar particulier qui l'identifie. On peut le considérer comme son empreinte numérique. Si l'avatar d'un utilisateur de Peerio change, il pourrait avoir changé son mot de passe maître, ou son compte pourrait être compromis.">
     <usernameEmailOrPhone "Nom d'utilisateur, adresse courriel ou numéro de cellulaire">
     <addContactRequestSent "Demande de contact envoyée">
     <addContactRequestSentText "Une demande de contact a été envoyée au nom d'utilisateur que vous avez saisi.">
@@ -235,9 +237,9 @@
     <deleteAccountText "La suppression de votre compte Peerio détruira définitivement toutes vos informations, et vous ne serez pas en mesure d'utiliser ce nom d'utilisateur à l'avenir.">
     <deleteAccountConfirm "Confirmer la suppression du compte">
     <deleteAccountConfirmText "Êtes-vous certain ? Vous perdrez toutes vos données et vous ne pourrez plus jamais utiliser ce nom d'utilisateur.">
-    <changePassphrase "Changer le mot de passe de récupération">
-    <newPassphrase "Nouveau mot de passe de récupération">
-    <retypeNewPassphrase "Retaper le nouveau mot de passe de récupération">
+    <changePassphrase "Changer le mot de passe maître">
+    <newPassphrase "Nouveau mot de passe maître">
+    <retypeNewPassphrase "Retaper le nouveau mot de passe maître">
     <enableTwoFactorAuth "Activer la validation en deux étapes">
     <disableTwoFactorAuth "Désactiver la validation en deux étapes">
     <accountSettingsTwoFactorAuthText "Peerio peut s'apparier à votre appareil mobile pour fournir une sécurité de compte accrue.">
@@ -250,11 +252,12 @@
     <sendReadReceipts "Envoyer une notification à mes contacts lorsque je lis leurs messages.">
     <readReceipts "Accusés de lecture">
     <peerioPINForThisDevice "NIP d'appareil">
-    <peerioPINUpdated "NIP mis à jour">
-    <peerioPINUpdatedText "Le NIP de cet appareil a été mis à jour.">
-    <removeMyPeerioPIN "Supprimer le NIP d'appareil">
-    <peerioPINRemoved "NIP d'appareil supprimé">
-    <peerioPINRemovedText "Le NIP assigné à cet appareil a été supprimé.">
+    <peerioPINForThisDevicedesktop "Mot de passe d'appareil">
+    <peerioPINUpdated "Mot de passe d'appareil mis à jour">
+    <peerioPINUpdatedText "Votre mot de passe pour cet appareil a été mis à jour.">
+    <removeMyPeerioPIN "Supprimer le mot de passe d'appareil">
+    <peerioPINRemoved "Mot de passe d'appareil supprimé">
+    <peerioPINRemovedText "Le mot de passe assigné à cet appareil a été supprimé.">
     <ctrlEnter "Envoyer une réponse">
     <pressEnterToSend "Appuyer sur Entrée pour envoyer">
     <updateAvailable "Mise à jour proposée !">
@@ -322,8 +325,8 @@
     <length "longueur">
     <words "mots">
     <unsorted "Non trié">
-    <typePassphraseToConfirm "Pour accepter ce mot de passe de récupération, veuillez le saisir ci-dessous">
-    <passphraseConfirmFailed "Votre mot de passe de récupération n'a pas été saisi correctement. Veuillez conserver votre mot de passe de récupération dans un endroit sûr avant de poursuivre.">
+    <typePassphraseToConfirm "Pour accepter ce mot de passe maître, veuillez le saisir ci-dessous">
+    <passphraseConfirmFailed "Votre mot de passe maître n'a pas été saisi correctement. Veuillez conserver votre mot de passe maître dans un endroit sûr avant de poursuivre.">
     <acknowledgedMessage "Message approuvé">
     <addAddressSuggestion "Mettre à jour les coordonnées ?">
     <addAddressSuggestionText "Ajouter des coordonnées permet :<br><ul><li><strong>Recherche</strong> : vos contacts vous retrouveront plus facilement</li><li><strong>Notifications</strong> : notifications de nouveaux messages, de nouveaux contacts </li><li><strong>Assistance</strong> : notre centre d'assistance vous proposera plus d'options de soutien.</li></ul><br>Voulez-vous mettre à jour vos coordonnées ?">
@@ -453,8 +456,9 @@
     <error_invite "Erreur d'envoi d'une invitation. Veuillez contacter l'assistance.">
     <error_emptyUsername "Le nom d'utilisateur ne peut pas être vide.">
     <error_invalidName "Nom d'utilisateur invalide">
+    <error_invalidEmail "Adresse courriel invalide">
     <error_loginFailed "Échec de connexion.">
-    <error_passphraseNotMatching "Les mots de passe de récupération ne correspondent pas.">
+    <error_passphraseNotMatching "Les mots de passe maître ne correspondent pas.">
     <error_fileDownload "Échec de téléchargement du fichier.">
     <error_loadingConversation "Échec de chargement de la conversation.">
     <error_messageDelivery "Échec de livraison du message aux destinataires suivants :">
@@ -470,8 +474,9 @@
     <setup_contactInfoDescription "Aidez vos contacts à vous retrouver sur Peerio, recevez des notifications et activez les services d'assistance en ajoutant votre adresse courriel ou votre numéro de téléphone">
     <setup_contactInfoTitle "Infos de contact">
     <setup_emailOrPhone "Adresse courriel / numéro de téléphone">
-    <setup_passcodeDescription "Cela vous permet de vous connecter <emphasis>à partir de cet appareil</> sans saisir votre mot de passe de récupération.">
+    <setup_passcodeDescription "Cela vous permet de vous connecter <emphasis>à partir de cet appareil</> sans saisir votre mot de passe maître.">
     <setup_passcodeTitle "Choisir un NIP">
+    <setup_passcodeTitledesktop "Choisir un mot de passe">
     <setup_startDescription "Afin d'optimiser votre expérience, nous vous recommandons de terminer ce bref assistant de configuration en 3 étapes.">
     <setup_startDescription2 "Chaque étape est facultative. Vous pouvez quitter l'assistant n'importe quand et ignorer les étapes qui ne vous concernent pas.">
     <setup_startTitle "Bienvenue sur Peerio !">
@@ -479,19 +484,20 @@
     <setup_touchTitle "Souhaitez-vous activer Touch ID ?">
     <setup_touchWarning "Note sur l'application de la loi. En octobre 2014, une cour des États-Unis a statué qu'un policier peut vous ordonner de débloquer votre appareil avec une empreinte digitale, mais pas un mot de passe alphanumérique. Des lois semblables pourraient exister dans d'autres pays, et devraient être prises en considération si votre modèle de menace inclut l'application de loi.">
     <setup_importDescription "Découvrez qui dans vos contacts utilise déjà Peerio.">
-    <signup_TOSRequestText "Avant de vous abonner à Peerio, nous vous demandons d'accepter nos <tosLink>conditions générales d'utilisation</>.">
+    <signup_TOSRequestText "Avant de créer un compte Peerio, vous acceptez nos <tosLink>conditions générales d’utilisation</>.">
+    <signup_TOSRequestTextdesktop "En créant un compte Peerio, vous acceptez nos <a href='https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md' target='_blank'>conditions générales d’utilisation</a>.">
     <signup_TOSRequestTitle "#TOStitle">
-    <signup_acceptPassphrase "Je me souviendrai de mon mot de passe de récupération">
+    <signup_acceptPassphrase "Je me souviendrai de mon mot de passe maître">
     <signup_confirmCreateButton "#createMyAccount">
     <signup_desiredUsername "#desiredUsername">
-    <signup_enterPassphrase "Veuillez saisir votre mot de passe de récupération">
-    <signup_nextPassphrase "Je n'aime pas ce mot de passe de récupération">
+    <signup_enterPassphrase "Veuillez saisir votre mot de passe maître">
+    <signup_nextPassphrase "Je n'aime pas ce mot de passe maître">
     <signup_optInDescription "En activant la collecte anonyme de données, nous recueillerons des informations non signalétiques qui seront partagées avec des chercheurs, et utilisées afin d'améliorer Peerio.">
     <signup_optInDescription2 "Si vous acceptez, vous recevrez 25 Mo de stockage supplémentaire quotidiennement afin de vous remercier de votre contribution.">
     <signup_optInHeadline "Souhaiteriez-vous participer à notre recherche sur la convivialité ?">
     <signup_optInPolicy "<emphasis>Toquer ici</> pour savoir quelles données seront recueillies.">
-    <signup_passphraseDescription "Voici votre mot de passe de récupération sécurisé, généré aléatoirement. Si vous l’égarez, vous perdrez <emphasis>imérrédiablement</> l'accès à votre compte.">
-    <signup_showPassphrase "Laissez-moi consulter mon mot de passe de récupération de nouveau">
+    <signup_passphraseDescription "Voici votre mot de passe maître sécurisé, généré aléatoirement. Si vous l’égarez, vous perdrez <emphasis>irrémédiablement</> l'accès à votre compte.">
+    <signup_showPassphrase "Laissez-moi consulter mon mot de passe maître de nouveau">
     <signup_wrongUsername "Veuillez choisir un autre nom d'utilisateur">
     <tosUpdateRequestText "Nous avons mis à jour nos conditions générales d'utilisation ! Veuillez les consulter et les accepter afin de poursuivre l'utilisation de Peerio.">
     <tosUpdateRequestTitle "Mise à jour des conditions générales d'utilisation">
@@ -624,7 +630,8 @@
     <serverWarning_PaymentError "Un problème de méthode de paiement a empêché le renouvellement de votre abonnement Peerio Pro. Veuillez vérifier vos informations de compte sur https://account.peerio.com">
     <serverWarning_QuotaExceededTitle "Vous avez dépassé votre limite de stockage.">
     <serverWarning_QuotaExcceded "Vous avez dépassé votre limite de stockage ! La fonctionnalité de votre compte sera limitée tant que vous n'aurez pas acheté de l'espace de stockage supplémentaire ou que vous n'aurez pas supprimé des fichiers de votre compte.">
-    <serverWarning_recoveryReminder "Avez-vous déjà enregistré votre mot de passe de récupération dans un endroit sûr ? Si vous ne le faites pas, vous pourriez perdre vos données ! Trouvez-le dans vos paramètres et conservez-le maintenant dans un endroit sûr.">
+    <serverWarning_recoveryReminder "Pour accéder à Peerio sur d'autres appareils, vous devrez utiliser le mot de passe maître de votre compte que vous trouverez dans vos paramètres. <a href='https://peerio.zendesk.com/hc/en-us/articles/214633103' target='_blank'>Visitez notre centre d'assistance pour en apprendre davantage</a>.">
+    <serverWarning_recoveryReminder_mobile "Pour accéder à Peerio sur d'autres appareils, vous devrez utiliser le mot de passe maître de votre compte que vous trouverez dans vos paramètres. Visitez notre centre d'assistance pour en apprendre davantage. https://peerio.zendesk.com/hc/en-us/articles/214633103">
     <prepare_ghost "Préparer un Ghost  (fantôme)">
     <share_ghost "Envoyer le Ghost (fantôme)">
     <ghost_settings "Instructions du Ghost (fantôme)">
@@ -685,18 +692,19 @@
     <ghostCountUpdate "Il vous reste <emphasis>ghostsLeft</> Ghosts pour ce mois">
     <paywallMsg "Vous avez utilisé tous vos Ghosts pour ce mois.">
     <paywallUpgrade "Passez à Peerio Pro, pour des Ghosts sans limites.">
-    <passphrase_notset "Votre mot de passe de récupération n'est pas enregistré">
+    <passphrase_notset "Votre mot de passe maître n'est pas enregistré">
     <passphrase_wrongpin "NIP erroné, veuillez ressayer">
-    <passphrase_show "Montrer le mot de passe de récupération">
-    <passphrase_show_title "Montrer le mot de passe de récupération">
+    <passphrase_show "Montrer le mot de passe maître">
+    <passphrase_show_title "Montrer le mot de passe maître">
     <passphrase_enterpin "Veuillez saisir votre NIP">
     <passphrase_enternewpin "Définir un NIP pour cet appareil">
     <passphrase_confirmnewpin "Veuillez confirmer votre NIP">
-    <PINSetupRequired "Connectez-vous plus rapidement en définissant un NIP pour cet appareil. Si vous n'utilisez pas cet appareil régulièrement, vous pouvez ignorer cette étape.">
-    <enterCurrentPINorPassphrase "Saisir vote NIP ou mot de passe de récupération">
+    <PINSetupRequired "Connectez-vous plus rapidement en définissant un mot de passe pour cet appareil. Si vous n'utilisez pas cet appareil régulièrement, vous pouvez ignorer cette étape.">
+    <enterCurrentPINorPassphrase "Saisir votre mot de passe">
     <unlockSettings "Déverrouiller">
     <enterNewPIN "Nouveau NIP">
-    <incorrectPasswordOrPINTitle "NIP ou mot de passe de récupération erronés">
+    <enterNewPINdesktop "Nouveau mot de passe">
+    <incorrectPasswordOrPINTitle "Mot de passe erroné">
     <incorrectPasswordOrPIN "Veuillez ressayer.">
     <peerioPINconfirm "Confirmer">
     <PINDoesNotMatch "La confirmation ne correspond pas">

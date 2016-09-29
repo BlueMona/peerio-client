@@ -52,7 +52,7 @@ Peerio.UI.controller('loginForm', function($scope) {
                                     Peerio.storage.db.put({ _id: 'DontAskForPin'});
                                     Peerio.user.pinUnlocked = true;
                                     Peerio.UI.openPreferences();
-                                    swal(document.l10n.getEntitySync('setup_passcodeTitle').value, document.l10n.getEntitySync('PINSetupRequired').value);
+                                    swal(document.l10n.getEntitySync('setup_passcodeTitledesktop').value, document.l10n.getEntitySync('PINSetupRequired').value);
                                 });
                             });
                         }, 200);
@@ -77,17 +77,17 @@ Peerio.UI.controller('loginForm', function($scope) {
     });
 
     $scope.login.showSignupForm = function() {
-        swal({
-            title: document.l10n.getEntitySync('TOStitle').value,
-            text: document.l10n.getEntitySync('TOStext').value + '<br><a target="_blank" href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md">Peerio TOS</a>',
-            type: 'warning',
-            showCancelButton: true,
-            cancelButtonText: document.l10n.getEntitySync('decline').value,
-            confirmButtonColor: '#A5E593',
-            confirmButtonText: document.l10n.getEntitySync('accept').value,
-            allowEscapeKey: false
-        }, function(isConfirm) {
-            if (isConfirm) {
+        // swal({
+        //     title: document.l10n.getEntitySync('TOStitle').value,
+        //     text: document.l10n.getEntitySync('TOStext').value + '<br><a target="_blank" href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md">Peerio TOS</a>',
+        //     type: 'warning',
+        //     showCancelButton: true,
+        //     cancelButtonText: document.l10n.getEntitySync('decline').value,
+        //     confirmButtonColor: '#A5E593',
+        //     confirmButtonText: document.l10n.getEntitySync('accept').value,
+        //     allowEscapeKey: false
+        // }, function(isConfirm) {
+        //     if (isConfirm) {
                 $scope.login.username = ''
                 $scope.login.passphrase = ''
                 $('div.signupSplash').addClass('pullUp')
@@ -98,12 +98,12 @@ Peerio.UI.controller('loginForm', function($scope) {
                 setTimeout(function() {
                     $('div.signupFields').find('input')[0].focus()
                 }, 700)
-            } else {
-                $('div.signupSplash').removeClass('pullUp');
-                $('div.signupSplash').removeClass('hidden');
-                $('div.signupFields').removeClass('visible');
-            }
-        });
+        //     } else {
+        //         $('div.signupSplash').removeClass('pullUp');
+        //         $('div.signupSplash').removeClass('hidden');
+        //         $('div.signupFields').removeClass('visible');
+        //     }
+        // });
     };
 
     $scope.login.showPassphrase = function() {

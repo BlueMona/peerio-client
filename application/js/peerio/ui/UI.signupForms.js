@@ -53,20 +53,21 @@ Peerio.UI.controller('signupForms', function ($scope) {
       }
     )
   }
-  $scope.signup.generatedPassphraseRefresh = function () {
+  $scope.signup.generatedPassphraseRefresh = function (cb) {
     Peerio.PhraseGenerator.getPassPhrase($scope.signup.selectedLocale, $scope.signup.wordCount, function (phrase) {
       $scope.signup.passphrase = phrase;
       $scope.$apply();
+      if(cb)cb();
     });
   };
   $scope.signup.basicInformationContinue = function () {
     if ($('input.invalid').length) { return false }
     $('div.signupProgressBarFill').css({width: 100})
     $('form.signupBasicInformation').hide()
-    $('form.signupYourPassphrase').show()
+    //$('form.signupYourPassphrase').show()
     //$('form.signupYourPassphrase').find('input')[0].focus()
     Peerio.UI.applyDynamicElements()
-    $scope.signup.generatedPassphraseRefresh()
+    $scope.signup.generatedPassphraseRefresh($scope.signup.checkPassphrase);
     if (typeof(require) === 'function') {
       $('a').unbind().on('click', function (e) {
         e.preventDefault()
@@ -107,8 +108,8 @@ Peerio.UI.controller('signupForms', function ($scope) {
    // window.setTimeout(function(){
    //   $('.sweet-alert.show-input input').bind('paste', function(e){e.preventDefault();});
    // }, 300);
-      $('.signupGeneratedPassphrase').removeClass('blurred');
-      $('button.yourPassphraseContinue').attr('disabled', true);
+     // $('.signupGeneratedPassphrase').removeClass('blurred');
+      //$('button.yourPassphraseContinue').attr('disabled', true);
          Peerio.user.setKeyPair(
            $scope.signup.passphrase,
            $scope.signup.username,
