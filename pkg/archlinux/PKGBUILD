@@ -1,7 +1,7 @@
 # Maintainer: Samuel Martin Moro <samuel@peerio.com>
 pkgname=peerio-client
 pkgver=1.6.4
-pkgrel=1
+pkgrel=2
 pkgdesc="Peerio Client"
 arch=('i686' 'x86_64')
 url='https://peerio.com'
