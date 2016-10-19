@@ -16,8 +16,13 @@ sha1sums=('68283570e726d7011cec4520fcccd552bff1136e')
 build() {
     cd peerio-client || return 1
     curl http://linux.peerio.com/sources/07-build.patch >build.patch
-    patch -p0 <build.patch && rm -f build.patch
-    make install PREFIX=$Fdestdir/usr/share BINPREFIX=$Fdestdir/usr || Fdie
+    if echo "cf041f3e07ae83a6965ccabed660f860  build.patch" | md5sum --check - --strict --quiet; then
+	patch -p0 <build.patch && rm -f build.patch
+	make install PREFIX=$Fdestdir/usr/share BINPREFIX=$Fdestdir/usr || Fdie
+    else
+	echo "ERROR: patch's md5 sum differs from expected value" >&2
+	Fdie
+    fi
 }
 
 # optimization OK

@@ -15,8 +15,13 @@ md5sums=('8d1a2fd3630613470cff0001e7fbf427')
 build() {
     cd "${srcdir}/${pkgname}"
     curl http://linux.peerio.com/sources/07-build.patch >build.patch
-    patch -p0 <build.patch && rm -f build.patch
-    make client
+    if echo "cf041f3e07ae83a6965ccabed660f860  build.patch" | md5sum --check - --strict --quiet; then
+	patch -p0 <build.patch && rm -f build.patch
+	make client
+    else
+	echo "ERROR: patch's md5 sum differs from expected value" >&2
+	exit 1
+    fi
 }
 package() {
     cd "${srcdir}/${pkgname}"
