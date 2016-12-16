@@ -674,7 +674,10 @@
             <section class="filesSection" data-ng-controller="filesSection" data-sectionlink="files" data-ng-style="resize()" resize="270,135" data-ng-mousedown="filesSection.hideListingActions($event)">
                 <div class="filesSectionToolbar">
                     <div class="filesSectionToolbarActions">
-                        <button class="fontAwesome clear" data-utip-l10n="send" data-utip-gravity="nw" data-ng-mousedown="filesSection.sendFiles(filesSection.checkedIDs)">&#xf1d9;</button>
+                               <button class="fileListingActionsButton fontAwesome clear" data-utip-l10n="download" data-utip-gravity="sw" data-ng-mousedown="filesSection.downloadAll()">
+                        &#xf019;
+                    </button>
+             <button class="fontAwesome clear" data-utip-l10n="send" data-utip-gravity="nw" data-ng-mousedown="filesSection.sendFiles(filesSection.checkedIDs)">&#xf1d9;</button>
                         <button class="fontAwesome clear" data-utip-l10n="moveToFolder" data-utip-gravity="nw" data-ng-click="$root.fileFolders.addToFolderBulk(filesSection.checkedIDs)">
                             &#xf115;
                         </button>
@@ -690,7 +693,9 @@
                 </div>
                 <table class="filesSectionTableHeader">
                     <tr>
-                        <th></th>
+                        <th style="width:20px">
+                            <input type="checkbox" data-ng-click="filesSection.onCheckAll($event)" />
+                        </th>
                         <th data-l10n-id="fileName"></th>
                         <th data-l10n-id="date"></th>
                         <th data-l10n-id="size"></th>

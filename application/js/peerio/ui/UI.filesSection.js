@@ -363,6 +363,16 @@ Peerio.UI.controller('filesSection', function ($scope, $element, $sce) {
             )
         }
     }
+    $scope.filesSection.onCheckAll=function(event){
+    	 if(event.target.checked){
+    	 		$('.filesSectionTableCheckboxCell input').forEach(c=>c.checked=true);
+    			$scope.filesSection.checkedIDs = Object.keys(Peerio.user.files);
+		 }
+    	 else{
+    	 		$('.filesSectionTableCheckboxCell input').forEach(c=>c.checked=false);
+    	 		$scope.filesSection.checkedIDs =[];
+		 }
+	};
     $scope.filesSection.onCheck = function (id, event) {
         if (/Sidebar/.test($element[0].className)) {
             return false
@@ -443,6 +453,11 @@ Peerio.UI.controller('filesSection', function ($scope, $element, $sce) {
     }
     $scope.filesSection.checkOwnerFilter = function (file) {
         return $scope.filesSection.ownerFilter.test(file.creator)
+    }
+    $scope.filesSection.downloadAll = function () {
+    	$scope.filesSection.checkedIDs.forEach(function(id){
+			Peerio.UI.downloadFile.downloadFile(id)
+		})
     }
     $scope.filesSection.downloadFile = function (id) {
         Peerio.UI.downloadFile.downloadFile(id)

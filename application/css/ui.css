@@ -1946,12 +1946,12 @@ table.filesSectionTable {
 		margin: 0;
 	}
 
-td.filesSectionTableCheckboxCell {
+.filesSectionTableCheckboxCell {
 	width: 5px !important;
 	position: relative;
 }
 
-	td.filesSectionTableCheckboxCell * {
+	.filesSectionTableCheckboxCell * {
 		position: relative;
 		left: 8px;
 		bottom: 2px;
