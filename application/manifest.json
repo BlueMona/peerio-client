@@ -34,6 +34,8 @@
 		"fileBrowserHandler",
 		"https://peerio.blob.core.windows.net/*",
 		"https://blob.peerio.com/*",
+		"https://bloboregon.peerio.com/*",
+		"https://blobvirginia.peerio.com/*",
 		"https://blobmonster.peerio.com/*",
 		"https://blobmonsterwilleatyou.peerio.com/*"
 	],
