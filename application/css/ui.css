@@ -597,12 +597,8 @@ div.signupForms {
 
 div.signupSplash {
 	background-color: #fcfcfc;
-	background-image: url('../img/product-ghost.png');
-	background-size: 300px 300px;
-	background-position: 90% 95%;
-	background-repeat: no-repeat;
-	padding: 35px;
-	border-left: 4px solid #BBCCDD;
+	padding: 36px 64px;
+	border-left: 4px solid #bcd;
 	transition: margin 2s ease;
 }
 
@@ -611,27 +607,27 @@ div.signupSplash {
 	}
 
 	div.signupSplash h1 {
-		padding: 20px;
+		font-style: italic;
 		display: block;
 		width: 620px;
-		font-size: 42px;
+		font-size: 48px;
+		line-height: 1.5;
 		font-weight: 600;
-		margin: 0;
+		margin: 0 0 16px 0;
+		color: rgb(44, 149, 207);
 	}
 
 	div.signupSplash p {
-		padding: 20px;
-		display: block;
 		width: 620px;
 		margin: 16px 0 0;
-		font-size: 20px;
-		line-height: 1.3;
+		font-size: 16px;
+		line-height: 1.5;
 	}
 
-	div.signupSplash a {
-		padding: 0 20px;
+	div.signupSplash img{
+		margin: 20px auto 48px;
 		display: block;
-		width: 620px;
+		width: 80%
 	}
 
 	div.signupSplash button {
