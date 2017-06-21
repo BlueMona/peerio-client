@@ -1,10 +1,8 @@
-# Peerio - Secure messaging and file sharing made easy.
+# Peerio (legacy) for macOS, Windows, Linux
 
-Peerio integrates cloud storage with a messaging platform so you can safely keep your important files online and ready to send from anywhere. With end-to-end encryption, messages and files are encrypted before leaving your computer and can only be read by you and your recipients. 
+Looking for the source code for Peerio 2? Check out [the new desktop clients](https://github.com/PeerioTechnologies/peerio-desktop) and [the new SDK](https://github.com/PeerioTechnologies/peerio-icebear).
 
-Peerio beta is available for Chrome, Windows and Mac. Coming soon to Android and iOS. Build instructions for linux can be found [here](BUILD.md)
-
-For all features please visit our [website](https://www.peerio.com). For support and frequently asked questions, please see our [support portal](https://support.peerio.com). 
+For support and frequently asked questions, please see our [support portal](https://support.peerio.com). 
 
 ## Documentation
 
