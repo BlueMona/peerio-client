@@ -619,6 +619,9 @@
     <androidEncryptionStatusUnsupported "Your device does not support encryption. We recommend upgrading to a version of Android which does. Would you like to learn more?">
     <security "Security">
     <noMatchesFound "No matches found">
+    <serverWarning_MigrateTitle "Make the move to Peerio 2!">
+    <serverWarning_Migrate "<emphasis>Make the move to Peerio 2!</> This version of Peerio (Legacy) will be phased out by 31-December-2017. To learn how to migrate to the new app, read our <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>help center article</a>. Unfortunately, Peerio 2 has not been translated yet. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Learn how you may be able to help</a>!">
+    <serverWarning_Migrate_mobile "This version of Peerio (Legacy) will be phased out by 31-December-2017. To learn how to migrate to the new app, read our article: https://peerio.zendesk.com/hc/en-us/articles/115003186823 Unfortunately, Peerio 2 has not been translated yet. Learn how you may be able to help here: https://peerio.zendesk.com/hc/en-us/articles/115003200706">
     <serverWarning_WelcomeTitle "Welcome to Peerio Pro!">
     <serverWarning_Welcome_mobile "A Pro Plan has been registered to your account. You can view your plan benefits and learn how to manage your account at https://peerio.zendesk.com/hc/en-us/articles/208395556">
     <serverWarning_Welcome "A Pro Plan has been registered to your account. You can view your plan benefits and learn <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>how to manage your account</a>.">
