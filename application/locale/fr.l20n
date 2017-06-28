@@ -619,6 +619,7 @@
     <androidEncryptionStatusUnsupported "Votre appareil ne prend pas en charge le chiffrement. Nous vous recommandons de passer à une version d'Android qui le fait. Souhaitez-vous en apprendre davantage ?">
     <security "Sécurité">
     <noMatchesFound "Aucune correspondance trouvée">
+    <serverWarning_Migrate "<emphasis>Faites le saut vers Peerio 2!</> Cette version de Peerio (Legacy) sera éliminée d'ici le 31 décembre 2017. Découvrez comment migrer vers la toute nouvelle version en consultant <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>l’article au centre d’assistance</a>. Malheureusement, Peerio 2 n’est pas encore disponible en français. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Découvrez comment nous aider à la traduire!</a>">
     <serverWarning_WelcomeTitle "Bienvenue sur Peerio Pro !">
     <serverWarning_Welcome_mobile "Un abonnement Pro a été enregistrée dans votre compte. Vous pouvez consulter les avantages de votre abonnement et apprendre comment gérer votre compte sur https://peerio.zendesk.com/hc/en-us/articles/208395556">
     <serverWarning_Welcome "Un abonnement Pro a été enregistré dans votre compte. Vous pouvez consulter les avantages de votre abonnement et apprendre \n<a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>comment gérer votre compte</a>.">

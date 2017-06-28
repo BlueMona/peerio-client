@@ -619,6 +619,7 @@
     <androidEncryptionStatusUnsupported "Ваше устройство не поддерживает полное шифрование диска. Peerio настоятельно рекомендует обновить Android. Хотите узнать больше?">
     <security "Безопасность">
     <noMatchesFound "Не найдено совпадений">
+    <serverWarning_Migrate "<emphasis>Переходите на Peerio 2!</> Эта версия Peerio (устаревшая) будет выведена из строя к 31 декабря 2017ю. Чтобы узнать как обновиться до новой версии прочитайте заметку в <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>нашем центре поддержки</a>. К сожалению, Peerio 2 еще не переведен с английского на другие языки. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Узнайте как можно помочь с переводом!</a>">
     <serverWarning_WelcomeTitle "Добро пожаловать в Peerio Pro">
     <serverWarning_Welcome_mobile "Подписка на Peerio Pro была активирована для вашего аккаунта. Вы можете посмотреть преимущества вашей подписки и управлять аккаунтом здесь https://peerio.zendesk.com/hc/en-us/articles/208395556">
     <serverWarning_Welcome "Pro план был зарегистрирован для вашего аккаунта. Вы можете узнать преимущества использования вашего плана и как управлять вашим аккаунтом <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>здесь</a>.">
