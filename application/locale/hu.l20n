@@ -709,3 +709,11 @@
     <peerioPINconfirm "Confirm">
     <PINDoesNotMatch "Confirmation doesn't match">
     <successPINchange "Your PIN has been changed">
+    <migrate1 "Váltás a jobbra!">
+    <migrate2 "A teljesen új Peerio <a href='https://www.peerio.com' target='_blank'>most elérhető.</a>">
+    <migrate3 "Újraalkotva egy gyorsabb, jobb, biztonságosabb élmény érdekében!">
+    <migrate4 "Jelentkezz be az <strong>új Peerioba</strong> még ma, és foglald le jelenlegi felhasználóneved és jelmondatodat.">
+    <migrate5 "<em>Adataid védelmét szolgáló, szigorú házirendünk betartása érdekében, kérjük a fájlok áthelyezését az új Peerioba az elkövetkező hónapokban.</em>">
+    <migrate6 "Ez a Peerio verzió 2017 végén fel lesz számolva. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Tudj meg többet.</a>">
+    <serverWarning_Migrate "<strong>Költözz át a Peerio 2-re!</strong><br> Ez a Peerio verzió (Legacy) 2017 December 31.-én fel lesz számolva. Hogy megtudd, hogyan költözhetsz át az új alkalmazásra, <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>olvasd el cikkünket a súgóközpontban.</a> Sajnos a Peerio 2 még nincs lefordítva. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Tudd meg hogy segíthetnél!</a>">
+    
