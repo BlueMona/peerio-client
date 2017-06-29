@@ -709,11 +709,11 @@
     <peerioPINconfirm "Confirm">
     <PINDoesNotMatch "Confirmation doesn't match">
     <successPINchange "Your PIN has been changed">
-    <migrate1 "A change for the better!">
-    <migrate2 "The entirely new Peerio is <a href='https://www.peerio.com' target='_blank'>now available.</a>">
-    <migrate3 "Re-engineered for a faster, better, more secure experience!">
-    <migrate4 "Sign in to the <strong>new Peerio</strong> today and claim your current username and passphrase.">
-    <migrate5 "<em>To maintain our strict policy to protect your data, we request that you transfer your files to the new Peerio over the coming months.</em>">
-    <migrate6 "This version of Peerio will be phased out at the end of 2016. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Learn more.</a>">
-    <serverWarning_Migrate "<strong>Make the move to Peerio 2!</strong><br> This version of Peerio (Legacy) will be phased out by 31-December-2017. To learn how to migrate to the new app, read our <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>help center article</a>. Unfortunately, Peerio 2 has not been translated yet. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Learn how you may be able to help</a>!">
+    <migrate1 "Změna k lepšímu!">
+    <migrate2 "Zcela nová verze Peerio je <a href='https://www.peerio.com' target='_blank'>nyní dostupná.</a>">
+    <migrate3 "V novém zpracování pro rychlejší, lepší a bezpečnější zážitek!">
+    <migrate4 "Přihlaste se u <strong>Peerio</strong> ještě dnes a vyžádejte si aktuální uživatelské jméno a heslo.">
+    <migrate5 "<em>Abychom mohli dostát přísným zásadám na ochranu vašich údajů, přesuňte si prosím v následujících měsících své soubory do nové aplikace Peerio.</em>">
+    <migrate6 "Tato verze aplikace Peerio bude vyřazena ke konci roku 2017. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Zjistěte více.</a>">
+    <serverWarning_Migrate "<strong>Přejděte k Peerio 2!</strong><br> Tato verze aplikace Peerio (Legacy) bude ukončena k 31. prosinci 2017. Chcete-li zjistit, jak přejít k nové aplikaci, přečtěte si příslušný <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>článek v našem centru pomoci.</a>. Aplikace Peerio 2 bohužel nebyla zatím přeložena. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Podívejte se, jak můžete pomoci!</a>">
     
