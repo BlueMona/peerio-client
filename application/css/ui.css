@@ -597,7 +597,7 @@ div.signupForms {
 
 div.signupSplash {
 	background-color: #fcfcfc;
-	padding: 36px 64px;
+	padding: 24px 24px;
 	border-left: 4px solid #bcd;
 	transition: margin 2s ease;
 }
@@ -609,7 +609,6 @@ div.signupSplash {
 	div.signupSplash h1 {
 		font-style: italic;
 		display: block;
-		width: 620px;
 		font-size: 48px;
 		line-height: 1.5;
 		font-weight: 600;
@@ -618,7 +617,6 @@ div.signupSplash {
 	}
 
 	div.signupSplash p {
-		width: 620px;
 		margin: 16px 0 0;
 		font-size: 16px;
 		line-height: 1.5;
