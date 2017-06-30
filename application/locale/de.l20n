@@ -621,7 +621,6 @@
     <noMatchesFound "No matches found">
     <serverWarning_WelcomeTitle "Welcome to Peerio Pro!">
     <serverWarning_Welcome_mobile "A Pro Plan has been registered to your account. You can view your plan benefits and learn how to manage your account at https://peerio.zendesk.com/hc/en-us/articles/208395556">
-    <serverWarning_Migrate "<emphasis>Ziehen Sie nach Peerio 2 um!</> Diese (alte oder "legacy") Version von Peerio wird am 31. Dezember 2017 auslaufen. Um in die neue Anwendung zu migrieren, lesen Sie bitte <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>diesen Artikel im Hilfe-Center</a>. Leider ist Peerio 2 noch nicht übersetzt worden <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Lernen Sie, wie Sie damit helfen können!</a>!">
     <serverWarning_Welcome "A Pro Plan has been registered to your account. You can view your plan benefits and learn <a href='https://peerio.zendesk.com/hc/en-us/articles/208395556' target='_blank'>how to manage your account</a>.">
     <serverWarning_CancelledTitle "Peerio Pro Plan Cancelled">
     <serverWarning_Cancelled "Your Peerio Pro plan has been cancelled. Your Pro benefits will expire on the end date of your plan and your plan will not be renewed.">
@@ -710,3 +709,11 @@
     <peerioPINconfirm "Confirm">
     <PINDoesNotMatch "Confirmation doesn't match">
     <successPINchange "Your PIN has been changed">
+    <migrate1 "A change for the better!">
+    <migrate2 "The entirely new Peerio is <a href='https://www.peerio.com' target='_blank'>now available.</a>">
+    <migrate3 "Re-engineered for a faster, better, more secure experience!">
+    <migrate4 "Sign in to the <strong>new Peerio</strong> today and claim your current username and passphrase.">
+    <migrate5 "<em>To maintain our strict policy to protect your data, we request that you transfer your files to the new Peerio over the coming months.</em>">
+    <migrate6 "This version of Peerio will be phased out at the end of 2017. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Learn more.</a>">
+    <serverWarning_Migrate "<strong>Ziehen Sie nach Peerio 2 um!</strong><br> Diese (alte oder "legacy") Version von Peerio wird am 31. Dezember 2017 auslaufen. Um in die neue Anwendung zu migrieren, lesen Sie bitte <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>diesen Artikel im Hilfe-Center</a>. Leider ist Peerio 2 noch nicht übersetzt worden <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Lernen Sie, wie Sie damit helfen können!</a>!">
+    

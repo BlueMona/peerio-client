@@ -710,3 +710,11 @@
     <peerioPINconfirm "Подтвердить">
     <PINDoesNotMatch "Подтверждение не совпадает">
     <successPINchange "Ваш ПИН изменен">
+    <migrate1 "Перемены к лучшему!">
+    <migrate2 "<a href='https://www.peerio.com' target='_blank'>Стали доступны</a> совершенно новые приложения Peerio.">
+    <migrate3 "Разработанные заново для более быстрой, лучшей и безопасной работы.">
+    <migrate4 "Войдите в <strong>новую версию Peerio</strong> сегодня используя ваше текущее имя пользователя и ваш главный пароль.">
+    <migrate5 "<em>Для соблюдения наших строгих условий безопасности ваших данных, пожалуйста, перенесите свои файлы в новое приложение Peerio в течении нескольких месяцев.</em>">
+    <migrate6 "Эта версия Peerio будет выведена из строя в конце 2017 года. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Узнать больше.</a>">
+    <serverWarning_Migrate "<strong>Переходите на Peerio 2!</strong><br> Эта версия Peerio (устаревшая) будет выведена из строя к 31 декабря 2017ю. Чтобы узнать как обновиться до новой версии прочитайте заметку в <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>нашем центре поддержки</a>. К сожалению, Peerio 2 еще не переведен с английского на другие языки. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Узнайте как можно помочь с переводом!</a>">
+    

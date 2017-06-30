@@ -709,3 +709,10 @@
     <peerioPINconfirm "Confirm">
     <PINDoesNotMatch "Confirmation doesn't match">
     <successPINchange "Your PIN has been changed">
+    <migrate1 "Uma mudança para melhor!">
+    <migrate2 "O totalmente novo Peerio está <a href='https://www.peerio.com' target='_blank'>agora disponível.</a>">
+    <migrate3 "Reprojetado para uma experiência mais rápida, melhor e mais segura!">
+    <migrate4 "Faça o login no <strong>novo Peerio</strong> hoje e confirme seu nome de usuário e frase-senha atuais.">
+    <migrate5 "<em>Para manter nossa política rigorosa na proteção dos seus dados, solicitamos que você transfira seus arquivos para o novo Peerio nos próximos meses.</em>">
+    <migrate6 "Esta versão do Peerio será retirada do mercado no final de 2017. <a href='https://blog.peerio.com/the-new-peerio-a-brand-new-architecture-a-brand-new-experience-5f54c40f185d' target='_blank'>Saiba mais.</a>">
+    <serverWarning_Migrate "<strong>Faça a mudança para o Peerio 2!</strong><br> Esta versão do Peerio (Legacy) será retirada do mercado em 31 de dezembro de 2017. Para saber como migrar para o novo aplicativo, leia nosso <a href='https://peerio.zendesk.com/hc/en-us/articles/115003186823' target='_blank'>artigo na central de ajuda</a>. Infelizmente, o Peerio 2 ainda não foi traduzido. <a href='https://peerio.zendesk.com/hc/en-us/articles/115003200706' target='_blank'>Saiba como você pode ajudar</a>!">
