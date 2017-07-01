@@ -623,9 +623,9 @@ div.signupSplash {
 	}
 
 	div.signupSplash img{
-		margin: 20px auto 48px;
+		margin: 20px auto 8px;
 		display: block;
-		width: 80%
+		width: 60%
 	}
 
 	div.signupSplash button {
