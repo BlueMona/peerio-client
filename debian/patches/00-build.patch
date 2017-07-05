@@ -2,11 +2,11 @@ Description: remove windows and osx from the build process
 Author: Samuel MARTIN MORO <samuel@peerio.com>
 Origin: vendor
 Forwarded: not-needed
-Last-Update: 2016-08-03
+Last-Update: 2017-04-05
 ---
 This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 --- a/gulpfile.js	2016-08-03 12:29:14.678963571 +0200
-+++ b/gulpfile.js	2016-08-03 12:40:26.805865305 +0200
++++ b/gulpfile.js	2017-04-05 13:00:42.805865305 +0200
 @@ -18,19 +18,6 @@
  var localeDest = 'application/locale';
  var usedLangs = 'en,de,es,it,fr,ru,zh_CN,nb_NO,hu,tr,pt_BR,ja,cs';
@@ -186,7 +186,7 @@ This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
 -    "agent": process.env["SSH_AUTH_SOCK"],
 -    "agentForward": true
 -}, cb)
-+    runSequence('update-dependendencies', 'clean-build', function() {
++    runSequence('clean-build', function() {
 +	nw.build()
 +	.then(function() {
 +	    runSequence(callback)

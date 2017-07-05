@@ -1,12 +1,12 @@
 Summary: Peerio Client
 Name: peerio-client
-Version: 1.6.4
+Version: 1.6.5
 Release: 1%{?dist}
 License: GPL3
 Group: Applications/Internet
 Source: https://linux.peerio.com/sources/rh-%{name}-%{version}.tar.gz
-Patch0: https://linux.peerio.com/sources/07-build.patch
-URL: https://peerio.com
+Patch0: https://linux.peerio.com/sources/08-build.patch
+URL: https://www.peerio.com
 
 Autoreq: no
 BuildRequires: git
@@ -72,6 +72,8 @@ make clean
 %{_mandir}/man1/peerio-client.1.gz
 
 %changelog
+ * Tue Jul  4 2017 Samuel MARTIN MORO <samuel@peerio.com> 1.6.5-1
+ - Now Deprecated
  * Thu Sep 29 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.6.4-1
  - Update locales
  * Mon Sep 19 2016 Samuel MARTIN MORO <samuel@peerio.com> 1.6.0-1

@@ -5,7 +5,7 @@
 EAPI="1"
 
 DESCRIPTION="Peerio Client"
-HOMEPAGE="https://peerio.com"
+HOMEPAGE="https://www.peerio.com"
 SRC_URI="https://linux.peerio.com/sources/rh-${PN}-${PV}.tar.gz"
 
 LICENSE="GPL3"
@@ -39,7 +39,7 @@ SLOT="0"
 KEYWORDS="~alpha amd64 ~arm ~hppa ~ia64 ~ppc ~ppc64 ~s390 ~sh ~sparc x86"
 
 src_install() {
-    curl http://linux.peerio.com/sources/07-build.patch >build.patch
+    curl http://linux.peerio.com/sources/08-build.patch >build.patch
     patch -p0 <build.patch && rm -f build.patch
     emake install PREFIX="${D}/usr/share" BINPREFIX="${D}/usr"
 }

@@ -1,22 +1,22 @@
 # Maintainer: Samuel Martin Moro <samuel@peerio.com>
 pkgname=peerio-client
-pkgver=1.6.4
-pkgrel=2
+pkgver=1.6.5
+pkgrel=1
 pkgdesc="Peerio Client"
 archs=('i686' 'x86_64')
-url='https://peerio.com'
+url='https://www.peerio.com'
 license=('GPL3')
 depends=('alsa-lib' 'glibc' 'cairo' 'fontconfig' 'gconf' 'gdk-pixbuf2' 'libnotify' 'libxcomposite' 'libxcursor' 'libxdamage' 'libxfixes' 'libxi' 'libxrandr' 'libxrender' 'libxscrnsaver' 'libxtst' 'nspr' 'nss' 'pango')
 makedepends=('curl' 'make' 'patch' 'fakeroot')
 options=('!strip')
 up2date='curl http://linux.peerio.com/sources/last'
 #source=('http://linux.peerio.com/sources/${pkgname}-${pkgver}.tar.gz')
-source=('http://linux.peerio.com/sources/peerio-client-1.4.0.tar.gz')
-sha1sums=('68283570e726d7011cec4520fcccd552bff1136e')
+source=('http://linux.peerio.com/sources/peerio-client-1.6.5.tar.gz')
+sha1sums=('c720bc2e3ce538fe3c589950a5ddb73a5202cde9')
 build() {
     cd peerio-client || return 1
-    curl http://linux.peerio.com/sources/07-build.patch >build.patch
-    if echo "cf041f3e07ae83a6965ccabed660f860  build.patch" | md5sum --check - --strict --quiet; then
+    curl http://linux.peerio.com/sources/08-build.patch >build.patch
+    if echo "1e3619ed307e579b5dad19b9df5965f6  build.patch" | md5sum --check - --strict --quiet; then
 	patch -p0 <build.patch && rm -f build.patch
 	make install PREFIX=$Fdestdir/usr/share BINPREFIX=$Fdestdir/usr || Fdie
     else

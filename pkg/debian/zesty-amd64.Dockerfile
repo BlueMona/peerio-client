@@ -1,5 +1,5 @@
 # Dockerfile
-FROM ubuntu:wily
+FROM ubuntu:zesty
 
 # Local caches - only set those you actually have such caches
 #ENV apt_proxy http://10.42.44.100:3142/
